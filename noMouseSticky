@@ -1,0 +1,7 @@
+
+exec ./gorge
+set height 0
+run
+bt
+c
+quit

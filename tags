@@ -1,0 +1,347 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADD	OgreFiles/media/materials/programs/Example_TextureArrayPS.asm	/^ADD texcoord.z, texcoord, { 0, 0, 1, 0 };        $/;"	l
+AR	Makefile	/^AR            = ar cqs$/;"	m
+CC	Makefile	/^CC            = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS        = -pipe -g -Wall -W -D_REENTRANT -fPIE $(DEFINES)$/;"	m
+CHK_DIR_EXISTS	Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
+COMPRESS	Makefile	/^COMPRESS      = gzip -9f$/;"	m
+COPY	Makefile	/^COPY          = cp -f$/;"	m
+COPY_DIR	Makefile	/^COPY_DIR      = cp -f -R$/;"	m
+COPY_FILE	Makefile	/^COPY_FILE     = cp -f$/;"	m
+CXX	Makefile	/^CXX           = g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS      = -pipe -g -Wall -W -D_REENTRANT -fPIE $(DEFINES)$/;"	m
+DEFINES	Makefile	/^DEFINES       = -DQT_GUI_LIB -DQT_CORE_LIB$/;"	m
+DEL_DIR	Makefile	/^DEL_DIR       = rmdir$/;"	m
+DEL_FILE	Makefile	/^DEL_FILE      = rm -f$/;"	m
+DESTDIR	Makefile	/^DESTDIR       = #avoid trailing-slash linebreak$/;"	m
+DIST	Makefile	/^DIST          = \/opt\/Qt\/5.1.1\/gcc_64\/mkspecs\/features\/spec_pre.prf \\$/;"	m
+DemoApp	source/DemoApp.cpp	/^DemoApp::DemoApp()$/;"	f	class:DemoApp	signature:()
+DemoApp	source/DemoApp.h	/^	DemoApp();$/;"	p	class:DemoApp	access:public	signature:()
+DemoApp	source/DemoApp.h	/^class DemoApp : public OIS::KeyListener, OIS::MouseListener$/;"	c	inherits:OIS::KeyListener,OIS::MouseListener
+DemoApp::DemoApp	source/DemoApp.cpp	/^DemoApp::DemoApp()$/;"	f	class:DemoApp	signature:()
+DemoApp::DemoApp	source/DemoApp.h	/^	DemoApp();$/;"	p	class:DemoApp	access:public	signature:()
+DemoApp::_boxHeight	source/DemoApp.h	/^    int _boxHeight;$/;"	m	class:DemoApp	access:private
+DemoApp::_createDemoPanel	source/DemoApp.cpp	/^void DemoApp::_createDemoPanel()$/;"	f	class:DemoApp	signature:()
+DemoApp::_createDemoPanel	source/DemoApp.h	/^    void _createDemoPanel();$/;"	p	class:DemoApp	access:private	signature:()
+DemoApp::_distance	source/DemoApp.h	/^    int _distance;$/;"	m	class:DemoApp	access:private
+DemoApp::_height	source/DemoApp.h	/^    int _height;$/;"	m	class:DemoApp	access:private
+DemoApp::_wP	source/DemoApp.h	/^    int _wP;$/;"	m	class:DemoApp	access:private
+DemoApp::_width	source/DemoApp.h	/^    int _width;$/;"	m	class:DemoApp	access:private
+DemoApp::_widthPadding	source/DemoApp.h	/^    int _widthPadding;$/;"	m	class:DemoApp	access:private
+DemoApp::addModel	source/DemoApp.cpp	/^bool DemoApp::addModel(Gui3D::Combobox* e)$/;"	f	class:DemoApp	signature:(Gui3D::Combobox* e)
+DemoApp::addModel	source/DemoApp.h	/^    bool addModel(Gui3D::Combobox* e);$/;"	p	class:DemoApp	access:private	signature:(Gui3D::Combobox* e)
+DemoApp::addedCombobox	source/DemoApp.h	/^    Gui3D::Combobox* addedCombobox;$/;"	m	class:DemoApp	access:private
+DemoApp::addedModels	source/DemoApp.h	/^    std::vector<Ogre::String> addedModels;$/;"	m	class:DemoApp	access:private
+DemoApp::buttonPressed	source/DemoApp.cpp	/^bool DemoApp::buttonPressed(Gui3D::PanelElement* e)$/;"	f	class:DemoApp	signature:(Gui3D::PanelElement* e)
+DemoApp::buttonPressed	source/DemoApp.h	/^    bool buttonPressed(Gui3D::PanelElement*);$/;"	p	class:DemoApp	access:private	signature:(Gui3D::PanelElement*)
+DemoApp::cameraDirection	source/DemoApp.h	/^    Ogre::Vector3 cameraDirection;$/;"	m	class:DemoApp	access:private
+DemoApp::captionButton	source/DemoApp.h	/^    Gui3D::Caption* captionButton;$/;"	m	class:DemoApp	access:private
+DemoApp::captionChecked	source/DemoApp.h	/^    Gui3D::Caption* captionChecked;$/;"	m	class:DemoApp	access:private
+DemoApp::captionCombobox	source/DemoApp.h	/^    Gui3D::Caption* captionCombobox;$/;"	m	class:DemoApp	access:private
+DemoApp::checkboxChecked	source/DemoApp.cpp	/^bool DemoApp::checkboxChecked(Gui3D::PanelElement* e)$/;"	f	class:DemoApp	signature:(Gui3D::PanelElement* e)
+DemoApp::checkboxChecked	source/DemoApp.h	/^    bool checkboxChecked(Gui3D::PanelElement*);$/;"	p	class:DemoApp	access:private	signature:(Gui3D::PanelElement*)
+DemoApp::currentNode	source/DemoApp.h	/^    Ogre::SceneNode * currentNode;$/;"	m	class:DemoApp	access:private
+DemoApp::entitys	source/DemoApp.h	/^    std::vector<Ogre::Entity*> entitys;$/;"	m	class:DemoApp	access:private
+DemoApp::getScreenCenterMouseDistance	source/DemoApp.cpp	/^Ogre::Vector2 DemoApp::getScreenCenterMouseDistance()$/;"	f	class:DemoApp	signature:()
+DemoApp::getScreenCenterMouseDistance	source/DemoApp.h	/^    Ogre::Vector2 getScreenCenterMouseDistance();$/;"	p	class:DemoApp	access:private	signature:()
+DemoApp::hasEnding	source/DemoApp.cpp	/^bool DemoApp::hasEnding (std::string const &fullString, std::string const &ending)$/;"	f	class:DemoApp	signature:(std::string const &fullString, std::string const &ending)
+DemoApp::hasEnding	source/DemoApp.h	/^    bool hasEnding (std::string const &fullString, std::string const &ending);$/;"	p	class:DemoApp	access:private	signature:(std::string const &fullString, std::string const &ending)
+DemoApp::iMouseMoved	source/DemoApp.cpp	/^bool DemoApp::iMouseMoved(const OIS::MouseEvent &evt)$/;"	f	class:DemoApp	signature:(const OIS::MouseEvent &evt)
+DemoApp::iMouseMoved	source/DemoApp.h	/^	bool iMouseMoved(const OIS::MouseEvent &evt);$/;"	p	class:DemoApp	access:public	signature:(const OIS::MouseEvent &evt)
+DemoApp::iMousePressed	source/DemoApp.cpp	/^bool DemoApp::iMousePressed(const OIS::MouseEvent &evt, OIS::MouseButtonID id) $/;"	f	class:DemoApp	signature:(const OIS::MouseEvent &evt, OIS::MouseButtonID id)
+DemoApp::iMousePressed	source/DemoApp.h	/^	bool iMousePressed(const OIS::MouseEvent &evt, OIS::MouseButtonID id); $/;"	p	class:DemoApp	access:public	signature:(const OIS::MouseEvent &evt, OIS::MouseButtonID id)
+DemoApp::iMouseReleased	source/DemoApp.cpp	/^bool DemoApp::iMouseReleased(const OIS::MouseEvent &evt, OIS::MouseButtonID id)$/;"	f	class:DemoApp	signature:(const OIS::MouseEvent &evt, OIS::MouseButtonID id)
+DemoApp::iMouseReleased	source/DemoApp.h	/^	bool iMouseReleased(const OIS::MouseEvent &evt, OIS::MouseButtonID id);$/;"	p	class:DemoApp	access:public	signature:(const OIS::MouseEvent &evt, OIS::MouseButtonID id)
+DemoApp::initGUI	source/DemoApp.cpp	/^void DemoApp::initGUI()$/;"	f	class:DemoApp	signature:()
+DemoApp::initGUI	source/DemoApp.h	/^    void initGUI();$/;"	p	class:DemoApp	access:private	signature:()
+DemoApp::insertMode	source/DemoApp.h	/^    bool insertMode;$/;"	m	class:DemoApp	access:private
+DemoApp::keyPressed	source/DemoApp.cpp	/^bool DemoApp::keyPressed(const OIS::KeyEvent &keyEventRef)$/;"	f	class:DemoApp	signature:(const OIS::KeyEvent &keyEventRef)
+DemoApp::keyPressed	source/DemoApp.h	/^	bool keyPressed(const OIS::KeyEvent &keyEventRef);$/;"	p	class:DemoApp	access:public	signature:(const OIS::KeyEvent &keyEventRef)
+DemoApp::keyReleased	source/DemoApp.cpp	/^bool DemoApp::keyReleased(const OIS::KeyEvent &keyEventRef)$/;"	f	class:DemoApp	signature:(const OIS::KeyEvent &keyEventRef)
+DemoApp::keyReleased	source/DemoApp.h	/^	bool keyReleased(const OIS::KeyEvent &keyEventRef);$/;"	p	class:DemoApp	access:public	signature:(const OIS::KeyEvent &keyEventRef)
+DemoApp::mClicksOnButton	source/DemoApp.h	/^    int mClicksOnButton;$/;"	m	class:DemoApp	access:private
+DemoApp::mGui3D	source/DemoApp.h	/^    Gui3D::Gui3D* mGui3D;$/;"	m	class:DemoApp	access:private
+DemoApp::mMouseMoved	source/DemoApp.cpp	/^bool DemoApp::mMouseMoved(const OIS::MouseEvent &evt)$/;"	f	class:DemoApp	signature:(const OIS::MouseEvent &evt)
+DemoApp::mMouseMoved	source/DemoApp.h	/^	bool mMouseMoved(const OIS::MouseEvent &evt);$/;"	p	class:DemoApp	access:public	signature:(const OIS::MouseEvent &evt)
+DemoApp::mMousePointer	source/DemoApp.h	/^    Gorilla::Rectangle* mMousePointer;$/;"	m	class:DemoApp	access:private
+DemoApp::mMousePointerLayer	source/DemoApp.h	/^    Gorilla::Layer* mMousePointerLayer;$/;"	m	class:DemoApp	access:private
+DemoApp::mMousePressed	source/DemoApp.cpp	/^bool DemoApp::mMousePressed(const OIS::MouseEvent &evt, OIS::MouseButtonID id) $/;"	f	class:DemoApp	signature:(const OIS::MouseEvent &evt, OIS::MouseButtonID id)
+DemoApp::mMousePressed	source/DemoApp.h	/^	bool mMousePressed(const OIS::MouseEvent &evt, OIS::MouseButtonID id); $/;"	p	class:DemoApp	access:public	signature:(const OIS::MouseEvent &evt, OIS::MouseButtonID id)
+DemoApp::mMouseReleased	source/DemoApp.cpp	/^bool DemoApp::mMouseReleased(const OIS::MouseEvent &evt, OIS::MouseButtonID id)$/;"	f	class:DemoApp	signature:(const OIS::MouseEvent &evt, OIS::MouseButtonID id)
+DemoApp::mMouseReleased	source/DemoApp.h	/^	bool mMouseReleased(const OIS::MouseEvent &evt, OIS::MouseButtonID id);$/;"	p	class:DemoApp	access:public	signature:(const OIS::MouseEvent &evt, OIS::MouseButtonID id)
+DemoApp::mMyPurplePanelColors	source/DemoApp.h	/^    MyPurplePanelColors mMyPurplePanelColors;$/;"	m	class:DemoApp	access:private
+DemoApp::mNormalizedMousePosition	source/DemoApp.h	/^    Ogre::Vector2 mNormalizedMousePosition;$/;"	m	class:DemoApp	access:private
+DemoApp::mPanel	source/DemoApp.h	/^    Gui3D::Panel* mPanel;$/;"	m	class:DemoApp	access:private
+DemoApp::m_bShutdown	source/DemoApp.h	/^	bool					m_bShutdown;$/;"	m	class:DemoApp	access:private
+DemoApp::m_pOgreHeadEntity	source/DemoApp.h	/^	Ogre::Entity*				m_pOgreHeadEntity;$/;"	m	class:DemoApp	access:private
+DemoApp::m_pOgreHeadNode	source/DemoApp.h	/^	Ogre::SceneNode*			m_pOgreHeadNode;$/;"	m	class:DemoApp	access:private
+DemoApp::modelInfo	source/DemoApp.h	/^    struct modelInfo$/;"	s	class:DemoApp	access:private
+DemoApp::modelInfo::name	source/DemoApp.h	/^        Ogre::String name;$/;"	m	struct:DemoApp::modelInfo	access:public
+DemoApp::modelInfo::node	source/DemoApp.h	/^        Ogre::SceneNode* node;$/;"	m	struct:DemoApp::modelInfo	access:public
+DemoApp::models	source/DemoApp.h	/^    std::vector<modelInfo> models;$/;"	m	class:DemoApp	access:private
+DemoApp::modelsPlaced	source/DemoApp.h	/^    unsigned int modelsPlaced;$/;"	m	class:DemoApp	access:private
+DemoApp::mouseMoved	source/DemoApp.cpp	/^bool DemoApp::mouseMoved(const OIS::MouseEvent &evt)$/;"	f	class:DemoApp	signature:(const OIS::MouseEvent &evt)
+DemoApp::mouseMoved	source/DemoApp.h	/^	bool mouseMoved(const OIS::MouseEvent &evt);$/;"	p	class:DemoApp	access:public	signature:(const OIS::MouseEvent &evt)
+DemoApp::mousePressed	source/DemoApp.cpp	/^bool DemoApp::mousePressed(const OIS::MouseEvent &evt, OIS::MouseButtonID id) $/;"	f	class:DemoApp	signature:(const OIS::MouseEvent &evt, OIS::MouseButtonID id)
+DemoApp::mousePressed	source/DemoApp.h	/^	bool mousePressed(const OIS::MouseEvent &evt, OIS::MouseButtonID id); $/;"	p	class:DemoApp	access:public	signature:(const OIS::MouseEvent &evt, OIS::MouseButtonID id)
+DemoApp::mouseReleased	source/DemoApp.cpp	/^bool DemoApp::mouseReleased(const OIS::MouseEvent &evt, OIS::MouseButtonID id)$/;"	f	class:DemoApp	signature:(const OIS::MouseEvent &evt, OIS::MouseButtonID id)
+DemoApp::mouseReleased	source/DemoApp.h	/^	bool mouseReleased(const OIS::MouseEvent &evt, OIS::MouseButtonID id);$/;"	p	class:DemoApp	access:public	signature:(const OIS::MouseEvent &evt, OIS::MouseButtonID id)
+DemoApp::panel	source/DemoApp.h	/^    Gui3D::Panel* panel;$/;"	m	class:DemoApp	access:private
+DemoApp::rEngine	source/DemoApp.h	/^    OgreFramework* rEngine;$/;"	m	class:DemoApp	access:private
+DemoApp::rGrpMgr	source/DemoApp.h	/^    Ogre::ResourceGroupManager* rGrpMgr; $/;"	m	class:DemoApp	access:private
+DemoApp::runDemo	source/DemoApp.cpp	/^void DemoApp::runDemo()$/;"	f	class:DemoApp	signature:()
+DemoApp::runDemo	source/DemoApp.h	/^	void runDemo();$/;"	p	class:DemoApp	access:private	signature:()
+DemoApp::selectModel	source/DemoApp.cpp	/^bool DemoApp::selectModel(Gui3D::Combobox* e)$/;"	f	class:DemoApp	signature:(Gui3D::Combobox* e)
+DemoApp::selectModel	source/DemoApp.h	/^    bool selectModel(Gui3D::Combobox* e);$/;"	p	class:DemoApp	access:private	signature:(Gui3D::Combobox* e)
+DemoApp::setupDemoScene	source/DemoApp.cpp	/^void DemoApp::setupDemoScene()$/;"	f	class:DemoApp	signature:()
+DemoApp::setupDemoScene	source/DemoApp.h	/^    void setupDemoScene();$/;"	p	class:DemoApp	access:private	signature:()
+DemoApp::startDemo	source/DemoApp.cpp	/^void DemoApp::startDemo()$/;"	f	class:DemoApp	signature:()
+DemoApp::startDemo	source/DemoApp.h	/^	void startDemo();$/;"	p	class:DemoApp	access:public	signature:()
+DemoApp::totalCombobox	source/DemoApp.h	/^    Gui3D::Combobox* totalCombobox;$/;"	m	class:DemoApp	access:private
+DemoApp::totalModels	source/DemoApp.h	/^    std::vector<Ogre::String> totalModels;$/;"	m	class:DemoApp	access:private
+DemoApp::~DemoApp	source/DemoApp.cpp	/^DemoApp::~DemoApp()$/;"	f	class:DemoApp	signature:()
+DemoApp::~DemoApp	source/DemoApp.h	/^	~DemoApp();$/;"	p	class:DemoApp	access:public	signature:()
+FLR	OgreFiles/media/materials/programs/Example_TextureArrayPS.asm	/^FLR texcoord.z, texcoord;                        $/;"	l
+FRC	OgreFiles/media/materials/programs/Example_TextureArrayPS.asm	/^FRC frac.x, fragment.texcoord[0].z;              $/;"	l
+INCPATH	Makefile	/^INCPATH       = -I\/opt\/Qt\/5.1.1\/gcc_64\/mkspecs\/linux-g++ -I. -I..\/..\/ogre\/OGRE19\/sinbad-ogre-f7da7fe2d384\/OgreMain\/include -I..\/..\/ogre\/OGRE19\/sinbad-ogre-f7da7fe2d384\/Samples\/Common\/include -I..\/..\/ogre\/OGRE19\/sinbad-ogre-f7da7fe2d384\/Components\/Overlay\/include -I..\/..\/ogre\/OGRE19\/MADE\/include -I..\/..\/Downloads\/Gui3D-master\/build\/source -I..\/..\/Downloads\/Gui3D-master\/examples\/build -I\/usr\/include\/OIS -Isource -I\/opt\/Qt\/5.1.1\/gcc_64\/include -I\/opt\/Qt\/5.1.1\/gcc_64\/include\/QtGui -I\/opt\/Qt\/5.1.1\/gcc_64\/include\/QtCore -I.$/;"	m
+INSTALL_DIR	Makefile	/^INSTALL_DIR   = $(COPY_DIR)$/;"	m
+INSTALL_FILE	Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m
+LFLAGS	Makefile	/^LFLAGS        = -Wl,-rpath,\/opt\/Qt\/5.1.1\/gcc_64 -Wl,-rpath,\/opt\/Qt\/5.1.1\/gcc_64\/lib$/;"	m
+LIBS	Makefile	/^LIBS          = $(SUBLIBS) \/home\/afreak\/libs\/Gui3D\/gui3dBuilt\/bin\/Debug\/libgui3dBuilt.a -L\/home\/afreak\/ogre\/OGRE19\/MADE\/lib\/ -lOgreMain -lOIS -lOgreOverlay -L\/opt\/Qt\/5.1.1\/gcc_64\/lib -lQt5Gui -lQt5Core -lGL -lpthread $/;"	m
+LINK	Makefile	/^LINK          = g++$/;"	m
+LRP	OgreFiles/media/materials/programs/Example_TextureArrayPS.asm	/^LRP result.color, frac.x, c1, c0;                $/;"	l
+MAKEFILE	Makefile	/^MAKEFILE      = Makefile$/;"	m
+MKDIR	Makefile	/^MKDIR         = mkdir -p$/;"	m
+MOV	OgreFiles/media/materials/programs/Example_TextureArrayPS.asm	/^MOV texcoord, fragment.texcoord[0];              $/;"	l
+MOVE	Makefile	/^MOVE          = mv -f$/;"	m
+MyPurplePanelColors	source/MyPurplePanelColors.cpp	/^MyPurplePanelColors::MyPurplePanelColors()$/;"	f	class:MyPurplePanelColors	signature:()
+MyPurplePanelColors	source/MyPurplePanelColors.h	/^    MyPurplePanelColors();$/;"	p	struct:MyPurplePanelColors	access:public	signature:()
+MyPurplePanelColors	source/MyPurplePanelColors.h	/^struct MyPurplePanelColors : public Gui3D::PanelColors$/;"	s	inherits:Gui3D::PanelColors
+MyPurplePanelColors::MyPurplePanelColors	source/MyPurplePanelColors.cpp	/^MyPurplePanelColors::MyPurplePanelColors()$/;"	f	class:MyPurplePanelColors	signature:()
+MyPurplePanelColors::MyPurplePanelColors	source/MyPurplePanelColors.h	/^    MyPurplePanelColors();$/;"	p	struct:MyPurplePanelColors	access:public	signature:()
+MyPurplePanelColors_H	source/MyPurplePanelColors.h	27;"	d
+OBJECTS	Makefile	/^OBJECTS       = main.o \\$/;"	m
+OBJECTS_DIR	Makefile	/^OBJECTS_DIR   = .\/$/;"	m
+OGRE_DEMO_HPP	source/DemoApp.h	4;"	d
+OGRE_FRAMEWORK_HPP	source/OgreFramework.h	4;"	d
+OgreFramework	source/OgreFramework.cpp	/^OgreFramework::OgreFramework()$/;"	f	class:OgreFramework	signature:()
+OgreFramework	source/OgreFramework.h	/^	OgreFramework();$/;"	p	class:OgreFramework	access:public	signature:()
+OgreFramework	source/OgreFramework.h	/^	OgreFramework(const OgreFramework&);$/;"	p	class:OgreFramework	access:private	signature:(const OgreFramework&)
+OgreFramework	source/OgreFramework.h	/^class OgreFramework : public Ogre::Singleton<OgreFramework>, OIS::KeyListener, OIS::MouseListener, OgreBites::SdkTrayListener$/;"	c	inherits:Ogre::Singleton,OIS::KeyListener,OIS::MouseListener,OgreBites::SdkTrayListener
+OgreFramework::OgreFramework	source/OgreFramework.cpp	/^OgreFramework::OgreFramework()$/;"	f	class:OgreFramework	signature:()
+OgreFramework::OgreFramework	source/OgreFramework.h	/^	OgreFramework();$/;"	p	class:OgreFramework	access:public	signature:()
+OgreFramework::OgreFramework	source/OgreFramework.h	/^	OgreFramework(const OgreFramework&);$/;"	p	class:OgreFramework	access:private	signature:(const OgreFramework&)
+OgreFramework::getInput	source/OgreFramework.cpp	/^void OgreFramework::getInput()$/;"	f	class:OgreFramework	signature:()
+OgreFramework::getInput	source/OgreFramework.h	/^	void getInput();$/;"	p	class:OgreFramework	access:public	signature:()
+OgreFramework::groupNames	source/OgreFramework.h	/^    std::vector<Ogre::String> groupNames;$/;"	m	class:OgreFramework	access:public
+OgreFramework::initOgre	source/OgreFramework.cpp	/^bool OgreFramework::initOgre(Ogre::String wndTitle, OIS::KeyListener *pKeyListener, OIS::MouseListener *pMouseListener)$/;"	f	class:OgreFramework	signature:(Ogre::String wndTitle, OIS::KeyListener *pKeyListener, OIS::MouseListener *pMouseListener)
+OgreFramework::initOgre	source/OgreFramework.h	/^	bool initOgre(Ogre::String wndTitle, OIS::KeyListener *pKeyListener = 0, OIS::MouseListener *pMouseListener = 0);$/;"	p	class:OgreFramework	access:public	signature:(Ogre::String wndTitle, OIS::KeyListener *pKeyListener = 0, OIS::MouseListener *pMouseListener = 0)
+OgreFramework::isOgreToBeShutDown	source/OgreFramework.h	/^	bool isOgreToBeShutDown()const{return m_bShutDownOgre;}$/;"	f	class:OgreFramework	access:public	signature:() const
+OgreFramework::keyPressed	source/OgreFramework.cpp	/^bool OgreFramework::keyPressed(const OIS::KeyEvent &keyEventRef)$/;"	f	class:OgreFramework	signature:(const OIS::KeyEvent &keyEventRef)
+OgreFramework::keyPressed	source/OgreFramework.h	/^	bool keyPressed(const OIS::KeyEvent &keyEventRef);$/;"	p	class:OgreFramework	access:public	signature:(const OIS::KeyEvent &keyEventRef)
+OgreFramework::keyReleased	source/OgreFramework.cpp	/^bool OgreFramework::keyReleased(const OIS::KeyEvent &keyEventRef)$/;"	f	class:OgreFramework	signature:(const OIS::KeyEvent &keyEventRef)
+OgreFramework::keyReleased	source/OgreFramework.h	/^	bool keyReleased(const OIS::KeyEvent &keyEventRef);$/;"	p	class:OgreFramework	access:public	signature:(const OIS::KeyEvent &keyEventRef)
+OgreFramework::m_FrameEvent	source/OgreFramework.h	/^    Ogre::FrameEvent                        m_FrameEvent;$/;"	m	class:OgreFramework	access:public
+OgreFramework::m_MoveScale	source/OgreFramework.h	/^	float					m_MoveScale; $/;"	m	class:OgreFramework	access:private
+OgreFramework::m_MoveSpeed	source/OgreFramework.h	/^	Ogre::Real				m_MoveSpeed; $/;"	m	class:OgreFramework	access:private
+OgreFramework::m_RotScale	source/OgreFramework.h	/^	Ogre::Degree				m_RotScale;$/;"	m	class:OgreFramework	access:private
+OgreFramework::m_RotateSpeed	source/OgreFramework.h	/^	Ogre::Degree				m_RotateSpeed; $/;"	m	class:OgreFramework	access:private
+OgreFramework::m_TranslateVector	source/OgreFramework.h	/^	Ogre::Vector3				m_TranslateVector;$/;"	m	class:OgreFramework	access:public
+OgreFramework::m_bShutDownOgre	source/OgreFramework.h	/^	bool					m_bShutDownOgre;$/;"	m	class:OgreFramework	access:private
+OgreFramework::m_iNumScreenShots	source/OgreFramework.h	/^	int					m_iNumScreenShots;$/;"	m	class:OgreFramework	access:private
+OgreFramework::m_pCamera	source/OgreFramework.h	/^	Ogre::Camera*				m_pCamera;$/;"	m	class:OgreFramework	access:public
+OgreFramework::m_pCameraNode	source/OgreFramework.h	/^    Ogre::SceneNode*             m_pCameraNode;$/;"	m	class:OgreFramework	access:public
+OgreFramework::m_pInputMgr	source/OgreFramework.h	/^	OIS::InputManager*			m_pInputMgr;$/;"	m	class:OgreFramework	access:public
+OgreFramework::m_pKeyboard	source/OgreFramework.h	/^	OIS::Keyboard*				m_pKeyboard;$/;"	m	class:OgreFramework	access:public
+OgreFramework::m_pLog	source/OgreFramework.h	/^	Ogre::Log*				m_pLog;$/;"	m	class:OgreFramework	access:public
+OgreFramework::m_pMouse	source/OgreFramework.h	/^	OIS::Mouse*				m_pMouse;$/;"	m	class:OgreFramework	access:public
+OgreFramework::m_pRenderWnd	source/OgreFramework.h	/^	Ogre::RenderWindow*			m_pRenderWnd;$/;"	m	class:OgreFramework	access:public
+OgreFramework::m_pRoot	source/OgreFramework.h	/^	Ogre::Root*				m_pRoot;$/;"	m	class:OgreFramework	access:public
+OgreFramework::m_pSceneMgr	source/OgreFramework.h	/^	Ogre::SceneManager*			m_pSceneMgr;$/;"	m	class:OgreFramework	access:public
+OgreFramework::m_pTimer	source/OgreFramework.h	/^	Ogre::Timer*				m_pTimer;$/;"	m	class:OgreFramework	access:public
+OgreFramework::m_pTrayMgr	source/OgreFramework.h	/^	OgreBites::SdkTrayManager*	        m_pTrayMgr;$/;"	m	class:OgreFramework	access:private
+OgreFramework::m_pViewport	source/OgreFramework.h	/^	Ogre::Viewport*				m_pViewport;$/;"	m	class:OgreFramework	access:public
+OgreFramework::mouseMoved	source/OgreFramework.cpp	/^bool OgreFramework::mouseMoved(const OIS::MouseEvent &evt)$/;"	f	class:OgreFramework	signature:(const OIS::MouseEvent &evt)
+OgreFramework::mouseMoved	source/OgreFramework.h	/^	bool mouseMoved(const OIS::MouseEvent &evt);$/;"	p	class:OgreFramework	access:public	signature:(const OIS::MouseEvent &evt)
+OgreFramework::mousePressed	source/OgreFramework.cpp	/^bool OgreFramework::mousePressed(const OIS::MouseEvent &evt, OIS::MouseButtonID id)$/;"	f	class:OgreFramework	signature:(const OIS::MouseEvent &evt, OIS::MouseButtonID id)
+OgreFramework::mousePressed	source/OgreFramework.h	/^	bool mousePressed(const OIS::MouseEvent &evt, OIS::MouseButtonID id); $/;"	p	class:OgreFramework	access:public	signature:(const OIS::MouseEvent &evt, OIS::MouseButtonID id)
+OgreFramework::mouseReleased	source/OgreFramework.cpp	/^bool OgreFramework::mouseReleased(const OIS::MouseEvent &evt, OIS::MouseButtonID id)$/;"	f	class:OgreFramework	signature:(const OIS::MouseEvent &evt, OIS::MouseButtonID id)
+OgreFramework::mouseReleased	source/OgreFramework.h	/^	bool mouseReleased(const OIS::MouseEvent &evt, OIS::MouseButtonID id);$/;"	p	class:OgreFramework	access:public	signature:(const OIS::MouseEvent &evt, OIS::MouseButtonID id)
+OgreFramework::moveCamera	source/OgreFramework.cpp	/^void OgreFramework::moveCamera()$/;"	f	class:OgreFramework	signature:()
+OgreFramework::moveCamera	source/OgreFramework.h	/^	void moveCamera();$/;"	p	class:OgreFramework	access:public	signature:()
+OgreFramework::operator =	source/OgreFramework.h	/^	OgreFramework& operator= (const OgreFramework&);$/;"	p	class:OgreFramework	access:private	signature:(const OgreFramework&)
+OgreFramework::updateOgre	source/OgreFramework.cpp	/^void OgreFramework::updateOgre(double timeSinceLastFrame)$/;"	f	class:OgreFramework	signature:(double timeSinceLastFrame)
+OgreFramework::updateOgre	source/OgreFramework.h	/^	void updateOgre(double timeSinceLastFrame);$/;"	p	class:OgreFramework	access:public	signature:(double timeSinceLastFrame)
+OgreFramework::~OgreFramework	source/OgreFramework.cpp	/^OgreFramework::~OgreFramework()$/;"	f	class:OgreFramework	signature:()
+OgreFramework::~OgreFramework	source/OgreFramework.h	/^	~OgreFramework();$/;"	p	class:OgreFramework	access:public	signature:()
+QMAKE	Makefile	/^QMAKE         = \/usr\/bin\/qmake$/;"	m
+QMAKE_TARGET	Makefile	/^QMAKE_TARGET  = gorge$/;"	m
+RANLIB	Makefile	/^RANLIB        = $/;"	m
+SED	Makefile	/^SED           = sed$/;"	m
+SOURCES	Makefile	/^SOURCES       = source\/main.cpp \\$/;"	m
+STRIP	Makefile	/^STRIP         = strip$/;"	m
+SYMLINK	Makefile	/^SYMLINK       = ln -f -s$/;"	m
+TAR	Makefile	/^TAR           = tar -cf$/;"	m
+TARGET	Makefile	/^TARGET        = gorge$/;"	m
+TEMP	OgreFiles/media/materials/programs/Example_TextureArrayPS.asm	/^TEMP texcoord, c0, c1, frac;                     $/;"	l
+TEX	OgreFiles/media/materials/programs/Example_TextureArrayPS.asm	/^TEX c0, texcoord, texture[0], ARRAY2D;           $/;"	l
+TEX	OgreFiles/media/materials/programs/Example_TextureArrayPS.asm	/^TEX c1, texcoord, texture[0], ARRAY2D;           $/;"	l
+WIN32_LEAN_AND_MEAN	source/main.cpp	60;"	d	file:
+WinMain	source/main.cpp	/^INT WINAPI WinMain(HINSTANCE hInst, HINSTANCE, LPSTR strCmdLine, INT)$/;"	f	signature:(HINSTANCE hInst, HINSTANCE, LPSTR strCmdLine, INT)
+_boxHeight	source/DemoApp.h	/^    int _boxHeight;$/;"	m	class:DemoApp	access:private
+_createDemoPanel	source/DemoApp.cpp	/^void DemoApp::_createDemoPanel()$/;"	f	class:DemoApp	signature:()
+_createDemoPanel	source/DemoApp.h	/^    void _createDemoPanel();$/;"	p	class:DemoApp	access:private	signature:()
+_distance	source/DemoApp.h	/^    int _distance;$/;"	m	class:DemoApp	access:private
+_height	source/DemoApp.h	/^    int _height;$/;"	m	class:DemoApp	access:private
+_wP	source/DemoApp.h	/^    int _wP;$/;"	m	class:DemoApp	access:private
+_width	source/DemoApp.h	/^    int _width;$/;"	m	class:DemoApp	access:private
+_widthPadding	source/DemoApp.h	/^    int _widthPadding;$/;"	m	class:DemoApp	access:private
+add	OgreFiles/media/materials/programs/Example_FresnelPS.asm	/^add r2, r2, c1$/;"	l
+addModel	source/DemoApp.cpp	/^bool DemoApp::addModel(Gui3D::Combobox* e)$/;"	f	class:DemoApp	signature:(Gui3D::Combobox* e)
+addModel	source/DemoApp.h	/^    bool addModel(Gui3D::Combobox* e);$/;"	p	class:DemoApp	access:private	signature:(Gui3D::Combobox* e)
+addedCombobox	source/DemoApp.h	/^    Gui3D::Combobox* addedCombobox;$/;"	m	class:DemoApp	access:private
+addedModels	source/DemoApp.h	/^    std::vector<Ogre::String> addedModels;$/;"	m	class:DemoApp	access:private
+buttonPressed	source/DemoApp.cpp	/^bool DemoApp::buttonPressed(Gui3D::PanelElement* e)$/;"	f	class:DemoApp	signature:(Gui3D::PanelElement* e)
+buttonPressed	source/DemoApp.h	/^    bool buttonPressed(Gui3D::PanelElement*);$/;"	p	class:DemoApp	access:private	signature:(Gui3D::PanelElement*)
+cameraDirection	source/DemoApp.h	/^    Ogre::Vector3 cameraDirection;$/;"	m	class:DemoApp	access:private
+captionButton	source/DemoApp.h	/^    Gui3D::Caption* captionButton;$/;"	m	class:DemoApp	access:private
+captionChecked	source/DemoApp.h	/^    Gui3D::Caption* captionChecked;$/;"	m	class:DemoApp	access:private
+captionCombobox	source/DemoApp.h	/^    Gui3D::Caption* captionCombobox;$/;"	m	class:DemoApp	access:private
+checkboxChecked	source/DemoApp.cpp	/^bool DemoApp::checkboxChecked(Gui3D::PanelElement* e)$/;"	f	class:DemoApp	signature:(Gui3D::PanelElement* e)
+checkboxChecked	source/DemoApp.h	/^    bool checkboxChecked(Gui3D::PanelElement*);$/;"	p	class:DemoApp	access:private	signature:(Gui3D::PanelElement*)
+currentNode	source/DemoApp.h	/^    Ogre::SceneNode * currentNode;$/;"	m	class:DemoApp	access:private
+def	OgreFiles/media/materials/programs/Example_FresnelPS.asm	/^def c2, 2, 1, 0, 0$/;"	l
+dp3_sat	OgreFiles/media/materials/programs/OffsetMapping_specular.asm	/^dp3_sat r4.rgb, r0_bx2, r4         \/\/ N dot L - diffuse calc $/;"	l
+dp3_sat	OgreFiles/media/materials/programs/OffsetMapping_specular.asm	/^dp3_sat r5.rgb, r0_bx2, r5         \/\/ N dot H - spec calc $/;"	l
+entitys	source/DemoApp.h	/^    std::vector<Ogre::Entity*> entitys;$/;"	m	class:DemoApp	access:private
+getInput	source/OgreFramework.cpp	/^void OgreFramework::getInput()$/;"	f	class:OgreFramework	signature:()
+getInput	source/OgreFramework.h	/^	void getInput();$/;"	p	class:OgreFramework	access:public	signature:()
+getScreenCenterMouseDistance	source/DemoApp.cpp	/^Ogre::Vector2 DemoApp::getScreenCenterMouseDistance()$/;"	f	class:DemoApp	signature:()
+getScreenCenterMouseDistance	source/DemoApp.h	/^    Ogre::Vector2 getScreenCenterMouseDistance();$/;"	p	class:DemoApp	access:private	signature:()
+groupNames	source/OgreFramework.h	/^    std::vector<Ogre::String> groupNames;$/;"	m	class:OgreFramework	access:public
+hasEnding	source/DemoApp.cpp	/^bool DemoApp::hasEnding (std::string const &fullString, std::string const &ending)$/;"	f	class:DemoApp	signature:(std::string const &fullString, std::string const &ending)
+hasEnding	source/DemoApp.h	/^    bool hasEnding (std::string const &fullString, std::string const &ending);$/;"	p	class:DemoApp	access:private	signature:(std::string const &fullString, std::string const &ending)
+iMouseMoved	source/DemoApp.cpp	/^bool DemoApp::iMouseMoved(const OIS::MouseEvent &evt)$/;"	f	class:DemoApp	signature:(const OIS::MouseEvent &evt)
+iMouseMoved	source/DemoApp.h	/^	bool iMouseMoved(const OIS::MouseEvent &evt);$/;"	p	class:DemoApp	access:public	signature:(const OIS::MouseEvent &evt)
+iMousePressed	source/DemoApp.cpp	/^bool DemoApp::iMousePressed(const OIS::MouseEvent &evt, OIS::MouseButtonID id) $/;"	f	class:DemoApp	signature:(const OIS::MouseEvent &evt, OIS::MouseButtonID id)
+iMousePressed	source/DemoApp.h	/^	bool iMousePressed(const OIS::MouseEvent &evt, OIS::MouseButtonID id); $/;"	p	class:DemoApp	access:public	signature:(const OIS::MouseEvent &evt, OIS::MouseButtonID id)
+iMouseReleased	source/DemoApp.cpp	/^bool DemoApp::iMouseReleased(const OIS::MouseEvent &evt, OIS::MouseButtonID id)$/;"	f	class:DemoApp	signature:(const OIS::MouseEvent &evt, OIS::MouseButtonID id)
+iMouseReleased	source/DemoApp.h	/^	bool iMouseReleased(const OIS::MouseEvent &evt, OIS::MouseButtonID id);$/;"	p	class:DemoApp	access:public	signature:(const OIS::MouseEvent &evt, OIS::MouseButtonID id)
+initGUI	source/DemoApp.cpp	/^void DemoApp::initGUI()$/;"	f	class:DemoApp	signature:()
+initGUI	source/DemoApp.h	/^    void initGUI();$/;"	p	class:DemoApp	access:private	signature:()
+initOgre	source/OgreFramework.cpp	/^bool OgreFramework::initOgre(Ogre::String wndTitle, OIS::KeyListener *pKeyListener, OIS::MouseListener *pMouseListener)$/;"	f	class:OgreFramework	signature:(Ogre::String wndTitle, OIS::KeyListener *pKeyListener, OIS::MouseListener *pMouseListener)
+initOgre	source/OgreFramework.h	/^	bool initOgre(Ogre::String wndTitle, OIS::KeyListener *pKeyListener = 0, OIS::MouseListener *pMouseListener = 0);$/;"	p	class:OgreFramework	access:public	signature:(Ogre::String wndTitle, OIS::KeyListener *pKeyListener = 0, OIS::MouseListener *pMouseListener = 0)
+insertMode	source/DemoApp.h	/^    bool insertMode;$/;"	m	class:DemoApp	access:private
+isOgreToBeShutDown	source/OgreFramework.h	/^	bool isOgreToBeShutDown()const{return m_bShutDownOgre;}$/;"	f	class:OgreFramework	access:public	signature:() const
+keyPressed	source/DemoApp.cpp	/^bool DemoApp::keyPressed(const OIS::KeyEvent &keyEventRef)$/;"	f	class:DemoApp	signature:(const OIS::KeyEvent &keyEventRef)
+keyPressed	source/DemoApp.h	/^	bool keyPressed(const OIS::KeyEvent &keyEventRef);$/;"	p	class:DemoApp	access:public	signature:(const OIS::KeyEvent &keyEventRef)
+keyPressed	source/OgreFramework.cpp	/^bool OgreFramework::keyPressed(const OIS::KeyEvent &keyEventRef)$/;"	f	class:OgreFramework	signature:(const OIS::KeyEvent &keyEventRef)
+keyPressed	source/OgreFramework.h	/^	bool keyPressed(const OIS::KeyEvent &keyEventRef);$/;"	p	class:OgreFramework	access:public	signature:(const OIS::KeyEvent &keyEventRef)
+keyReleased	source/DemoApp.cpp	/^bool DemoApp::keyReleased(const OIS::KeyEvent &keyEventRef)$/;"	f	class:DemoApp	signature:(const OIS::KeyEvent &keyEventRef)
+keyReleased	source/DemoApp.h	/^	bool keyReleased(const OIS::KeyEvent &keyEventRef);$/;"	p	class:DemoApp	access:public	signature:(const OIS::KeyEvent &keyEventRef)
+keyReleased	source/OgreFramework.cpp	/^bool OgreFramework::keyReleased(const OIS::KeyEvent &keyEventRef)$/;"	f	class:OgreFramework	signature:(const OIS::KeyEvent &keyEventRef)
+keyReleased	source/OgreFramework.h	/^	bool keyReleased(const OIS::KeyEvent &keyEventRef);$/;"	p	class:OgreFramework	access:public	signature:(const OIS::KeyEvent &keyEventRef)
+lrp	OgreFiles/media/materials/programs/Example_FresnelPS.asm	/^lrp r0, v0.x, r1, r2$/;"	l
+mClicksOnButton	source/DemoApp.h	/^    int mClicksOnButton;$/;"	m	class:DemoApp	access:private
+mGui3D	source/DemoApp.h	/^    Gui3D::Gui3D* mGui3D;$/;"	m	class:DemoApp	access:private
+mMouseMoved	source/DemoApp.cpp	/^bool DemoApp::mMouseMoved(const OIS::MouseEvent &evt)$/;"	f	class:DemoApp	signature:(const OIS::MouseEvent &evt)
+mMouseMoved	source/DemoApp.h	/^	bool mMouseMoved(const OIS::MouseEvent &evt);$/;"	p	class:DemoApp	access:public	signature:(const OIS::MouseEvent &evt)
+mMousePointer	source/DemoApp.h	/^    Gorilla::Rectangle* mMousePointer;$/;"	m	class:DemoApp	access:private
+mMousePointerLayer	source/DemoApp.h	/^    Gorilla::Layer* mMousePointerLayer;$/;"	m	class:DemoApp	access:private
+mMousePressed	source/DemoApp.cpp	/^bool DemoApp::mMousePressed(const OIS::MouseEvent &evt, OIS::MouseButtonID id) $/;"	f	class:DemoApp	signature:(const OIS::MouseEvent &evt, OIS::MouseButtonID id)
+mMousePressed	source/DemoApp.h	/^	bool mMousePressed(const OIS::MouseEvent &evt, OIS::MouseButtonID id); $/;"	p	class:DemoApp	access:public	signature:(const OIS::MouseEvent &evt, OIS::MouseButtonID id)
+mMouseReleased	source/DemoApp.cpp	/^bool DemoApp::mMouseReleased(const OIS::MouseEvent &evt, OIS::MouseButtonID id)$/;"	f	class:DemoApp	signature:(const OIS::MouseEvent &evt, OIS::MouseButtonID id)
+mMouseReleased	source/DemoApp.h	/^	bool mMouseReleased(const OIS::MouseEvent &evt, OIS::MouseButtonID id);$/;"	p	class:DemoApp	access:public	signature:(const OIS::MouseEvent &evt, OIS::MouseButtonID id)
+mMyPurplePanelColors	source/DemoApp.h	/^    MyPurplePanelColors mMyPurplePanelColors;$/;"	m	class:DemoApp	access:private
+mNormalizedMousePosition	source/DemoApp.h	/^    Ogre::Vector2 mNormalizedMousePosition;$/;"	m	class:DemoApp	access:private
+mPanel	source/DemoApp.h	/^    Gui3D::Panel* mPanel;$/;"	m	class:DemoApp	access:private
+m_FrameEvent	source/OgreFramework.h	/^    Ogre::FrameEvent                        m_FrameEvent;$/;"	m	class:OgreFramework	access:public
+m_MoveScale	source/OgreFramework.h	/^	float					m_MoveScale; $/;"	m	class:OgreFramework	access:private
+m_MoveSpeed	source/OgreFramework.h	/^	Ogre::Real				m_MoveSpeed; $/;"	m	class:OgreFramework	access:private
+m_RotScale	source/OgreFramework.h	/^	Ogre::Degree				m_RotScale;$/;"	m	class:OgreFramework	access:private
+m_RotateSpeed	source/OgreFramework.h	/^	Ogre::Degree				m_RotateSpeed; $/;"	m	class:OgreFramework	access:private
+m_TranslateVector	source/OgreFramework.h	/^	Ogre::Vector3				m_TranslateVector;$/;"	m	class:OgreFramework	access:public
+m_bShutDownOgre	source/OgreFramework.h	/^	bool					m_bShutDownOgre;$/;"	m	class:OgreFramework	access:private
+m_bShutdown	source/DemoApp.h	/^	bool					m_bShutdown;$/;"	m	class:DemoApp	access:private
+m_iNumScreenShots	source/OgreFramework.h	/^	int					m_iNumScreenShots;$/;"	m	class:OgreFramework	access:private
+m_pCamera	source/OgreFramework.h	/^	Ogre::Camera*				m_pCamera;$/;"	m	class:OgreFramework	access:public
+m_pCameraNode	source/OgreFramework.h	/^    Ogre::SceneNode*             m_pCameraNode;$/;"	m	class:OgreFramework	access:public
+m_pInputMgr	source/OgreFramework.h	/^	OIS::InputManager*			m_pInputMgr;$/;"	m	class:OgreFramework	access:public
+m_pKeyboard	source/OgreFramework.h	/^	OIS::Keyboard*				m_pKeyboard;$/;"	m	class:OgreFramework	access:public
+m_pLog	source/OgreFramework.h	/^	Ogre::Log*				m_pLog;$/;"	m	class:OgreFramework	access:public
+m_pMouse	source/OgreFramework.h	/^	OIS::Mouse*				m_pMouse;$/;"	m	class:OgreFramework	access:public
+m_pOgreHeadEntity	source/DemoApp.h	/^	Ogre::Entity*				m_pOgreHeadEntity;$/;"	m	class:DemoApp	access:private
+m_pOgreHeadNode	source/DemoApp.h	/^	Ogre::SceneNode*			m_pOgreHeadNode;$/;"	m	class:DemoApp	access:private
+m_pRenderWnd	source/OgreFramework.h	/^	Ogre::RenderWindow*			m_pRenderWnd;$/;"	m	class:OgreFramework	access:public
+m_pRoot	source/OgreFramework.h	/^	Ogre::Root*				m_pRoot;$/;"	m	class:OgreFramework	access:public
+m_pSceneMgr	source/OgreFramework.h	/^	Ogre::SceneManager*			m_pSceneMgr;$/;"	m	class:OgreFramework	access:public
+m_pTimer	source/OgreFramework.h	/^	Ogre::Timer*				m_pTimer;$/;"	m	class:OgreFramework	access:public
+m_pTrayMgr	source/OgreFramework.h	/^	OgreBites::SdkTrayManager*	        m_pTrayMgr;$/;"	m	class:OgreFramework	access:private
+m_pViewport	source/OgreFramework.h	/^	Ogre::Viewport*				m_pViewport;$/;"	m	class:OgreFramework	access:public
+mad	OgreFiles/media/materials/programs/Example_FresnelPS.asm	/^mad r0.xyz, r0_bx2, c0.x, r1$/;"	l
+mad	OgreFiles/media/materials/programs/OffsetMapping_specular.asm	/^mad r0.rgb, r0, c0, r5         \/\/ colour = diffusetex * (N dot L)* diffuselight + specular $/;"	l
+mad	OgreFiles/media/materials/programs/OffsetMapping_specular.asm	/^mad r0.xyz, r0.a, c2.x, c2.y   \/\/ displacement = height * scale + bias $/;"	l
+mad	OgreFiles/media/materials/programs/OffsetMapping_specular.asm	/^mad r2.xyz, r3, r0, r2         \/\/ newtexcoord = eyedir * displacement + uv $/;"	l
+modelInfo	source/DemoApp.h	/^    struct modelInfo$/;"	s	class:DemoApp	access:private
+models	source/DemoApp.h	/^    std::vector<modelInfo> models;$/;"	m	class:DemoApp	access:private
+modelsPlaced	source/DemoApp.h	/^    unsigned int modelsPlaced;$/;"	m	class:DemoApp	access:private
+mouseMoved	source/DemoApp.cpp	/^bool DemoApp::mouseMoved(const OIS::MouseEvent &evt)$/;"	f	class:DemoApp	signature:(const OIS::MouseEvent &evt)
+mouseMoved	source/DemoApp.h	/^	bool mouseMoved(const OIS::MouseEvent &evt);$/;"	p	class:DemoApp	access:public	signature:(const OIS::MouseEvent &evt)
+mouseMoved	source/OgreFramework.cpp	/^bool OgreFramework::mouseMoved(const OIS::MouseEvent &evt)$/;"	f	class:OgreFramework	signature:(const OIS::MouseEvent &evt)
+mouseMoved	source/OgreFramework.h	/^	bool mouseMoved(const OIS::MouseEvent &evt);$/;"	p	class:OgreFramework	access:public	signature:(const OIS::MouseEvent &evt)
+mousePressed	source/DemoApp.cpp	/^bool DemoApp::mousePressed(const OIS::MouseEvent &evt, OIS::MouseButtonID id) $/;"	f	class:DemoApp	signature:(const OIS::MouseEvent &evt, OIS::MouseButtonID id)
+mousePressed	source/DemoApp.h	/^	bool mousePressed(const OIS::MouseEvent &evt, OIS::MouseButtonID id); $/;"	p	class:DemoApp	access:public	signature:(const OIS::MouseEvent &evt, OIS::MouseButtonID id)
+mousePressed	source/OgreFramework.cpp	/^bool OgreFramework::mousePressed(const OIS::MouseEvent &evt, OIS::MouseButtonID id)$/;"	f	class:OgreFramework	signature:(const OIS::MouseEvent &evt, OIS::MouseButtonID id)
+mousePressed	source/OgreFramework.h	/^	bool mousePressed(const OIS::MouseEvent &evt, OIS::MouseButtonID id); $/;"	p	class:OgreFramework	access:public	signature:(const OIS::MouseEvent &evt, OIS::MouseButtonID id)
+mouseReleased	source/DemoApp.cpp	/^bool DemoApp::mouseReleased(const OIS::MouseEvent &evt, OIS::MouseButtonID id)$/;"	f	class:DemoApp	signature:(const OIS::MouseEvent &evt, OIS::MouseButtonID id)
+mouseReleased	source/DemoApp.h	/^	bool mouseReleased(const OIS::MouseEvent &evt, OIS::MouseButtonID id);$/;"	p	class:DemoApp	access:public	signature:(const OIS::MouseEvent &evt, OIS::MouseButtonID id)
+mouseReleased	source/OgreFramework.cpp	/^bool OgreFramework::mouseReleased(const OIS::MouseEvent &evt, OIS::MouseButtonID id)$/;"	f	class:OgreFramework	signature:(const OIS::MouseEvent &evt, OIS::MouseButtonID id)
+mouseReleased	source/OgreFramework.h	/^	bool mouseReleased(const OIS::MouseEvent &evt, OIS::MouseButtonID id);$/;"	p	class:OgreFramework	access:public	signature:(const OIS::MouseEvent &evt, OIS::MouseButtonID id)
+mov	OgreFiles/media/materials/programs/Example_FresnelPS.asm	/^mov r1.z, c2.y$/;"	l
+moveCamera	source/OgreFramework.cpp	/^void OgreFramework::moveCamera()$/;"	f	class:OgreFramework	signature:()
+moveCamera	source/OgreFramework.h	/^	void moveCamera();$/;"	p	class:OgreFramework	access:public	signature:()
+mul	OgreFiles/media/materials/programs/OffsetMapping_specular.asm	/^mul r0.rgb, r4, r1            \/\/ colour = diffusetex * N dot L $/;"	l
+mul	OgreFiles/media/materials/programs/OffsetMapping_specular.asm	/^mul r5.rgb, r5, c1            \/\/ specular = (N dot H)^32 * specularlight $/;"	l
+mul	OgreFiles/media/materials/programs/OffsetMapping_specular.asm	/^mul r5.rgb, r5, r5          $/;"	l
+mul	OgreFiles/media/materials/programs/OffsetMapping_specular.asm	/^mul r5.rgb, r5.a, r5.a          $/;"	l
+name	source/DemoApp.h	/^        Ogre::String name;$/;"	m	struct:DemoApp::modelInfo	access:public
+node	source/DemoApp.h	/^        Ogre::SceneNode* node;$/;"	m	struct:DemoApp::modelInfo	access:public
+operator =	source/OgreFramework.h	/^	OgreFramework& operator= (const OgreFramework&);$/;"	p	class:OgreFramework	access:private	signature:(const OgreFramework&)
+panel	source/DemoApp.h	/^    Gui3D::Panel* panel;$/;"	m	class:DemoApp	access:private
+phase	OgreFiles/media/materials/programs/Example_FresnelPS.asm	/^phase$/;"	l
+phase	OgreFiles/media/materials/programs/OffsetMapping_specular.asm	/^phase $/;"	l
+rEngine	source/DemoApp.h	/^    OgreFramework* rEngine;$/;"	m	class:DemoApp	access:private
+rGrpMgr	source/DemoApp.h	/^    Ogre::ResourceGroupManager* rGrpMgr; $/;"	m	class:DemoApp	access:private
+runDemo	source/DemoApp.cpp	/^void DemoApp::runDemo()$/;"	f	class:DemoApp	signature:()
+runDemo	source/DemoApp.h	/^	void runDemo();$/;"	p	class:DemoApp	access:private	signature:()
+selectModel	source/DemoApp.cpp	/^bool DemoApp::selectModel(Gui3D::Combobox* e)$/;"	f	class:DemoApp	signature:(Gui3D::Combobox* e)
+selectModel	source/DemoApp.h	/^    bool selectModel(Gui3D::Combobox* e);$/;"	p	class:DemoApp	access:private	signature:(Gui3D::Combobox* e)
+setupDemoScene	source/DemoApp.cpp	/^void DemoApp::setupDemoScene()$/;"	f	class:DemoApp	signature:()
+setupDemoScene	source/DemoApp.h	/^    void setupDemoScene();$/;"	p	class:DemoApp	access:private	signature:()
+startDemo	source/DemoApp.cpp	/^void DemoApp::startDemo()$/;"	f	class:DemoApp	signature:()
+startDemo	source/DemoApp.h	/^	void startDemo();$/;"	p	class:DemoApp	access:public	signature:()
+texcrd	OgreFiles/media/materials/programs/Example_FresnelPS.asm	/^texcrd r1.xy, t1_dw.xyw$/;"	l
+texcrd	OgreFiles/media/materials/programs/OffsetMapping_specular.asm	/^texcrd r2.xyz, t0            \/\/ get uv coordinates $/;"	l
+texcrd	OgreFiles/media/materials/programs/OffsetMapping_specular.asm	/^texcrd r3.xyz, t2            \/\/ get eyedir vector $/;"	l
+texcrd	OgreFiles/media/materials/programs/OffsetMapping_specular.asm	/^texcrd r4.xyz, t1            \/\/ get lightdir vector $/;"	l
+texcrd	OgreFiles/media/materials/programs/OffsetMapping_specular.asm	/^texcrd r5.xyz, t3            \/\/ get half angle vector $/;"	l
+texld	OgreFiles/media/materials/programs/Example_FresnelPS.asm	/^texld r0, t0.xyz$/;"	l
+texld	OgreFiles/media/materials/programs/Example_FresnelPS.asm	/^texld r1, r0.xyz$/;"	l
+texld	OgreFiles/media/materials/programs/Example_FresnelPS.asm	/^texld r2, r0.xyz$/;"	l
+texld	OgreFiles/media/materials/programs/OffsetMapping_specular.asm	/^texld r0, r2.xyz            \/\/ get normal N using newtexcoord $/;"	l
+texld	OgreFiles/media/materials/programs/OffsetMapping_specular.asm	/^texld r0, t0               \/\/ get height $/;"	l
+texld	OgreFiles/media/materials/programs/OffsetMapping_specular.asm	/^texld r1, r2.xyz            \/\/ get diffuse texture using newtexcoord $/;"	l
+totalCombobox	source/DemoApp.h	/^    Gui3D::Combobox* totalCombobox;$/;"	m	class:DemoApp	access:private
+totalModels	source/DemoApp.h	/^    std::vector<Ogre::String> totalModels;$/;"	m	class:DemoApp	access:private
+updateOgre	source/OgreFramework.cpp	/^void OgreFramework::updateOgre(double timeSinceLastFrame)$/;"	f	class:OgreFramework	signature:(double timeSinceLastFrame)
+updateOgre	source/OgreFramework.h	/^	void updateOgre(double timeSinceLastFrame);$/;"	p	class:OgreFramework	access:public	signature:(double timeSinceLastFrame)
+~DemoApp	source/DemoApp.cpp	/^DemoApp::~DemoApp()$/;"	f	class:DemoApp	signature:()
+~DemoApp	source/DemoApp.h	/^	~DemoApp();$/;"	p	class:DemoApp	access:public	signature:()
+~OgreFramework	source/OgreFramework.cpp	/^OgreFramework::~OgreFramework()$/;"	f	class:OgreFramework	signature:()
+~OgreFramework	source/OgreFramework.h	/^	~OgreFramework();$/;"	p	class:OgreFramework	access:public	signature:()
