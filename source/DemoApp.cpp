@@ -34,10 +34,10 @@ void DemoApp::initGUI()
  
 	_createDemoPanel();
     Ogre::Camera* mCamera = rEngine->m_pCamera;
-    Ogre::Node *mCameraNode = rEngine->m_pCameraNode;
-	mCameraNode->setPosition(0, 0, 0);
+    Ogre::SceneNode *mCameraNode = rEngine->m_pCameraNode;
+	mCameraNode->setPosition(0, 2, 1);
 	cameraDirection = Ogre::Vector3(0, 0, -1);
-	mCamera->setDirection(cameraDirection);
+	mCameraNode->setDirection(cameraDirection);
 }
 Ogre::Vector2 DemoApp::getScreenCenterMouseDistance()
 {
@@ -145,8 +145,8 @@ bool DemoApp::keyPressed(const OIS::KeyEvent &keyEventRef)
             Ogre::SceneNode* panelNode = panel->mNode;
             panelNode->setPosition(camNode->getPosition());
             panelNode->translate(0.0f,0.0f,-widgetDistance,Ogre::Node::TS_LOCAL);
-             rEngine->m_pCameraNode->setOrientation(Ogre::Quaternion::IDENTITY);
-             rEngine->m_pCamera->setOrientation(Ogre::Quaternion::IDENTITY);
+            rEngine->m_pCameraNode->setOrientation(Ogre::Quaternion::IDENTITY);
+            rEngine->m_pCamera->setOrientation(Ogre::Quaternion::IDENTITY);
          }
          else
          {
@@ -347,5 +347,6 @@ bool DemoApp::addModel(Gui3D::Combobox* e)
     addedCombobox = panel->makeCombobox(_widthPadding/2,_boxHeight*1.2,_wP,_boxHeight*0.8,addedModels,5);
     addedCombobox->setCurrentValue(temp.name);
     addedCombobox->highlight();
+    selectModel(addedCombobox);
 	return true;
 }
