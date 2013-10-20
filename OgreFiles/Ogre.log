@@ -1,224 +1,224 @@
-20:20:29: CPU Identifier & Features
-20:20:29: -------------------------
-20:20:29:  *   CPU ID: GenuineIntel: Intel(R) Core(TM) i7-2720QM CPU @ 2.20GHz
-20:20:29:  *      SSE: yes
-20:20:29:  *     SSE2: yes
-20:20:29:  *     SSE3: yes
-20:20:29:  *      MMX: yes
-20:20:29:  *   MMXEXT: yes
-20:20:29:  *    3DNOW: no
-20:20:29:  * 3DNOWEXT: no
-20:20:29:  *     CMOV: yes
-20:20:29:  *      TSC: yes
-20:20:29:  *      FPU: yes
-20:20:29:  *      PRO: yes
-20:20:29:  *       HT: no
-20:20:29: -------------------------
-20:20:29: ******************************
+08:11:23: CPU Identifier & Features
+08:11:23: -------------------------
+08:11:23:  *   CPU ID: GenuineIntel: Intel(R) Core(TM) i7-2720QM CPU @ 2.20GHz
+08:11:23:  *      SSE: yes
+08:11:23:  *     SSE2: yes
+08:11:23:  *     SSE3: yes
+08:11:23:  *      MMX: yes
+08:11:23:  *   MMXEXT: yes
+08:11:23:  *    3DNOW: no
+08:11:23:  * 3DNOWEXT: no
+08:11:23:  *     CMOV: yes
+08:11:23:  *      TSC: yes
+08:11:23:  *      FPU: yes
+08:11:23:  *      PRO: yes
+08:11:23:  *       HT: no
+08:11:23: -------------------------
+08:11:23: ******************************
 *** Starting GLX Subsystem ***
 ******************************
-20:20:29: Registering ResourceManager for type Texture
-20:20:29: GLRenderSystem::_createRenderWindow "DemoApp v1.0", 640x480 windowed  miscParams: FSAA=8 displayFrequency=63 Hz gamma=No vsync=No 
-20:20:29: GLXWindow::create used FBConfigID = 71
-20:20:29: GL_VERSION = 4.2.12217 Compatibility Profile Context 12.104
-20:20:29: GL_VENDOR = ATI Technologies Inc.
-20:20:29: GL_RENDERER = AMD Radeon HD 6900M Series
-20:20:29: GL_EXTENSIONS = GL_AMDX_debug_output GL_AMDX_vertex_shader_tessellator GL_AMD_conservative_depth GL_AMD_debug_output GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_multi_draw_indirect GL_AMD_name_gen_delete GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_sample_positions GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trace GL_AMD_texture_cube_map_array GL_AMD_texture_texture4 GL_AMD_transform_feedback3_lines_triangles GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_tessellator GL_AMD_vertex_shader_viewport_index GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_clear_buffer_object GL_ARB_color_buffer_float GL_ARB_compatibility GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counters GL_ARB_shader_bit_encoding GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shading_language_420pack GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_shadow_ambient GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_snorm GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transpose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_envmap_bumpmap GL_ATI_fragment_shader GL_ATI_meminfo GL_ATI_separate_stencil GL_ATI_texture_compression_3dc GL_ATI_texture_env_combine3 GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_copy_buffer GL_EXT_copy_texture GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_histogram GL_EXT_multi_draw_arrays GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_provoking_vertex GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_specular_color GL_EXT_shader_image_load_store GL_EXT_shadow_funcs GL_EXT_stencil_wrap GL_EXT_subtexture GL_EXT_texgen_reflection GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_bptc GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_add GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_lod GL_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_rectangle GL_EXT_texture_sRGB GL_EXT_texture_sRGB_decode GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_texture_mirrored_repeat GL_KTX_buffer_region GL_NV_blend_square GL_NV_conditional_render GL_NV_copy_depth_to_color GL_NV_copy_image GL_NV_explicit_multisample GL_NV_float_buffer GL_NV_half_float GL_NV_primitive_restart GL_NV_texgen_reflection GL_NV_texture_barrier GL_SGIS_generate_mipmap GL_SGIS_texture_edge_clamp GL_SGIS_texture_lod GL_SUN_multi_draw_arrays GL_WIN_swap_hint
-20:20:29: Supported GLX extensions: GLX_ARB_create_context GLX_ARB_create_context_profile GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_import_context GLX_EXT_swap_control GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_swap_control GLX_NV_swap_group GLX_OML_swap_method GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_swap_barrier GLX_SGIX_swap_group GLX_SGIX_visual_select_group GLX_EXT_texture_from_pixmap 
-20:20:29: ***************************
-20:20:29: *** GL Renderer Started ***
-20:20:29: ***************************
-20:20:29: Registering ResourceManager for type GpuProgram
-20:20:29: GLSL support detected
-20:20:29: GL: Using GL_EXT_framebuffer_object for rendering to textures (best)
-20:20:29: FBO PF_UNKNOWN depth/stencil support: D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
-20:20:29: FBO PF_L8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
-20:20:29: FBO PF_L16 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
-20:20:29: FBO PF_A8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
-20:20:29: FBO PF_A4L4 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
-20:20:29: FBO PF_BYTE_LA depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
-20:20:29: FBO PF_R5G6B5 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
-20:20:29: FBO PF_B5G6R5 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
-20:20:29: FBO PF_A4R4G4B4 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
-20:20:29: FBO PF_A1R5G5B5 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
-20:20:29: FBO PF_R8G8B8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
-20:20:29: FBO PF_B8G8R8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
-20:20:29: FBO PF_A8R8G8B8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
-20:20:29: FBO PF_B8G8R8A8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
-20:20:29: FBO PF_A2R10G10B10 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
-20:20:29: FBO PF_A2B10G10R10 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
-20:20:29: FBO PF_FLOAT16_RGB depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
-20:20:29: FBO PF_FLOAT16_RGBA depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
-20:20:29: FBO PF_FLOAT32_RGB depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
-20:20:29: FBO PF_FLOAT32_RGBA depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
-20:20:29: FBO PF_X8R8G8B8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
-20:20:29: FBO PF_X8B8G8R8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
-20:20:29: FBO PF_SHORT_RGBA depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
-20:20:29: FBO PF_R3G3B2 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
-20:20:29: FBO PF_FLOAT16_R depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
-20:20:29: FBO PF_FLOAT32_R depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
-20:20:29: FBO PF_SHORT_GR depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
-20:20:29: FBO PF_FLOAT16_GR depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
-20:20:29: FBO PF_FLOAT32_GR depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
-20:20:29: FBO PF_SHORT_RGB depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
-20:20:29: [GL] : Valid FBO targets PF_UNKNOWN PF_L8 PF_L16 PF_A8 PF_A4L4 PF_BYTE_LA PF_R5G6B5 PF_B5G6R5 PF_A4R4G4B4 PF_A1R5G5B5 PF_R8G8B8 PF_B8G8R8 PF_A8R8G8B8 PF_B8G8R8A8 PF_A2R10G10B10 PF_A2B10G10R10 PF_FLOAT16_RGB PF_FLOAT16_RGBA PF_FLOAT32_RGB PF_FLOAT32_RGBA PF_X8R8G8B8 PF_X8B8G8R8 PF_SHORT_RGBA PF_R3G3B2 PF_FLOAT16_R PF_FLOAT32_R PF_SHORT_GR PF_FLOAT16_GR PF_FLOAT32_GR PF_SHORT_RGB 
-20:20:29: RenderSystem capabilities
-20:20:29: -------------------------
-20:20:29: RenderSystem Name: OpenGL Rendering Subsystem
-20:20:29: GPU Vendor: amd
-20:20:29: Device Name: AMD Radeon HD 6900M Series
-20:20:29: Driver Version: 4.2.12217.0
-20:20:29:  * Fixed function pipeline: yes
-20:20:29:  * Hardware generation of mipmaps: no
-20:20:29:  * Texture blending: yes
-20:20:29:  * Anisotropic texture filtering: yes
-20:20:29:  * Dot product texture operation: yes
-20:20:29:  * Cube mapping: yes
-20:20:29:  * Hardware stencil buffer: yes
-20:20:29:    - Stencil depth: 8
-20:20:29:    - Two sided stencil support: yes
-20:20:29:    - Wrap stencil values: yes
-20:20:29:  * Hardware vertex / index buffers: yes
-20:20:29:  * Vertex programs: yes
-20:20:29:  * Number of floating-point constants for vertex programs: 256
-20:20:29:  * Number of integer constants for vertex programs: 0
-20:20:29:  * Number of boolean constants for vertex programs: 0
-20:20:29:  * Fragment programs: yes
-20:20:29:  * Number of floating-point constants for fragment programs: 256
-20:20:29:  * Number of integer constants for fragment programs: 0
-20:20:29:  * Number of boolean constants for fragment programs: 0
-20:20:29:  * Geometry programs: yes
-20:20:29:  * Number of floating-point constants for geometry programs: 16384
-20:20:29:  * Number of integer constants for geometry programs: 0
-20:20:29:  * Number of boolean constants for geometry programs: 0
-20:20:29:  * Tesselation Hull programs: no
-20:20:29:  * Number of floating-point constants for tesselation hull programs: 7517
-20:20:29:  * Number of integer constants for tesselation hull programs: 55487
-20:20:29:  * Number of boolean constants for tesselation hull programs: 3161
-20:20:29:  * Tesselation Domain programs: no
-20:20:29:  * Number of floating-point constants for tesselation domain programs: 57037
-20:20:29:  * Number of integer constants for tesselation domain programs: 43893
-20:20:29:  * Number of boolean constants for tesselation domain programs: 35571
-20:20:29:  * Compute programs: no
-20:20:29:  * Number of floating-point constants for compute programs: 48374
-20:20:29:  * Number of integer constants for compute programs: 62204
-20:20:29:  * Number of boolean constants for compute programs: 47691
-20:20:29:  * Supported Shader Profiles: arbfp1 arbvp1 glsl gp4gp gpu_gp nvgp4 ps_1_1 ps_1_2 ps_1_3 ps_1_4
-20:20:29:  * Texture Compression: yes
-20:20:29:    - DXT: yes
-20:20:29:    - VTC: no
-20:20:29:    - PVRTC: no
-20:20:29:    - ATC: no
-20:20:29:    - ETC1: no
-20:20:29:    - ETC2: no
-20:20:29:    - BC4/BC5: no
-20:20:29:    - BC6H/BC7: no
-20:20:29:  * Scissor Rectangle: yes
-20:20:29:  * Hardware Occlusion Query: yes
-20:20:29:  * User clip planes: yes
-20:20:29:  * VET_UBYTE4 vertex element type: yes
-20:20:29:  * Infinite far plane projection: yes
-20:20:29:  * Hardware render-to-texture: yes
-20:20:29:  * Floating point textures: yes
-20:20:29:  * Non-power-of-two textures: yes
-20:20:29:  * 1d textures: yes
-20:20:29:  * Volume textures: yes
-20:20:29:  * Multiple Render Targets: 8
-20:20:29:    - With different bit depths: yes
-20:20:29:  * Point Sprites: yes
-20:20:29:  * Extended point parameters: yes
-20:20:29:  * Max Point Size: 8192
-20:20:29:  * Vertex texture fetch: yes
-20:20:29:  * Number of world matrices: 0
-20:20:29:  * Number of texture units: 16
-20:20:29:  * Stencil buffer depth: 8
-20:20:29:  * Number of vertex blend matrices: 0
-20:20:29:    - Max vertex textures: 16
-20:20:29:    - Vertex textures shared: yes
-20:20:29:  * Render to Vertex Buffer : no
-20:20:29:  * Hardware Atomic Counters: no
-20:20:29:  * GL 1.5 without VBO workaround: no
-20:20:29:  * Frame Buffer objects: yes
-20:20:29:  * Frame Buffer objects (ARB extension): no
-20:20:29:  * Frame Buffer objects (ATI extension): no
-20:20:29:  * PBuffer support: yes
-20:20:29:  * GL 1.5 without HW-occlusion workaround: no
-20:20:29:  * Vertex Array Objects: no
-20:20:29:  * Separate shader objects: no
-20:20:29: Using FSAA from GL_ARB_multisample extension.
-20:20:29: DefaultWorkQueue('Root') initialising on thread 0x1147a50.
-20:20:29: DefaultWorkQueue('Root')::WorkerFunc - thread 0x16b5400 starting.
-20:20:29: DefaultWorkQueue('Root')::WorkerFunc - thread 0x16b4660 starting.
-20:20:29: DefaultWorkQueue('Root')::WorkerFunc - thread 0x16b0f80 starting.
-20:20:29: DefaultWorkQueue('Root')::WorkerFunc - thread 0x16b2e60 starting.
-20:20:29: DefaultWorkQueue('Root')::WorkerFunc - thread 0x16b3600 starting.
-20:20:29: DefaultWorkQueue('Root')::WorkerFunc - thread 0x16b3180 starting.
-20:20:29: DefaultWorkQueue('Root')::WorkerFunc - thread 0x16b3920 starting.
-20:20:29: DefaultWorkQueue('Root')::WorkerFunc - thread 0x16b3c40 starting.
-20:20:29: Particle Renderer Type 'billboard' registered
-20:20:29: SceneManagerFactory for type 'BspSceneManager' registered.
-20:20:29: Registering ResourceManager for type BspLevel
-20:20:29: SceneManagerFactory for type 'PCZSceneManager' registered.
-20:20:29: MovableObjectFactory for type 'PCZLight' registered.
-20:20:29: MovableObjectFactory for type 'Portal' registered.
-20:20:29: MovableObjectFactory for type 'AntiPortal' registered.
-20:20:29: PCZone Factory Type 'ZoneType_Octree' registered
-20:20:29: SceneManagerFactory for type 'OctreeSceneManager' registered.
-20:20:29: Creating resource group Essential
-20:20:29: Added resource location 'OgreFiles/media/thumbnails' of type 'FileSystem' to resource group 'Essential'
-20:20:29: Added resource location 'OgreFiles/media/packs/SdkTrays.zip' of type 'Zip' to resource group 'Essential'
-20:20:29: Added resource location 'OgreFiles/media/packs/profiler.zip' of type 'Zip' to resource group 'Essential'
-20:20:29: Added resource location 'OgreFiles/media' of type 'FileSystem' to resource group 'General'
-20:20:29: Creating resource group Popular
-20:20:29: Added resource location 'OgreFiles/media/fonts' of type 'FileSystem' to resource group 'Popular'
-20:20:29: Added resource location 'OgreFiles/media/materials/programs' of type 'FileSystem' to resource group 'Popular'
-20:20:29: Added resource location 'OgreFiles/media/materials/scripts' of type 'FileSystem' to resource group 'Popular'
-20:20:29: Added resource location 'OgreFiles/media/materials/textures' of type 'FileSystem' to resource group 'Popular'
-20:20:29: Added resource location 'OgreFiles/media/materials/textures/nvidia' of type 'FileSystem' to resource group 'Popular'
-20:20:29: Added resource location 'OgreFiles/media/models' of type 'FileSystem' to resource group 'Popular'
-20:20:29: Added resource location 'OgreFiles/media/flatenModels' of type 'FileSystem' to resource group 'Popular'
-20:20:29: Added resource location 'OgreFiles/media/particle' of type 'FileSystem' to resource group 'Popular'
-20:20:29: Added resource location 'OgreFiles/media/DeferredShadingMedia' of type 'FileSystem' to resource group 'Popular'
-20:20:29: Added resource location 'OgreFiles/media/PCZAppMedia' of type 'FileSystem' to resource group 'Popular'
-20:20:29: Added resource location 'OgreFiles/media/RTShaderLib' of type 'FileSystem' to resource group 'Popular'
-20:20:29: Added resource location 'OgreFiles/media/RTShaderLib/materials' of type 'FileSystem' to resource group 'Popular'
-20:20:29: Added resource location 'OgreFiles/media/materials/scripts/SSAO' of type 'FileSystem' to resource group 'Popular'
-20:20:29: Added resource location 'OgreFiles/media/materials/textures/SSAO' of type 'FileSystem' to resource group 'Popular'
-20:20:29: Added resource location 'OgreFiles/GUI' of type 'FileSystem' to resource group 'Popular'
-20:20:29: Added resource location 'OgreFiles/media/packs/cubemap.zip' of type 'Zip' to resource group 'Popular'
-20:20:29: Added resource location 'OgreFiles/media/packs/cubemapsJS.zip' of type 'Zip' to resource group 'Popular'
-20:20:29: Added resource location 'OgreFiles/media/packs/dragon.zip' of type 'Zip' to resource group 'Popular'
-20:20:29: Added resource location 'OgreFiles/media/packs/fresneldemo.zip' of type 'Zip' to resource group 'Popular'
-20:20:29: Added resource location 'OgreFiles/media/packs/ogretestmap.zip' of type 'Zip' to resource group 'Popular'
-20:20:29: Added resource location 'OgreFiles/media/packs/ogredance.zip' of type 'Zip' to resource group 'Popular'
-20:20:29: Added resource location 'OgreFiles/media/packs/Sinbad.zip' of type 'Zip' to resource group 'Popular'
-20:20:29: Added resource location 'OgreFiles/media/packs/skybox.zip' of type 'Zip' to resource group 'Popular'
-20:20:29: Creating resource group Tests
-20:20:29: Added resource location 'OgreFiles/media/../../Tests/Media' of type 'FileSystem' to resource group 'Tests'
-20:20:29: Parsing scripts for resource group Autodetect
-20:20:29: Finished parsing scripts for resource group Autodetect
-20:20:29: Creating resources for group Autodetect
-20:20:29: All done
-20:20:29: Parsing scripts for resource group Essential
-20:20:29: Parsing script SdkTrays.material
-20:20:29: Parsing script OgreProfiler.material
-20:20:29: Finished parsing scripts for resource group Essential
-20:20:29: Creating resources for group Essential
-20:20:29: All done
-20:20:29: Parsing scripts for resource group General
-20:20:29: Finished parsing scripts for resource group General
-20:20:29: Creating resources for group General
-20:20:29: All done
-20:20:29: Parsing scripts for resource group Internal
-20:20:29: Finished parsing scripts for resource group Internal
-20:20:29: Creating resources for group Internal
-20:20:29: All done
-20:20:29: Parsing scripts for resource group Popular
-20:20:29: Parsing script Instancing.program
-20:20:29: Parsing script Examples.program
-20:20:29: Parsing script StdQuad_vp.program
-20:20:29: Parsing script DualQuaternion.program
-20:20:29: OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/DualQuaternionHardwareSkinningTwoWeightsTwoPhaseCg: The compile returned an error.
+08:11:23: Registering ResourceManager for type Texture
+08:11:23: GLRenderSystem::_createRenderWindow "Editor", 640x480 windowed  miscParams: FSAA=8 displayFrequency=63 Hz gamma=No vsync=No 
+08:11:23: GLXWindow::create used FBConfigID = 71
+08:11:23: GL_VERSION = 4.2.12217 Compatibility Profile Context 12.104
+08:11:23: GL_VENDOR = ATI Technologies Inc.
+08:11:23: GL_RENDERER = AMD Radeon HD 6900M Series
+08:11:23: GL_EXTENSIONS = GL_AMDX_debug_output GL_AMDX_vertex_shader_tessellator GL_AMD_conservative_depth GL_AMD_debug_output GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_multi_draw_indirect GL_AMD_name_gen_delete GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_sample_positions GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trace GL_AMD_texture_cube_map_array GL_AMD_texture_texture4 GL_AMD_transform_feedback3_lines_triangles GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_tessellator GL_AMD_vertex_shader_viewport_index GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_clear_buffer_object GL_ARB_color_buffer_float GL_ARB_compatibility GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counters GL_ARB_shader_bit_encoding GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shading_language_420pack GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_shadow_ambient GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_snorm GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transpose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_envmap_bumpmap GL_ATI_fragment_shader GL_ATI_meminfo GL_ATI_separate_stencil GL_ATI_texture_compression_3dc GL_ATI_texture_env_combine3 GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_copy_buffer GL_EXT_copy_texture GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_histogram GL_EXT_multi_draw_arrays GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_provoking_vertex GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_specular_color GL_EXT_shader_image_load_store GL_EXT_shadow_funcs GL_EXT_stencil_wrap GL_EXT_subtexture GL_EXT_texgen_reflection GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_bptc GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_add GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_lod GL_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_rectangle GL_EXT_texture_sRGB GL_EXT_texture_sRGB_decode GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_texture_mirrored_repeat GL_KTX_buffer_region GL_NV_blend_square GL_NV_conditional_render GL_NV_copy_depth_to_color GL_NV_copy_image GL_NV_explicit_multisample GL_NV_float_buffer GL_NV_half_float GL_NV_primitive_restart GL_NV_texgen_reflection GL_NV_texture_barrier GL_SGIS_generate_mipmap GL_SGIS_texture_edge_clamp GL_SGIS_texture_lod GL_SUN_multi_draw_arrays GL_WIN_swap_hint
+08:11:23: Supported GLX extensions: GLX_ARB_create_context GLX_ARB_create_context_profile GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_import_context GLX_EXT_swap_control GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_swap_control GLX_NV_swap_group GLX_OML_swap_method GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_swap_barrier GLX_SGIX_swap_group GLX_SGIX_visual_select_group GLX_EXT_texture_from_pixmap 
+08:11:23: ***************************
+08:11:23: *** GL Renderer Started ***
+08:11:23: ***************************
+08:11:23: Registering ResourceManager for type GpuProgram
+08:11:23: GLSL support detected
+08:11:23: GL: Using GL_EXT_framebuffer_object for rendering to textures (best)
+08:11:23: FBO PF_UNKNOWN depth/stencil support: D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+08:11:23: FBO PF_L8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+08:11:23: FBO PF_L16 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+08:11:23: FBO PF_A8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+08:11:23: FBO PF_A4L4 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+08:11:23: FBO PF_BYTE_LA depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+08:11:23: FBO PF_R5G6B5 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+08:11:23: FBO PF_B5G6R5 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+08:11:23: FBO PF_A4R4G4B4 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+08:11:23: FBO PF_A1R5G5B5 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+08:11:23: FBO PF_R8G8B8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+08:11:23: FBO PF_B8G8R8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+08:11:23: FBO PF_A8R8G8B8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+08:11:23: FBO PF_B8G8R8A8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+08:11:23: FBO PF_A2R10G10B10 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+08:11:23: FBO PF_A2B10G10R10 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+08:11:23: FBO PF_FLOAT16_RGB depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+08:11:23: FBO PF_FLOAT16_RGBA depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+08:11:23: FBO PF_FLOAT32_RGB depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+08:11:23: FBO PF_FLOAT32_RGBA depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+08:11:23: FBO PF_X8R8G8B8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+08:11:23: FBO PF_X8B8G8R8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+08:11:23: FBO PF_SHORT_RGBA depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+08:11:23: FBO PF_R3G3B2 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+08:11:23: FBO PF_FLOAT16_R depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+08:11:23: FBO PF_FLOAT32_R depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+08:11:23: FBO PF_SHORT_GR depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+08:11:23: FBO PF_FLOAT16_GR depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+08:11:23: FBO PF_FLOAT32_GR depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+08:11:23: FBO PF_SHORT_RGB depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+08:11:23: [GL] : Valid FBO targets PF_UNKNOWN PF_L8 PF_L16 PF_A8 PF_A4L4 PF_BYTE_LA PF_R5G6B5 PF_B5G6R5 PF_A4R4G4B4 PF_A1R5G5B5 PF_R8G8B8 PF_B8G8R8 PF_A8R8G8B8 PF_B8G8R8A8 PF_A2R10G10B10 PF_A2B10G10R10 PF_FLOAT16_RGB PF_FLOAT16_RGBA PF_FLOAT32_RGB PF_FLOAT32_RGBA PF_X8R8G8B8 PF_X8B8G8R8 PF_SHORT_RGBA PF_R3G3B2 PF_FLOAT16_R PF_FLOAT32_R PF_SHORT_GR PF_FLOAT16_GR PF_FLOAT32_GR PF_SHORT_RGB 
+08:11:23: RenderSystem capabilities
+08:11:23: -------------------------
+08:11:23: RenderSystem Name: OpenGL Rendering Subsystem
+08:11:23: GPU Vendor: amd
+08:11:23: Device Name: AMD Radeon HD 6900M Series
+08:11:23: Driver Version: 4.2.12217.0
+08:11:23:  * Fixed function pipeline: yes
+08:11:23:  * Hardware generation of mipmaps: no
+08:11:23:  * Texture blending: yes
+08:11:23:  * Anisotropic texture filtering: yes
+08:11:23:  * Dot product texture operation: yes
+08:11:23:  * Cube mapping: yes
+08:11:23:  * Hardware stencil buffer: yes
+08:11:23:    - Stencil depth: 8
+08:11:23:    - Two sided stencil support: yes
+08:11:23:    - Wrap stencil values: yes
+08:11:23:  * Hardware vertex / index buffers: yes
+08:11:23:  * Vertex programs: yes
+08:11:23:  * Number of floating-point constants for vertex programs: 256
+08:11:23:  * Number of integer constants for vertex programs: 0
+08:11:23:  * Number of boolean constants for vertex programs: 0
+08:11:23:  * Fragment programs: yes
+08:11:23:  * Number of floating-point constants for fragment programs: 256
+08:11:23:  * Number of integer constants for fragment programs: 0
+08:11:23:  * Number of boolean constants for fragment programs: 0
+08:11:23:  * Geometry programs: yes
+08:11:23:  * Number of floating-point constants for geometry programs: 16384
+08:11:23:  * Number of integer constants for geometry programs: 0
+08:11:23:  * Number of boolean constants for geometry programs: 0
+08:11:23:  * Tesselation Hull programs: no
+08:11:23:  * Number of floating-point constants for tesselation hull programs: 7517
+08:11:23:  * Number of integer constants for tesselation hull programs: 55487
+08:11:23:  * Number of boolean constants for tesselation hull programs: 3161
+08:11:23:  * Tesselation Domain programs: no
+08:11:23:  * Number of floating-point constants for tesselation domain programs: 57037
+08:11:23:  * Number of integer constants for tesselation domain programs: 43893
+08:11:23:  * Number of boolean constants for tesselation domain programs: 35571
+08:11:23:  * Compute programs: no
+08:11:23:  * Number of floating-point constants for compute programs: 48374
+08:11:23:  * Number of integer constants for compute programs: 62204
+08:11:23:  * Number of boolean constants for compute programs: 47691
+08:11:23:  * Supported Shader Profiles: arbfp1 arbvp1 glsl gp4gp gpu_gp nvgp4 ps_1_1 ps_1_2 ps_1_3 ps_1_4
+08:11:23:  * Texture Compression: yes
+08:11:23:    - DXT: yes
+08:11:23:    - VTC: no
+08:11:23:    - PVRTC: no
+08:11:23:    - ATC: no
+08:11:23:    - ETC1: no
+08:11:23:    - ETC2: no
+08:11:23:    - BC4/BC5: no
+08:11:23:    - BC6H/BC7: no
+08:11:23:  * Scissor Rectangle: yes
+08:11:23:  * Hardware Occlusion Query: yes
+08:11:23:  * User clip planes: yes
+08:11:23:  * VET_UBYTE4 vertex element type: yes
+08:11:23:  * Infinite far plane projection: yes
+08:11:23:  * Hardware render-to-texture: yes
+08:11:23:  * Floating point textures: yes
+08:11:23:  * Non-power-of-two textures: yes
+08:11:23:  * 1d textures: yes
+08:11:23:  * Volume textures: yes
+08:11:23:  * Multiple Render Targets: 8
+08:11:23:    - With different bit depths: yes
+08:11:23:  * Point Sprites: yes
+08:11:23:  * Extended point parameters: yes
+08:11:23:  * Max Point Size: 8192
+08:11:23:  * Vertex texture fetch: yes
+08:11:23:  * Number of world matrices: 0
+08:11:23:  * Number of texture units: 16
+08:11:23:  * Stencil buffer depth: 8
+08:11:23:  * Number of vertex blend matrices: 0
+08:11:23:    - Max vertex textures: 16
+08:11:23:    - Vertex textures shared: yes
+08:11:23:  * Render to Vertex Buffer : no
+08:11:23:  * Hardware Atomic Counters: no
+08:11:23:  * GL 1.5 without VBO workaround: no
+08:11:23:  * Frame Buffer objects: yes
+08:11:23:  * Frame Buffer objects (ARB extension): no
+08:11:23:  * Frame Buffer objects (ATI extension): no
+08:11:23:  * PBuffer support: yes
+08:11:23:  * GL 1.5 without HW-occlusion workaround: no
+08:11:23:  * Vertex Array Objects: no
+08:11:23:  * Separate shader objects: no
+08:11:23: Using FSAA from GL_ARB_multisample extension.
+08:11:23: DefaultWorkQueue('Root') initialising on thread 0x1bd13f0.
+08:11:23: DefaultWorkQueue('Root')::WorkerFunc - thread 0x213ecf0 starting.
+08:11:23: DefaultWorkQueue('Root')::WorkerFunc - thread 0x213df50 starting.
+08:11:23: DefaultWorkQueue('Root')::WorkerFunc - thread 0x213c750 starting.
+08:11:23: DefaultWorkQueue('Root')::WorkerFunc - thread 0x213a870 starting.
+08:11:23: DefaultWorkQueue('Root')::WorkerFunc - thread 0x213ca70 starting.
+08:11:23: DefaultWorkQueue('Root')::WorkerFunc - thread 0x213d210 starting.
+08:11:23: DefaultWorkQueue('Root')::WorkerFunc - thread 0x213cef0 starting.
+08:11:23: DefaultWorkQueue('Root')::WorkerFunc - thread 0x213d530 starting.
+08:11:23: Particle Renderer Type 'billboard' registered
+08:11:23: SceneManagerFactory for type 'BspSceneManager' registered.
+08:11:23: Registering ResourceManager for type BspLevel
+08:11:23: SceneManagerFactory for type 'PCZSceneManager' registered.
+08:11:23: MovableObjectFactory for type 'PCZLight' registered.
+08:11:23: MovableObjectFactory for type 'Portal' registered.
+08:11:23: MovableObjectFactory for type 'AntiPortal' registered.
+08:11:23: PCZone Factory Type 'ZoneType_Octree' registered
+08:11:23: SceneManagerFactory for type 'OctreeSceneManager' registered.
+08:11:23: Creating resource group Essential
+08:11:23: Added resource location 'OgreFiles/media/thumbnails' of type 'FileSystem' to resource group 'Essential'
+08:11:23: Added resource location 'OgreFiles/media/packs/SdkTrays.zip' of type 'Zip' to resource group 'Essential'
+08:11:23: Added resource location 'OgreFiles/media/packs/profiler.zip' of type 'Zip' to resource group 'Essential'
+08:11:23: Added resource location 'OgreFiles/media' of type 'FileSystem' to resource group 'General'
+08:11:23: Creating resource group Popular
+08:11:23: Added resource location 'OgreFiles/media/fonts' of type 'FileSystem' to resource group 'Popular'
+08:11:23: Added resource location 'OgreFiles/media/materials/programs' of type 'FileSystem' to resource group 'Popular'
+08:11:23: Added resource location 'OgreFiles/media/materials/scripts' of type 'FileSystem' to resource group 'Popular'
+08:11:23: Added resource location 'OgreFiles/media/materials/textures' of type 'FileSystem' to resource group 'Popular'
+08:11:23: Added resource location 'OgreFiles/media/materials/textures/nvidia' of type 'FileSystem' to resource group 'Popular'
+08:11:23: Added resource location 'OgreFiles/media/models' of type 'FileSystem' to resource group 'Popular'
+08:11:23: Added resource location 'OgreFiles/media/flatenModels' of type 'FileSystem' to resource group 'Popular'
+08:11:23: Added resource location 'OgreFiles/media/particle' of type 'FileSystem' to resource group 'Popular'
+08:11:23: Added resource location 'OgreFiles/media/DeferredShadingMedia' of type 'FileSystem' to resource group 'Popular'
+08:11:23: Added resource location 'OgreFiles/media/PCZAppMedia' of type 'FileSystem' to resource group 'Popular'
+08:11:23: Added resource location 'OgreFiles/media/RTShaderLib' of type 'FileSystem' to resource group 'Popular'
+08:11:23: Added resource location 'OgreFiles/media/RTShaderLib/materials' of type 'FileSystem' to resource group 'Popular'
+08:11:23: Added resource location 'OgreFiles/media/materials/scripts/SSAO' of type 'FileSystem' to resource group 'Popular'
+08:11:23: Added resource location 'OgreFiles/media/materials/textures/SSAO' of type 'FileSystem' to resource group 'Popular'
+08:11:23: Added resource location 'OgreFiles/GUI' of type 'FileSystem' to resource group 'Popular'
+08:11:23: Added resource location 'OgreFiles/media/packs/cubemap.zip' of type 'Zip' to resource group 'Popular'
+08:11:23: Added resource location 'OgreFiles/media/packs/cubemapsJS.zip' of type 'Zip' to resource group 'Popular'
+08:11:23: Added resource location 'OgreFiles/media/packs/dragon.zip' of type 'Zip' to resource group 'Popular'
+08:11:23: Added resource location 'OgreFiles/media/packs/fresneldemo.zip' of type 'Zip' to resource group 'Popular'
+08:11:23: Added resource location 'OgreFiles/media/packs/ogretestmap.zip' of type 'Zip' to resource group 'Popular'
+08:11:23: Added resource location 'OgreFiles/media/packs/ogredance.zip' of type 'Zip' to resource group 'Popular'
+08:11:23: Added resource location 'OgreFiles/media/packs/Sinbad.zip' of type 'Zip' to resource group 'Popular'
+08:11:23: Added resource location 'OgreFiles/media/packs/skybox.zip' of type 'Zip' to resource group 'Popular'
+08:11:23: Creating resource group Tests
+08:11:23: Added resource location 'OgreFiles/media/../../Tests/Media' of type 'FileSystem' to resource group 'Tests'
+08:11:23: Parsing scripts for resource group Autodetect
+08:11:23: Finished parsing scripts for resource group Autodetect
+08:11:23: Creating resources for group Autodetect
+08:11:23: All done
+08:11:23: Parsing scripts for resource group Essential
+08:11:23: Parsing script SdkTrays.material
+08:11:23: Parsing script OgreProfiler.material
+08:11:23: Finished parsing scripts for resource group Essential
+08:11:23: Creating resources for group Essential
+08:11:23: All done
+08:11:23: Parsing scripts for resource group General
+08:11:23: Finished parsing scripts for resource group General
+08:11:23: Creating resources for group General
+08:11:23: All done
+08:11:23: Parsing scripts for resource group Internal
+08:11:23: Finished parsing scripts for resource group Internal
+08:11:23: Creating resources for group Internal
+08:11:23: All done
+08:11:23: Parsing scripts for resource group Popular
+08:11:23: Parsing script Instancing.program
+08:11:23: Parsing script Examples.program
+08:11:23: Parsing script StdQuad_vp.program
+08:11:23: Parsing script DualQuaternion.program
+08:11:23: OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/DualQuaternionHardwareSkinningTwoWeightsTwoPhaseCg: The compile returned an error.
 DualQuaternion_Common.cg(167) : warning C7019: "blendWgt" is too large for semantic "BLENDWEIGHT", which is size 1
 (0) : error C6007: Constant register limit exceeded; more than 96 constant registers needed to compiled program
 (0) : error C6007: Constant register limit exceeded; more than 96 constant registers needed to compiled program
@@ -229,7 +229,7 @@ DualQuaternion_Common.cg(167) : warning C7019: "blendWgt" is too large for seman
 (0) : error C6007: Constant register limit exceeded; more than 96 constant registers needed to compiled program
 (0) : error C6007: Constant register limit exceeded; more than 96 constant registers needed to compiled program
  in CgProgram::compileMicrocode at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/PlugIns/CgProgramManager/src/OgreCgProgramManagerDll.cpp (line 67)
-20:20:29: High-level program Ogre/DualQuaternionHardwareSkinningTwoWeightsTwoPhaseCg encountered an error during loading and is thus not supported.
+08:11:23: High-level program Ogre/DualQuaternionHardwareSkinningTwoWeightsTwoPhaseCg encountered an error during loading and is thus not supported.
 OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/DualQuaternionHardwareSkinningTwoWeightsTwoPhaseCg: The compile returned an error.
 DualQuaternion_Common.cg(167) : warning C7019: "blendWgt" is too large for semantic "BLENDWEIGHT", which is size 1
 (0) : error C6007: Constant register limit exceeded; more than 96 constant registers needed to compiled program
@@ -241,76 +241,76 @@ DualQuaternion_Common.cg(167) : warning C7019: "blendWgt" is too large for seman
 (0) : error C6007: Constant register limit exceeded; more than 96 constant registers needed to compiled program
 (0) : error C6007: Constant register limit exceeded; more than 96 constant registers needed to compiled program
  in CgProgram::compileMicrocode at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/PlugIns/CgProgramManager/src/OgreCgProgramManagerDll.cpp (line 67)
-20:20:29: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
-20:20:29: Compiler error: invalid parameters in DualQuaternion.program(28): setting of constant failed
-20:20:29: Parsing script ShadowCaster.program
-20:20:29: Parsing script deferred_post.program
-20:20:29: Parsing script HeatVision.material
-20:20:29: Parsing script GLSLSwizzle.material
-20:20:29: Parsing script shadows.material
-20:20:29: Parsing script BlackAndWhite.material
-20:20:29: Parsing script CGSwizzle.material
-20:20:29: Parsing script Examples.material
-20:20:29: Parsing script SharpenEdges.material
-20:20:29: Parsing script hdr.material
-20:20:29: Parsing script smoke.material
-20:20:29: Parsing script ShaderInstancing.material
-20:20:29: Parsing script ASCII.material
-20:20:29: Parsing script Bloom.material
-20:20:29: Parsing script Halftone.material
-20:20:29: Parsing script InstancingMisc.material
-20:20:29: Parsing script DepthShadowmap.material
-20:20:29: Parsing script Glass.material
-20:20:29: Parsing script IsoSurf.material
-20:20:29: Problem parsing the following Cg Uniform: '@TMP29' in file Ogre/IsoSurf/TessellateTetrahedraGS_CG
-20:20:29: Parsing script HW_VTFInstancing.material
-20:20:29: Parsing script OffsetMapping.material
-20:20:29: Parsing script Posterize.material
-20:20:29: Parsing script instancing.material
-20:20:29: Parsing script DualQuaternion.material
-20:20:29: Parsing script OldTV.material
-20:20:29: Parsing script HW_VTF_LUTInstancing.material
-20:20:29: Parsing script Ocean.material
-20:20:29: Parsing script ParticleGS.material
-20:20:29: Parsing script RZR-002.material
-20:20:29: Parsing script Invert.material
-20:20:29: Parsing script CompositorDemo.material
-20:20:29: Parsing script ShaderSystem.material
-20:20:29: Parsing script DOF.material
-20:20:29: Parsing script Examples-Water.material
-20:20:29: Parsing script VarianceShadowmap.material
-20:20:29: Parsing script ASMSwizzle.material
-20:20:29: Parsing script NightVision.material
-20:20:29: Parsing script Penguin.material
-20:20:29: Parsing script Tiling.material
-20:20:29: Parsing script Ogre.material
-20:20:29: Parsing script Laplace.material
-20:20:29: Parsing script Embossed.material
-20:20:29: Parsing script VTFInstancing.material
-20:20:29: Parsing script OldMovie.material
-20:20:29: Parsing script Bloom2.material
-20:20:29: Parsing script Example-Water.material
-20:20:29: Parsing script RadialBlur.material
-20:20:29: Parsing script MRTtest.material
-20:20:29: Parsing script Hurt.material
-20:20:29: Parsing script MotionBlur.material
-20:20:29: Parsing script Dither.material
-20:20:29: Parsing script pssm.material
-20:20:29: Parsing script Examples-Advanced.material
-20:20:29: Compiler error: object unsupported by render system in Examples-Advanced.material(787): , Shader name: Examples/TextureArrayPSasm
-20:20:29: Parsing script facial.material
-20:20:29: Parsing script sibenik.material
-20:20:29: Parsing script Examples-DynTex.material
-20:20:29: Parsing script HWInstancing.material
-20:20:29: Parsing script TestLevel.material
-20:20:29: Parsing script ssao.material
-20:20:30: Parsing script deferred_post.material
-20:20:30: Parsing script deferred_post_minilight.material
-20:20:30: Parsing script deferreddemo.material
-20:20:30: Parsing script ShadowCaster.material
-20:20:30: Parsing script ROOM.material
-20:20:30: Parsing script HardwareSkinningShadow.material
-20:20:30: OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/RTShader/shadow_caster_skinning_1weight_vs: The compile returned an error.
+08:11:23: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+08:11:23: Compiler error: invalid parameters in DualQuaternion.program(28): setting of constant failed
+08:11:23: Parsing script ShadowCaster.program
+08:11:23: Parsing script deferred_post.program
+08:11:23: Parsing script HeatVision.material
+08:11:23: Parsing script GLSLSwizzle.material
+08:11:23: Parsing script shadows.material
+08:11:23: Parsing script BlackAndWhite.material
+08:11:23: Parsing script CGSwizzle.material
+08:11:23: Parsing script Examples.material
+08:11:23: Parsing script SharpenEdges.material
+08:11:23: Parsing script hdr.material
+08:11:23: Parsing script smoke.material
+08:11:23: Parsing script ShaderInstancing.material
+08:11:23: Parsing script ASCII.material
+08:11:23: Parsing script Bloom.material
+08:11:23: Parsing script Halftone.material
+08:11:23: Parsing script InstancingMisc.material
+08:11:23: Parsing script DepthShadowmap.material
+08:11:23: Parsing script Glass.material
+08:11:23: Parsing script IsoSurf.material
+08:11:23: Problem parsing the following Cg Uniform: '@TMP29' in file Ogre/IsoSurf/TessellateTetrahedraGS_CG
+08:11:23: Parsing script HW_VTFInstancing.material
+08:11:23: Parsing script OffsetMapping.material
+08:11:23: Parsing script Posterize.material
+08:11:23: Parsing script instancing.material
+08:11:23: Parsing script DualQuaternion.material
+08:11:23: Parsing script OldTV.material
+08:11:23: Parsing script HW_VTF_LUTInstancing.material
+08:11:23: Parsing script Ocean.material
+08:11:23: Parsing script ParticleGS.material
+08:11:23: Parsing script RZR-002.material
+08:11:23: Parsing script Invert.material
+08:11:23: Parsing script CompositorDemo.material
+08:11:23: Parsing script ShaderSystem.material
+08:11:23: Parsing script DOF.material
+08:11:23: Parsing script Examples-Water.material
+08:11:23: Parsing script VarianceShadowmap.material
+08:11:23: Parsing script ASMSwizzle.material
+08:11:23: Parsing script NightVision.material
+08:11:23: Parsing script Penguin.material
+08:11:23: Parsing script Tiling.material
+08:11:23: Parsing script Ogre.material
+08:11:23: Parsing script Laplace.material
+08:11:23: Parsing script Embossed.material
+08:11:23: Parsing script VTFInstancing.material
+08:11:23: Parsing script OldMovie.material
+08:11:23: Parsing script Bloom2.material
+08:11:23: Parsing script Example-Water.material
+08:11:23: Parsing script RadialBlur.material
+08:11:23: Parsing script MRTtest.material
+08:11:23: Parsing script Hurt.material
+08:11:23: Parsing script MotionBlur.material
+08:11:23: Parsing script Dither.material
+08:11:23: Parsing script pssm.material
+08:11:23: Parsing script Examples-Advanced.material
+08:11:23: Compiler error: object unsupported by render system in Examples-Advanced.material(787): , Shader name: Examples/TextureArrayPSasm
+08:11:23: Parsing script facial.material
+08:11:23: Parsing script sibenik.material
+08:11:23: Parsing script Examples-DynTex.material
+08:11:23: Parsing script HWInstancing.material
+08:11:23: Parsing script TestLevel.material
+08:11:23: Parsing script ssao.material
+08:11:23: Parsing script deferred_post.material
+08:11:23: Parsing script deferred_post_minilight.material
+08:11:23: Parsing script deferreddemo.material
+08:11:23: Parsing script ShadowCaster.material
+08:11:23: Parsing script ROOM.material
+08:11:23: Parsing script HardwareSkinningShadow.material
+08:11:23: OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/RTShader/shadow_caster_skinning_1weight_vs: The compile returned an error.
 (21) : warning C7019: "blendWgt" is too large for semantic "BLENDWEIGHT", which is size 1
 (23) : error C5041: cannot locate suitable resource to bind parameter "<null atom>"
 (23) : error C5041: cannot locate suitable resource to bind parameter "<null atom>"
@@ -332,7 +332,7 @@ DualQuaternion_Common.cg(167) : warning C7019: "blendWgt" is too large for seman
 (23) : error C5041: cannot locate suitable resource to bind parameter "<null atom>"
 (23) : error C5041: cannot locate suitable resource to bind parameter "<null atom>"
  in CgProgram::compileMicrocode at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/PlugIns/CgProgramManager/src/OgreCgProgramManagerDll.cpp (line 67)
-20:20:30: High-level program Ogre/RTShader/shadow_caster_skinning_1weight_vs encountered an error during loading and is thus not supported.
+08:11:23: High-level program Ogre/RTShader/shadow_caster_skinning_1weight_vs encountered an error during loading and is thus not supported.
 OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/RTShader/shadow_caster_skinning_1weight_vs: The compile returned an error.
 (21) : warning C7019: "blendWgt" is too large for semantic "BLENDWEIGHT", which is size 1
 (23) : error C5041: cannot locate suitable resource to bind parameter "<null atom>"
@@ -355,11 +355,11 @@ OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/RTSh
 (23) : error C5041: cannot locate suitable resource to bind parameter "<null atom>"
 (23) : error C5041: cannot locate suitable resource to bind parameter "<null atom>"
  in CgProgram::compileMicrocode at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/PlugIns/CgProgramManager/src/OgreCgProgramManagerDll.cpp (line 67)
-20:20:30: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
-20:20:30: Compiler error: invalid parameters in HardwareSkinningShadow.material(29): setting of constant failed
-20:20:30: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
-20:20:30: Compiler error: invalid parameters in HardwareSkinningShadow.material(30): setting of constant failed
-20:20:30: OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/RTShader/shadow_caster_skinning_2weight_vs_cg: The compile returned an error.
+08:11:23: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+08:11:23: Compiler error: invalid parameters in HardwareSkinningShadow.material(29): setting of constant failed
+08:11:23: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+08:11:23: Compiler error: invalid parameters in HardwareSkinningShadow.material(30): setting of constant failed
+08:11:23: OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/RTShader/shadow_caster_skinning_2weight_vs_cg: The compile returned an error.
 (41) : warning C7019: "blendWgt" is too large for semantic "BLENDWEIGHT", which is size 1
 (44) : error C5041: cannot locate suitable resource to bind parameter "<null atom>"
 (44) : error C5041: cannot locate suitable resource to bind parameter "<null atom>"
@@ -381,7 +381,7 @@ OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/RTSh
 (44) : error C5041: cannot locate suitable resource to bind parameter "<null atom>"
 (44) : error C5041: cannot locate suitable resource to bind parameter "<null atom>"
  in CgProgram::compileMicrocode at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/PlugIns/CgProgramManager/src/OgreCgProgramManagerDll.cpp (line 67)
-20:20:30: High-level program Ogre/RTShader/shadow_caster_skinning_2weight_vs_cg encountered an error during loading and is thus not supported.
+08:11:23: High-level program Ogre/RTShader/shadow_caster_skinning_2weight_vs_cg encountered an error during loading and is thus not supported.
 OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/RTShader/shadow_caster_skinning_2weight_vs_cg: The compile returned an error.
 (41) : warning C7019: "blendWgt" is too large for semantic "BLENDWEIGHT", which is size 1
 (44) : error C5041: cannot locate suitable resource to bind parameter "<null atom>"
@@ -404,11 +404,11 @@ OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/RTSh
 (44) : error C5041: cannot locate suitable resource to bind parameter "<null atom>"
 (44) : error C5041: cannot locate suitable resource to bind parameter "<null atom>"
  in CgProgram::compileMicrocode at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/PlugIns/CgProgramManager/src/OgreCgProgramManagerDll.cpp (line 67)
-20:20:30: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
-20:20:30: Compiler error: invalid parameters in HardwareSkinningShadow.material(43): setting of constant failed
-20:20:30: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
-20:20:30: Compiler error: invalid parameters in HardwareSkinningShadow.material(44): setting of constant failed
-20:20:30: OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/RTShader/shadow_caster_skinning_3weight_vs: The compile returned an error.
+08:11:23: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+08:11:23: Compiler error: invalid parameters in HardwareSkinningShadow.material(43): setting of constant failed
+08:11:23: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+08:11:23: Compiler error: invalid parameters in HardwareSkinningShadow.material(44): setting of constant failed
+08:11:23: OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/RTShader/shadow_caster_skinning_3weight_vs: The compile returned an error.
 (64) : warning C7019: "blendWgt" is too large for semantic "BLENDWEIGHT", which is size 1
 (67) : error C5041: cannot locate suitable resource to bind parameter "<null atom>"
 (67) : error C5041: cannot locate suitable resource to bind parameter "<null atom>"
@@ -430,7 +430,7 @@ OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/RTSh
 (67) : error C5041: cannot locate suitable resource to bind parameter "<null atom>"
 (67) : error C5041: cannot locate suitable resource to bind parameter "<null atom>"
  in CgProgram::compileMicrocode at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/PlugIns/CgProgramManager/src/OgreCgProgramManagerDll.cpp (line 67)
-20:20:30: High-level program Ogre/RTShader/shadow_caster_skinning_3weight_vs encountered an error during loading and is thus not supported.
+08:11:23: High-level program Ogre/RTShader/shadow_caster_skinning_3weight_vs encountered an error during loading and is thus not supported.
 OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/RTShader/shadow_caster_skinning_3weight_vs: The compile returned an error.
 (64) : warning C7019: "blendWgt" is too large for semantic "BLENDWEIGHT", which is size 1
 (67) : error C5041: cannot locate suitable resource to bind parameter "<null atom>"
@@ -453,11 +453,11 @@ OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/RTSh
 (67) : error C5041: cannot locate suitable resource to bind parameter "<null atom>"
 (67) : error C5041: cannot locate suitable resource to bind parameter "<null atom>"
  in CgProgram::compileMicrocode at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/PlugIns/CgProgramManager/src/OgreCgProgramManagerDll.cpp (line 67)
-20:20:30: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
-20:20:30: Compiler error: invalid parameters in HardwareSkinningShadow.material(57): setting of constant failed
-20:20:30: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
-20:20:30: Compiler error: invalid parameters in HardwareSkinningShadow.material(58): setting of constant failed
-20:20:30: OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/RTShader/shadow_caster_skinning_4weight_vs: The compile returned an error.
+08:11:23: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+08:11:23: Compiler error: invalid parameters in HardwareSkinningShadow.material(57): setting of constant failed
+08:11:23: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+08:11:23: Compiler error: invalid parameters in HardwareSkinningShadow.material(58): setting of constant failed
+08:11:23: OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/RTShader/shadow_caster_skinning_4weight_vs: The compile returned an error.
 (88) : warning C7019: "blendWgt" is too large for semantic "BLENDWEIGHT", which is size 1
 (91) : error C5041: cannot locate suitable resource to bind parameter "<null atom>"
 (91) : error C5041: cannot locate suitable resource to bind parameter "<null atom>"
@@ -479,7 +479,7 @@ OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/RTSh
 (91) : error C5041: cannot locate suitable resource to bind parameter "<null atom>"
 (91) : error C5041: cannot locate suitable resource to bind parameter "<null atom>"
  in CgProgram::compileMicrocode at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/PlugIns/CgProgramManager/src/OgreCgProgramManagerDll.cpp (line 67)
-20:20:30: High-level program Ogre/RTShader/shadow_caster_skinning_4weight_vs encountered an error during loading and is thus not supported.
+08:11:23: High-level program Ogre/RTShader/shadow_caster_skinning_4weight_vs encountered an error during loading and is thus not supported.
 OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/RTShader/shadow_caster_skinning_4weight_vs: The compile returned an error.
 (88) : warning C7019: "blendWgt" is too large for semantic "BLENDWEIGHT", which is size 1
 (91) : error C5041: cannot locate suitable resource to bind parameter "<null atom>"
@@ -502,170 +502,1371 @@ OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/RTSh
 (91) : error C5041: cannot locate suitable resource to bind parameter "<null atom>"
 (91) : error C5041: cannot locate suitable resource to bind parameter "<null atom>"
  in CgProgram::compileMicrocode at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/PlugIns/CgProgramManager/src/OgreCgProgramManagerDll.cpp (line 67)
-20:20:30: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
-20:20:30: Compiler error: invalid parameters in HardwareSkinningShadow.material(72): setting of constant failed
-20:20:30: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
-20:20:30: Compiler error: invalid parameters in HardwareSkinningShadow.material(73): setting of constant failed
-20:20:30: OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/RTShader/shadow_receiver_vs: The compile returned an error.
+08:11:23: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+08:11:23: Compiler error: invalid parameters in HardwareSkinningShadow.material(72): setting of constant failed
+08:11:23: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+08:11:23: Compiler error: invalid parameters in HardwareSkinningShadow.material(73): setting of constant failed
+08:11:23: OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/RTShader/shadow_receiver_vs: The compile returned an error.
 (0) : error C3001: no program defined
  in CgProgram::compileMicrocode at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/PlugIns/CgProgramManager/src/OgreCgProgramManagerDll.cpp (line 67)
-20:20:30: High-level program Ogre/RTShader/shadow_receiver_vs encountered an error during loading and is thus not supported.
+08:11:23: High-level program Ogre/RTShader/shadow_receiver_vs encountered an error during loading and is thus not supported.
 OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/RTShader/shadow_receiver_vs: The compile returned an error.
 (0) : error C3001: no program defined
  in CgProgram::compileMicrocode at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/PlugIns/CgProgramManager/src/OgreCgProgramManagerDll.cpp (line 67)
-20:20:30: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
-20:20:30: Compiler error: invalid parameters in HardwareSkinningShadow.material(206): setting of constant failed
-20:20:30: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
-20:20:30: Compiler error: invalid parameters in HardwareSkinningShadow.material(207): setting of constant failed
-20:20:30: OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/RTShader/shadow_receiver_ps: The compile returned an error.
+08:11:23: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+08:11:23: Compiler error: invalid parameters in HardwareSkinningShadow.material(206): setting of constant failed
+08:11:23: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+08:11:23: Compiler error: invalid parameters in HardwareSkinningShadow.material(207): setting of constant failed
+08:11:24: OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/RTShader/shadow_receiver_ps: The compile returned an error.
 (0) : error C3001: no program defined
  in CgProgram::compileMicrocode at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/PlugIns/CgProgramManager/src/OgreCgProgramManagerDll.cpp (line 67)
-20:20:30: High-level program Ogre/RTShader/shadow_receiver_ps encountered an error during loading and is thus not supported.
+08:11:24: High-level program Ogre/RTShader/shadow_receiver_ps encountered an error during loading and is thus not supported.
 OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/RTShader/shadow_receiver_ps: The compile returned an error.
 (0) : error C3001: no program defined
  in CgProgram::compileMicrocode at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/PlugIns/CgProgramManager/src/OgreCgProgramManagerDll.cpp (line 67)
-20:20:30: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
-20:20:30: Compiler error: invalid parameters in HardwareSkinningShadow.material(219): setting of constant failed
-20:20:30: Parsing script RTShaderSystem.material
-20:20:30: Compiler error: unknown error in RTShaderSystem.material(23): token "rtshader_system" is not recognized
-20:20:30: Compiler error: unknown error in RTShaderSystem.material(52): token "rtshader_system" is not recognized
-20:20:30: Compiler error: unknown error in RTShaderSystem.material(81): token "rtshader_system" is not recognized
-20:20:30: Compiler error: unknown error in RTShaderSystem.material(110): token "rtshader_system" is not recognized
-20:20:30: Compiler error: unknown error in RTShaderSystem.material(146): token "rtshader_system" is not recognized
-20:20:30: Compiler error: unknown error in RTShaderSystem.material(81): token "rtshader_system" is not recognized
-20:20:30: Compiler error: unknown error in RTShaderSystem.material(162): token "rtshader_system" is not recognized
-20:20:30: Compiler error: unknown error in RTShaderSystem.material(81): token "rtshader_system" is not recognized
-20:20:30: Compiler error: unknown error in RTShaderSystem.material(110): token "rtshader_system" is not recognized
-20:20:30: Compiler error: unknown error in RTShaderSystem.material(211): token "rtshader_system" is not recognized
-20:20:30: Parsing script DualQuaternionSkinning_Shadow.material
-20:20:30: OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/RTShader/shadow_caster_dq_skinning_1weight_twophase_vs_cg: The compile returned an error.
+08:11:24: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+08:11:24: Compiler error: invalid parameters in HardwareSkinningShadow.material(219): setting of constant failed
+08:11:24: Parsing script RTShaderSystem.material
+08:11:24: Compiler error: unknown error in RTShaderSystem.material(23): token "rtshader_system" is not recognized
+08:11:24: Compiler error: unknown error in RTShaderSystem.material(52): token "rtshader_system" is not recognized
+08:11:24: Compiler error: unknown error in RTShaderSystem.material(81): token "rtshader_system" is not recognized
+08:11:24: Compiler error: unknown error in RTShaderSystem.material(110): token "rtshader_system" is not recognized
+08:11:24: Compiler error: unknown error in RTShaderSystem.material(146): token "rtshader_system" is not recognized
+08:11:24: Compiler error: unknown error in RTShaderSystem.material(81): token "rtshader_system" is not recognized
+08:11:24: Compiler error: unknown error in RTShaderSystem.material(162): token "rtshader_system" is not recognized
+08:11:24: Compiler error: unknown error in RTShaderSystem.material(81): token "rtshader_system" is not recognized
+08:11:24: Compiler error: unknown error in RTShaderSystem.material(110): token "rtshader_system" is not recognized
+08:11:24: Compiler error: unknown error in RTShaderSystem.material(211): token "rtshader_system" is not recognized
+08:11:24: Parsing script DualQuaternionSkinning_Shadow.material
+08:11:24: OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/RTShader/shadow_caster_dq_skinning_1weight_twophase_vs_cg: The compile returned an error.
 (227) : warning C7019: "blendWgt" is too large for semantic "BLENDWEIGHT", which is size 1
 (0) : error C6007: Constant register limit exceeded; more than 96 constant registers needed to compiled program
 (0) : error C6007: Constant register limit exceeded; more than 96 constant registers needed to compiled program
 (0) : error C6007: Constant register limit exceeded; more than 96 constant registers needed to compiled program
  in CgProgram::compileMicrocode at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/PlugIns/CgProgramManager/src/OgreCgProgramManagerDll.cpp (line 67)
-20:20:30: High-level program Ogre/RTShader/shadow_caster_dq_skinning_1weight_twophase_vs_cg encountered an error during loading and is thus not supported.
+08:11:24: High-level program Ogre/RTShader/shadow_caster_dq_skinning_1weight_twophase_vs_cg encountered an error during loading and is thus not supported.
 OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/RTShader/shadow_caster_dq_skinning_1weight_twophase_vs_cg: The compile returned an error.
 (227) : warning C7019: "blendWgt" is too large for semantic "BLENDWEIGHT", which is size 1
 (0) : error C6007: Constant register limit exceeded; more than 96 constant registers needed to compiled program
 (0) : error C6007: Constant register limit exceeded; more than 96 constant registers needed to compiled program
 (0) : error C6007: Constant register limit exceeded; more than 96 constant registers needed to compiled program
  in CgProgram::compileMicrocode at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/PlugIns/CgProgramManager/src/OgreCgProgramManagerDll.cpp (line 67)
-20:20:30: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
-20:20:30: Compiler error: invalid parameters in DualQuaternionSkinning_Shadow.material(208): setting of constant failed
-20:20:30: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
-20:20:30: Compiler error: invalid parameters in DualQuaternionSkinning_Shadow.material(209): setting of constant failed
-20:20:30: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
-20:20:30: Compiler error: invalid parameters in DualQuaternionSkinning_Shadow.material(210): setting of constant failed
-20:20:30: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
-20:20:30: Compiler error: invalid parameters in DualQuaternionSkinning_Shadow.material(211): setting of constant failed
-20:20:30: OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/RTShader/shadow_caster_dq_skinning_2weight_twophase_vs_cg: The compile returned an error.
+08:11:24: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+08:11:24: Compiler error: invalid parameters in DualQuaternionSkinning_Shadow.material(208): setting of constant failed
+08:11:24: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+08:11:24: Compiler error: invalid parameters in DualQuaternionSkinning_Shadow.material(209): setting of constant failed
+08:11:24: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+08:11:24: Compiler error: invalid parameters in DualQuaternionSkinning_Shadow.material(210): setting of constant failed
+08:11:24: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+08:11:24: Compiler error: invalid parameters in DualQuaternionSkinning_Shadow.material(211): setting of constant failed
+08:11:24: OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/RTShader/shadow_caster_dq_skinning_2weight_twophase_vs_cg: The compile returned an error.
 (261) : warning C7019: "blendWgt" is too large for semantic "BLENDWEIGHT", which is size 1
 (0) : error C6007: Constant register limit exceeded; more than 96 constant registers needed to compiled program
 (0) : error C6007: Constant register limit exceeded; more than 96 constant registers needed to compiled program
 (0) : error C6007: Constant register limit exceeded; more than 96 constant registers needed to compiled program
  in CgProgram::compileMicrocode at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/PlugIns/CgProgramManager/src/OgreCgProgramManagerDll.cpp (line 67)
-20:20:30: High-level program Ogre/RTShader/shadow_caster_dq_skinning_2weight_twophase_vs_cg encountered an error during loading and is thus not supported.
+08:11:24: High-level program Ogre/RTShader/shadow_caster_dq_skinning_2weight_twophase_vs_cg encountered an error during loading and is thus not supported.
 OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/RTShader/shadow_caster_dq_skinning_2weight_twophase_vs_cg: The compile returned an error.
 (261) : warning C7019: "blendWgt" is too large for semantic "BLENDWEIGHT", which is size 1
 (0) : error C6007: Constant register limit exceeded; more than 96 constant registers needed to compiled program
 (0) : error C6007: Constant register limit exceeded; more than 96 constant registers needed to compiled program
 (0) : error C6007: Constant register limit exceeded; more than 96 constant registers needed to compiled program
  in CgProgram::compileMicrocode at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/PlugIns/CgProgramManager/src/OgreCgProgramManagerDll.cpp (line 67)
-20:20:30: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
-20:20:30: Compiler error: invalid parameters in DualQuaternionSkinning_Shadow.material(225): setting of constant failed
-20:20:30: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
-20:20:30: Compiler error: invalid parameters in DualQuaternionSkinning_Shadow.material(226): setting of constant failed
-20:20:30: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
-20:20:30: Compiler error: invalid parameters in DualQuaternionSkinning_Shadow.material(227): setting of constant failed
-20:20:30: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
-20:20:30: Compiler error: invalid parameters in DualQuaternionSkinning_Shadow.material(228): setting of constant failed
-20:20:30: Parsing script HemisphereMC.material
-20:20:30: Parsing script ShowDepth.material
-20:20:30: Parsing script Volumetric.material
-20:20:30: Parsing script ShowViewPos.material
-20:20:30: Parsing script GBuffer.material
-20:20:30: Parsing script SSAOPost.material
-20:20:30: Parsing script Crytek.material
-20:20:30: Parsing script ShowNormals.material
-20:20:30: Parsing script HorizonBased.material
-20:20:30: Parsing script CreaseShading.material
-20:20:30: Parsing script UnsharpMask.material
-20:20:30: Parsing script RomanBath.material
-20:20:30: Parsing script Sinbad.material
-20:20:30: Parsing script Examples-Water.particle
-20:20:30: Parsing script emitted_emitter.particle
-20:20:30: Parsing script smoke.particle
-20:20:30: Parsing script Examples.particle
-20:20:30: Parsing script Examples.compositor
-20:20:30: Parsing script deferred.compositor
-20:20:30: Parsing script ssao.compositor
-20:20:30: Parsing script SSAOPost.compositor
-20:20:30: Parsing script SSAO.compositor
-20:20:30: Finished parsing scripts for resource group Popular
-20:20:30: Creating resources for group Popular
-20:20:30: All done
-20:20:30: Parsing scripts for resource group Tests
-20:20:30: Finished parsing scripts for resource group Tests
-20:20:30: Creating resources for group Tests
-20:20:30: All done
-20:20:30: Demo initialized!
-20:20:30: Texture: purple.png: Loading 1 faces(PF_A8R8G8B8,512x1000x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,512x1000x1.
-20:20:30: Texture: stevecube_fr.jpg: Loading 1 faces(PF_R8G8B8,512x512x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
-20:20:30: Texture: stevecube_bk.jpg: Loading 1 faces(PF_R8G8B8,512x512x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
-20:20:30: Texture: stevecube_lf.jpg: Loading 1 faces(PF_R8G8B8,512x512x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
-20:20:30: Texture: stevecube_rt.jpg: Loading 1 faces(PF_R8G8B8,512x512x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
-20:20:30: Texture: stevecube_up.jpg: Loading 1 faces(PF_R8G8B8,512x512x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
-20:20:30: Texture: stevecube_dn.jpg: Loading 1 faces(PF_R8G8B8,512x512x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
-20:20:30: Start main loop...
-20:20:31: Mesh: Loading ogrehead.mesh.
-20:20:31: Texture: GreenSkin.jpg: Loading 1 faces(PF_R8G8B8,256x256x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,256x256x1.
-20:20:31: Texture: spheremap.png: Loading 1 faces(PF_R8G8B8,256x256x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,256x256x1.
-20:20:31: Texture: tusk.jpg: Loading 1 faces(PF_R8G8B8,128x128x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
-20:24:06: Mesh: Loading WoodPallet.mesh.
-20:24:06: Texture: WoodPallet.png: Loading 1 faces(PF_R8G8B8,256x256x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,256x256x1.
-20:24:13: Main loop quit
-20:24:13: Shutdown OGRE...
-20:24:13: DefaultWorkQueue('Root') shutting down on thread 0x1147a50.
-20:24:13: DefaultWorkQueue('Root')::WorkerFunc - thread 0x16b5400 stopped.
-20:24:13: DefaultWorkQueue('Root')::WorkerFunc - thread 0x16b3600 stopped.
-20:24:13: DefaultWorkQueue('Root')::WorkerFunc - thread 0x16b0f80 stopped.
-20:24:13: DefaultWorkQueue('Root')::WorkerFunc - thread 0x16b2e60 stopped.
-20:24:13: DefaultWorkQueue('Root')::WorkerFunc - thread 0x16b3180 stopped.
-20:24:13: DefaultWorkQueue('Root')::WorkerFunc - thread 0x16b3920 stopped.
-20:24:13: DefaultWorkQueue('Root')::WorkerFunc - thread 0x16b4660 stopped.
-20:24:13: DefaultWorkQueue('Root')::WorkerFunc - thread 0x16b3c40 stopped.
-20:24:13: PCZone Factory Type 'ZoneType_Octree' unregistered
-20:24:13: Unregistering ResourceManager for type BspLevel
-20:24:13: *-*-* OGRE Shutdown
-20:24:13: Unregistering ResourceManager for type Compositor
-20:24:13: Unregistering ResourceManager for type Skeleton
-20:24:13: Unregistering ResourceManager for type Mesh
-20:24:13: Unregistering ResourceManager for type HighLevelGpuProgram
-20:24:13: Uninstalling plugin: Octree Scene Manager
-20:24:13: Plugin successfully uninstalled
-20:24:13: Unloading library OgreFiles/plugins/Plugin_OctreeSceneManager
-20:24:13: Uninstalling plugin: Octree Zone Factory
-20:24:13: Plugin successfully uninstalled
-20:24:13: Unloading library OgreFiles/plugins/Plugin_OctreeZone
-20:24:13: Uninstalling plugin: Portal Connected Zone Scene Manager
-20:24:13: Plugin successfully uninstalled
-20:24:13: Unloading library OgreFiles/plugins/Plugin_PCZSceneManager
-20:24:13: Uninstalling plugin: Cg Program Manager
-20:24:13: Plugin successfully uninstalled
-20:24:13: Unloading library OgreFiles/plugins/Plugin_CgProgramManager
-20:24:13: Uninstalling plugin: BSP Scene Manager
-20:24:13: Plugin successfully uninstalled
-20:24:13: Unloading library OgreFiles/plugins/Plugin_BSPSceneManager
-20:24:13: Uninstalling plugin: ParticleFX
-20:24:13: Plugin successfully uninstalled
-20:24:13: Unloading library OgreFiles/plugins/Plugin_ParticleFX
-20:24:13: Uninstalling plugin: GL RenderSystem
-20:24:13: Unregistering ResourceManager for type GpuProgram
-20:24:13: ******************************
+08:11:24: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+08:11:24: Compiler error: invalid parameters in DualQuaternionSkinning_Shadow.material(225): setting of constant failed
+08:11:24: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+08:11:24: Compiler error: invalid parameters in DualQuaternionSkinning_Shadow.material(226): setting of constant failed
+08:11:24: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+08:11:24: Compiler error: invalid parameters in DualQuaternionSkinning_Shadow.material(227): setting of constant failed
+08:11:24: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/OgreMain/src/OgreGpuProgramParams.cpp (line 1709)
+08:11:24: Compiler error: invalid parameters in DualQuaternionSkinning_Shadow.material(228): setting of constant failed
+08:11:24: Parsing script HemisphereMC.material
+08:11:24: Parsing script ShowDepth.material
+08:11:24: Parsing script Volumetric.material
+08:11:24: Parsing script ShowViewPos.material
+08:11:24: Parsing script GBuffer.material
+08:11:24: Parsing script SSAOPost.material
+08:11:24: Parsing script Crytek.material
+08:11:24: Parsing script ShowNormals.material
+08:11:24: Parsing script HorizonBased.material
+08:11:24: Parsing script CreaseShading.material
+08:11:24: Parsing script UnsharpMask.material
+08:11:24: Parsing script RomanBath.material
+08:11:24: Parsing script Sinbad.material
+08:11:24: Parsing script Examples-Water.particle
+08:11:24: Parsing script emitted_emitter.particle
+08:11:24: Parsing script smoke.particle
+08:11:24: Parsing script Examples.particle
+08:11:24: Parsing script Examples.compositor
+08:11:24: Parsing script deferred.compositor
+08:11:24: Parsing script ssao.compositor
+08:11:24: Parsing script SSAOPost.compositor
+08:11:24: Parsing script SSAO.compositor
+08:11:24: Finished parsing scripts for resource group Popular
+08:11:24: Creating resources for group Popular
+08:11:24: All done
+08:11:24: Parsing scripts for resource group Tests
+08:11:24: Finished parsing scripts for resource group Tests
+08:11:24: Creating resources for group Tests
+08:11:24: All done
+08:11:24: Editor initialized!
+08:11:24: Texture: purple.png: Loading 1 faces(PF_A8R8G8B8,512x1000x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,512x1000x1.
+08:11:24: Menu initialized
+08:11:24: Texture: stevecube_fr.jpg: Loading 1 faces(PF_R8G8B8,512x512x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+08:11:24: Texture: stevecube_bk.jpg: Loading 1 faces(PF_R8G8B8,512x512x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+08:11:24: Texture: stevecube_lf.jpg: Loading 1 faces(PF_R8G8B8,512x512x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+08:11:24: Texture: stevecube_rt.jpg: Loading 1 faces(PF_R8G8B8,512x512x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+08:11:24: Texture: stevecube_up.jpg: Loading 1 faces(PF_R8G8B8,512x512x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+08:11:24: Texture: stevecube_dn.jpg: Loading 1 faces(PF_R8G8B8,512x512x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+08:11:24: Start main loop...
+08:11:25: Mesh: Loading ogrehead.mesh.
+08:11:25: Texture: GreenSkin.jpg: Loading 1 faces(PF_R8G8B8,256x256x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,256x256x1.
+08:11:25: Texture: spheremap.png: Loading 1 faces(PF_R8G8B8,256x256x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,256x256x1.
+08:11:25: Texture: tusk.jpg: Loading 1 faces(PF_R8G8B8,128x128x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+08:11:26: wuuuuuuuuuuuuut
+08:11:26: wuuuuuuuuuuuuut
+08:11:26: wuuuuuuuuuuuuut
+08:11:26: wuuuuuuuuuuuuut
+08:11:26: wuuuuuuuuuuuuut
+08:11:26: wuuuuuuuuuuuuut
+08:11:26: wuuuuuuuuuuuuut
+08:11:26: wuuuuuuuuuuuuut
+08:11:26: wuuuuuuuuuuuuut
+08:11:26: wuuuuuuuuuuuuut
+08:11:26: wuuuuuuuuuuuuut
+08:11:26: wuuuuuuuuuuuuut
+08:11:26: wuuuuuuuuuuuuut
+08:11:27: wuuuuuuuuuuuuut
+08:11:27: wuuuuuuuuuuuuut
+08:11:27: wuuuuuuuuuuuuut
+08:11:27: wuuuuuuuuuuuuut
+08:11:27: wuuuuuuuuuuuuut
+08:11:27: wuuuuuuuuuuuuut
+08:11:27: wuuuuuuuuuuuuut
+08:11:27: wuuuuuuuuuuuuut
+08:11:27: wuuuuuuuuuuuuut
+08:11:27: wuuuuuuuuuuuuut
+08:11:27: wuuuuuuuuuuuuut
+08:11:27: wuuuuuuuuuuuuut
+08:11:27: wuuuuuuuuuuuuut
+08:11:27: wuuuuuuuuuuuuut
+08:11:27: wuuuuuuuuuuuuut
+08:11:27: wuuuuuuuuuuuuut
+08:11:27: wuuuuuuuuuuuuut
+08:11:27: wuuuuuuuuuuuuut
+08:11:27: wuuuuuuuuuuuuut
+08:11:27: wuuuuuuuuuuuuut
+08:11:27: wuuuuuuuuuuuuut
+08:11:27: wuuuuuuuuuuuuut
+08:11:27: wuuuuuuuuuuuuut
+08:11:27: wuuuuuuuuuuuuut
+08:11:27: wuuuuuuuuuuuuut
+08:11:27: wuuuuuuuuuuuuut
+08:11:27: wuuuuuuuuuuuuut
+08:11:27: wuuuuuuuuuuuuut
+08:11:27: wuuuuuuuuuuuuut
+08:11:27: wuuuuuuuuuuuuut
+08:11:27: wuuuuuuuuuuuuut
+08:11:27: wuuuuuuuuuuuuut
+08:11:28: wuuuuuuuuuuuuut
+08:11:28: wuuuuuuuuuuuuut
+08:11:28: wuuuuuuuuuuuuut
+08:11:28: wuuuuuuuuuuuuut
+08:11:28: wuuuuuuuuuuuuut
+08:11:28: wuuuuuuuuuuuuut
+08:11:28: wuuuuuuuuuuuuut
+08:11:28: wuuuuuuuuuuuuut
+08:11:28: wuuuuuuuuuuuuut
+08:11:28: wuuuuuuuuuuuuut
+08:11:28: wuuuuuuuuuuuuut
+08:11:28: wuuuuuuuuuuuuut
+08:11:28: wuuuuuuuuuuuuut
+08:11:28: wuuuuuuuuuuuuut
+08:11:32: wuuuuuuuuuuuuut
+08:11:32: wuuuuuuuuuuuuut
+08:11:32: wuuuuuuuuuuuuut
+08:11:32: wuuuuuuuuuuuuut
+08:11:32: wuuuuuuuuuuuuut
+08:11:32: wuuuuuuuuuuuuut
+08:11:32: wuuuuuuuuuuuuut
+08:11:32: wuuuuuuuuuuuuut
+08:11:32: wuuuuuuuuuuuuut
+08:11:32: wuuuuuuuuuuuuut
+08:11:32: wuuuuuuuuuuuuut
+08:11:32: wuuuuuuuuuuuuut
+08:11:32: wuuuuuuuuuuuuut
+08:11:33: wuuuuuuuuuuuuut
+08:11:33: wuuuuuuuuuuuuut
+08:11:33: wuuuuuuuuuuuuut
+08:11:33: wuuuuuuuuuuuuut
+08:11:33: wuuuuuuuuuuuuut
+08:11:33: wuuuuuuuuuuuuut
+08:11:33: wuuuuuuuuuuuuut
+08:11:33: wuuuuuuuuuuuuut
+08:11:33: wuuuuuuuuuuuuut
+08:11:33: wuuuuuuuuuuuuut
+08:11:33: wuuuuuuuuuuuuut
+08:11:33: wuuuuuuuuuuuuut
+08:11:33: wuuuuuuuuuuuuut
+08:11:33: wuuuuuuuuuuuuut
+08:11:33: wuuuuuuuuuuuuut
+08:11:33: wuuuuuuuuuuuuut
+08:11:33: wuuuuuuuuuuuuut
+08:11:33: wuuuuuuuuuuuuut
+08:11:33: wuuuuuuuuuuuuut
+08:11:33: wuuuuuuuuuuuuut
+08:11:33: wuuuuuuuuuuuuut
+08:11:33: wuuuuuuuuuuuuut
+08:11:33: wuuuuuuuuuuuuut
+08:11:33: wuuuuuuuuuuuuut
+08:11:33: wuuuuuuuuuuuuut
+08:11:33: wuuuuuuuuuuuuut
+08:11:33: wuuuuuuuuuuuuut
+08:11:33: wuuuuuuuuuuuuut
+08:11:33: wuuuuuuuuuuuuut
+08:11:33: wuuuuuuuuuuuuut
+08:11:33: wuuuuuuuuuuuuut
+08:11:33: wuuuuuuuuuuuuut
+08:11:33: wuuuuuuuuuuuuut
+08:11:34: wuuuuuuuuuuuuut
+08:11:34: wuuuuuuuuuuuuut
+08:11:34: wuuuuuuuuuuuuut
+08:11:34: wuuuuuuuuuuuuut
+08:11:34: wuuuuuuuuuuuuut
+08:11:34: wuuuuuuuuuuuuut
+08:11:34: wuuuuuuuuuuuuut
+08:11:34: wuuuuuuuuuuuuut
+08:11:34: wuuuuuuuuuuuuut
+08:11:34: wuuuuuuuuuuuuut
+08:11:34: wuuuuuuuuuuuuut
+08:11:34: wuuuuuuuuuuuuut
+08:11:34: wuuuuuuuuuuuuut
+08:11:34: wuuuuuuuuuuuuut
+08:11:34: wuuuuuuuuuuuuut
+08:11:34: wuuuuuuuuuuuuut
+08:11:34: wuuuuuuuuuuuuut
+08:11:34: wuuuuuuuuuuuuut
+08:11:34: wuuuuuuuuuuuuut
+08:11:34: wuuuuuuuuuuuuut
+08:11:34: wuuuuuuuuuuuuut
+08:11:34: wuuuuuuuuuuuuut
+08:11:34: wuuuuuuuuuuuuut
+08:11:35: wuuuuuuuuuuuuut
+08:11:35: wuuuuuuuuuuuuut
+08:11:35: wuuuuuuuuuuuuut
+08:11:35: wuuuuuuuuuuuuut
+08:11:35: wuuuuuuuuuuuuut
+08:11:35: wuuuuuuuuuuuuut
+08:11:35: wuuuuuuuuuuuuut
+08:11:41: wuuuuuuuuuuuuut
+08:11:41: wuuuuuuuuuuuuut
+08:11:41: wuuuuuuuuuuuuut
+08:11:41: wuuuuuuuuuuuuut
+08:11:41: wuuuuuuuuuuuuut
+08:11:41: wuuuuuuuuuuuuut
+08:11:41: wuuuuuuuuuuuuut
+08:11:42: wuuuuuuuuuuuuut
+08:11:42: wuuuuuuuuuuuuut
+08:11:42: wuuuuuuuuuuuuut
+08:11:42: wuuuuuuuuuuuuut
+08:11:42: wuuuuuuuuuuuuut
+08:11:42: wuuuuuuuuuuuuut
+08:11:42: wuuuuuuuuuuuuut
+08:11:42: wuuuuuuuuuuuuut
+08:11:42: wuuuuuuuuuuuuut
+08:11:42: wuuuuuuuuuuuuut
+08:11:42: wuuuuuuuuuuuuut
+08:11:42: wuuuuuuuuuuuuut
+08:11:42: wuuuuuuuuuuuuut
+08:11:42: wuuuuuuuuuuuuut
+08:11:42: wuuuuuuuuuuuuut
+08:11:42: wuuuuuuuuuuuuut
+08:11:42: wuuuuuuuuuuuuut
+08:11:42: wuuuuuuuuuuuuut
+08:11:42: wuuuuuuuuuuuuut
+08:11:42: wuuuuuuuuuuuuut
+08:11:42: wuuuuuuuuuuuuut
+08:11:42: wuuuuuuuuuuuuut
+08:11:42: wuuuuuuuuuuuuut
+08:11:42: wuuuuuuuuuuuuut
+08:11:42: wuuuuuuuuuuuuut
+08:11:42: wuuuuuuuuuuuuut
+08:11:42: wuuuuuuuuuuuuut
+08:11:42: wuuuuuuuuuuuuut
+08:11:42: wuuuuuuuuuuuuut
+08:11:42: wuuuuuuuuuuuuut
+08:11:42: wuuuuuuuuuuuuut
+08:11:42: wuuuuuuuuuuuuut
+08:11:42: wuuuuuuuuuuuuut
+08:11:43: wuuuuuuuuuuuuut
+08:11:43: wuuuuuuuuuuuuut
+08:11:43: wuuuuuuuuuuuuut
+08:11:43: wuuuuuuuuuuuuut
+08:11:43: wuuuuuuuuuuuuut
+08:11:43: wuuuuuuuuuuuuut
+08:11:43: wuuuuuuuuuuuuut
+08:11:43: wuuuuuuuuuuuuut
+08:11:43: wuuuuuuuuuuuuut
+08:11:43: wuuuuuuuuuuuuut
+08:11:43: wuuuuuuuuuuuuut
+08:11:43: wuuuuuuuuuuuuut
+08:11:43: wuuuuuuuuuuuuut
+08:11:43: wuuuuuuuuuuuuut
+08:11:43: wuuuuuuuuuuuuut
+08:11:43: wuuuuuuuuuuuuut
+08:11:43: wuuuuuuuuuuuuut
+08:11:43: wuuuuuuuuuuuuut
+08:11:43: wuuuuuuuuuuuuut
+08:11:43: wuuuuuuuuuuuuut
+08:11:43: wuuuuuuuuuuuuut
+08:11:43: wuuuuuuuuuuuuut
+08:11:44: wuuuuuuuuuuuuut
+08:11:44: wuuuuuuuuuuuuut
+08:11:44: wuuuuuuuuuuuuut
+08:11:44: wuuuuuuuuuuuuut
+08:11:44: wuuuuuuuuuuuuut
+08:11:44: wuuuuuuuuuuuuut
+08:11:44: wuuuuuuuuuuuuut
+08:11:44: wuuuuuuuuuuuuut
+08:11:44: wuuuuuuuuuuuuut
+08:11:44: wuuuuuuuuuuuuut
+08:11:44: wuuuuuuuuuuuuut
+08:11:44: wuuuuuuuuuuuuut
+08:11:44: wuuuuuuuuuuuuut
+08:11:44: wuuuuuuuuuuuuut
+08:11:44: wuuuuuuuuuuuuut
+08:11:44: wuuuuuuuuuuuuut
+08:11:44: wuuuuuuuuuuuuut
+08:11:44: wuuuuuuuuuuuuut
+08:11:44: wuuuuuuuuuuuuut
+08:11:44: wuuuuuuuuuuuuut
+08:11:44: wuuuuuuuuuuuuut
+08:11:44: wuuuuuuuuuuuuut
+08:11:44: wuuuuuuuuuuuuut
+08:11:44: wuuuuuuuuuuuuut
+08:11:44: wuuuuuuuuuuuuut
+08:11:44: wuuuuuuuuuuuuut
+08:11:44: wuuuuuuuuuuuuut
+08:11:44: wuuuuuuuuuuuuut
+08:11:44: wuuuuuuuuuuuuut
+08:11:44: wuuuuuuuuuuuuut
+08:11:44: wuuuuuuuuuuuuut
+08:11:44: wuuuuuuuuuuuuut
+08:11:44: wuuuuuuuuuuuuut
+08:11:44: wuuuuuuuuuuuuut
+08:11:44: wuuuuuuuuuuuuut
+08:11:44: wuuuuuuuuuuuuut
+08:11:45: wuuuuuuuuuuuuut
+08:11:45: wuuuuuuuuuuuuut
+08:11:45: wuuuuuuuuuuuuut
+08:11:45: wuuuuuuuuuuuuut
+08:11:45: wuuuuuuuuuuuuut
+08:11:45: wuuuuuuuuuuuuut
+08:11:45: wuuuuuuuuuuuuut
+08:11:45: wuuuuuuuuuuuuut
+08:11:45: wuuuuuuuuuuuuut
+08:11:45: wuuuuuuuuuuuuut
+08:11:45: wuuuuuuuuuuuuut
+08:11:45: wuuuuuuuuuuuuut
+08:11:45: wuuuuuuuuuuuuut
+08:11:45: wuuuuuuuuuuuuut
+08:11:45: wuuuuuuuuuuuuut
+08:11:45: wuuuuuuuuuuuuut
+08:11:45: wuuuuuuuuuuuuut
+08:11:45: wuuuuuuuuuuuuut
+08:11:45: wuuuuuuuuuuuuut
+08:11:45: wuuuuuuuuuuuuut
+08:11:45: wuuuuuuuuuuuuut
+08:11:45: wuuuuuuuuuuuuut
+08:11:45: wuuuuuuuuuuuuut
+08:11:45: wuuuuuuuuuuuuut
+08:11:45: wuuuuuuuuuuuuut
+08:11:45: wuuuuuuuuuuuuut
+08:11:45: wuuuuuuuuuuuuut
+08:11:45: wuuuuuuuuuuuuut
+08:11:45: wuuuuuuuuuuuuut
+08:11:45: wuuuuuuuuuuuuut
+08:11:45: wuuuuuuuuuuuuut
+08:11:45: wuuuuuuuuuuuuut
+08:11:45: wuuuuuuuuuuuuut
+08:11:45: wuuuuuuuuuuuuut
+08:11:45: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:46: wuuuuuuuuuuuuut
+08:11:47: wuuuuuuuuuuuuut
+08:11:47: wuuuuuuuuuuuuut
+08:11:47: wuuuuuuuuuuuuut
+08:11:47: wuuuuuuuuuuuuut
+08:11:47: wuuuuuuuuuuuuut
+08:11:47: wuuuuuuuuuuuuut
+08:11:47: wuuuuuuuuuuuuut
+08:11:47: wuuuuuuuuuuuuut
+08:11:47: wuuuuuuuuuuuuut
+08:11:47: wuuuuuuuuuuuuut
+08:11:47: wuuuuuuuuuuuuut
+08:11:47: wuuuuuuuuuuuuut
+08:11:47: wuuuuuuuuuuuuut
+08:11:47: wuuuuuuuuuuuuut
+08:11:47: wuuuuuuuuuuuuut
+08:11:47: wuuuuuuuuuuuuut
+08:11:47: wuuuuuuuuuuuuut
+08:11:47: wuuuuuuuuuuuuut
+08:11:47: wuuuuuuuuuuuuut
+08:11:47: wuuuuuuuuuuuuut
+08:11:47: wuuuuuuuuuuuuut
+08:11:47: wuuuuuuuuuuuuut
+08:11:47: wuuuuuuuuuuuuut
+08:11:47: wuuuuuuuuuuuuut
+08:11:47: wuuuuuuuuuuuuut
+08:11:47: wuuuuuuuuuuuuut
+08:11:47: wuuuuuuuuuuuuut
+08:11:47: wuuuuuuuuuuuuut
+08:11:48: wuuuuuuuuuuuuut
+08:11:48: wuuuuuuuuuuuuut
+08:11:48: wuuuuuuuuuuuuut
+08:11:48: wuuuuuuuuuuuuut
+08:11:48: wuuuuuuuuuuuuut
+08:11:48: wuuuuuuuuuuuuut
+08:11:48: wuuuuuuuuuuuuut
+08:11:48: wuuuuuuuuuuuuut
+08:11:48: wuuuuuuuuuuuuut
+08:11:48: wuuuuuuuuuuuuut
+08:11:48: wuuuuuuuuuuuuut
+08:11:48: wuuuuuuuuuuuuut
+08:11:48: wuuuuuuuuuuuuut
+08:11:48: wuuuuuuuuuuuuut
+08:11:48: wuuuuuuuuuuuuut
+08:11:48: wuuuuuuuuuuuuut
+08:11:48: wuuuuuuuuuuuuut
+08:11:48: wuuuuuuuuuuuuut
+08:11:48: wuuuuuuuuuuuuut
+08:11:48: wuuuuuuuuuuuuut
+08:11:48: wuuuuuuuuuuuuut
+08:11:48: wuuuuuuuuuuuuut
+08:11:48: wuuuuuuuuuuuuut
+08:11:48: wuuuuuuuuuuuuut
+08:11:49: wuuuuuuuuuuuuut
+08:11:49: wuuuuuuuuuuuuut
+08:11:49: wuuuuuuuuuuuuut
+08:11:49: wuuuuuuuuuuuuut
+08:11:49: wuuuuuuuuuuuuut
+08:11:49: wuuuuuuuuuuuuut
+08:11:49: wuuuuuuuuuuuuut
+08:11:49: wuuuuuuuuuuuuut
+08:11:49: wuuuuuuuuuuuuut
+08:11:52: Mesh: Loading WoodPallet.mesh.
+08:11:52: Texture: WoodPallet.png: Loading 1 faces(PF_R8G8B8,256x256x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,256x256x1.
+08:11:54: wuuuuuuuuuuuuut
+08:11:54: wuuuuuuuuuuuuut
+08:11:54: wuuuuuuuuuuuuut
+08:11:54: wuuuuuuuuuuuuut
+08:11:54: wuuuuuuuuuuuuut
+08:11:54: wuuuuuuuuuuuuut
+08:11:54: wuuuuuuuuuuuuut
+08:11:54: wuuuuuuuuuuuuut
+08:11:54: wuuuuuuuuuuuuut
+08:11:54: wuuuuuuuuuuuuut
+08:11:54: wuuuuuuuuuuuuut
+08:11:54: wuuuuuuuuuuuuut
+08:11:54: wuuuuuuuuuuuuut
+08:11:54: wuuuuuuuuuuuuut
+08:11:54: wuuuuuuuuuuuuut
+08:11:54: wuuuuuuuuuuuuut
+08:11:54: wuuuuuuuuuuuuut
+08:11:54: wuuuuuuuuuuuuut
+08:11:54: wuuuuuuuuuuuuut
+08:11:54: wuuuuuuuuuuuuut
+08:11:54: wuuuuuuuuuuuuut
+08:11:54: wuuuuuuuuuuuuut
+08:11:54: wuuuuuuuuuuuuut
+08:11:54: wuuuuuuuuuuuuut
+08:11:54: wuuuuuuuuuuuuut
+08:11:54: wuuuuuuuuuuuuut
+08:11:54: wuuuuuuuuuuuuut
+08:11:54: wuuuuuuuuuuuuut
+08:11:54: wuuuuuuuuuuuuut
+08:11:54: wuuuuuuuuuuuuut
+08:11:54: wuuuuuuuuuuuuut
+08:11:54: wuuuuuuuuuuuuut
+08:11:54: wuuuuuuuuuuuuut
+08:11:54: wuuuuuuuuuuuuut
+08:11:54: wuuuuuuuuuuuuut
+08:11:54: wuuuuuuuuuuuuut
+08:11:54: wuuuuuuuuuuuuut
+08:11:54: wuuuuuuuuuuuuut
+08:11:54: wuuuuuuuuuuuuut
+08:11:54: wuuuuuuuuuuuuut
+08:11:54: wuuuuuuuuuuuuut
+08:11:54: wuuuuuuuuuuuuut
+08:11:55: wuuuuuuuuuuuuut
+08:11:55: wuuuuuuuuuuuuut
+08:11:55: wuuuuuuuuuuuuut
+08:11:55: wuuuuuuuuuuuuut
+08:11:55: wuuuuuuuuuuuuut
+08:11:55: wuuuuuuuuuuuuut
+08:11:55: wuuuuuuuuuuuuut
+08:11:55: wuuuuuuuuuuuuut
+08:11:55: wuuuuuuuuuuuuut
+08:11:55: wuuuuuuuuuuuuut
+08:11:55: wuuuuuuuuuuuuut
+08:11:55: wuuuuuuuuuuuuut
+08:11:55: wuuuuuuuuuuuuut
+08:11:55: wuuuuuuuuuuuuut
+08:11:55: wuuuuuuuuuuuuut
+08:11:55: wuuuuuuuuuuuuut
+08:11:55: wuuuuuuuuuuuuut
+08:11:55: wuuuuuuuuuuuuut
+08:11:55: wuuuuuuuuuuuuut
+08:11:55: wuuuuuuuuuuuuut
+08:11:55: wuuuuuuuuuuuuut
+08:11:55: wuuuuuuuuuuuuut
+08:11:56: wuuuuuuuuuuuuut
+08:11:56: wuuuuuuuuuuuuut
+08:11:56: wuuuuuuuuuuuuut
+08:11:56: wuuuuuuuuuuuuut
+08:11:56: wuuuuuuuuuuuuut
+08:11:56: wuuuuuuuuuuuuut
+08:11:56: wuuuuuuuuuuuuut
+08:11:56: wuuuuuuuuuuuuut
+08:11:56: wuuuuuuuuuuuuut
+08:11:56: wuuuuuuuuuuuuut
+08:11:57: wuuuuuuuuuuuuut
+08:11:57: wuuuuuuuuuuuuut
+08:11:57: wuuuuuuuuuuuuut
+08:11:57: wuuuuuuuuuuuuut
+08:11:57: wuuuuuuuuuuuuut
+08:11:57: wuuuuuuuuuuuuut
+08:11:57: wuuuuuuuuuuuuut
+08:11:57: wuuuuuuuuuuuuut
+08:11:57: wuuuuuuuuuuuuut
+08:11:57: wuuuuuuuuuuuuut
+08:11:57: wuuuuuuuuuuuuut
+08:11:57: wuuuuuuuuuuuuut
+08:11:57: wuuuuuuuuuuuuut
+08:11:58: wuuuuuuuuuuuuut
+08:11:58: wuuuuuuuuuuuuut
+08:11:58: wuuuuuuuuuuuuut
+08:11:58: wuuuuuuuuuuuuut
+08:11:58: wuuuuuuuuuuuuut
+08:11:58: wuuuuuuuuuuuuut
+08:11:58: wuuuuuuuuuuuuut
+08:11:58: wuuuuuuuuuuuuut
+08:11:58: wuuuuuuuuuuuuut
+08:11:58: wuuuuuuuuuuuuut
+08:11:58: wuuuuuuuuuuuuut
+08:11:58: wuuuuuuuuuuuuut
+08:11:58: wuuuuuuuuuuuuut
+08:11:59: wuuuuuuuuuuuuut
+08:11:59: wuuuuuuuuuuuuut
+08:11:59: wuuuuuuuuuuuuut
+08:11:59: wuuuuuuuuuuuuut
+08:11:59: wuuuuuuuuuuuuut
+08:11:59: wuuuuuuuuuuuuut
+08:11:59: wuuuuuuuuuuuuut
+08:11:59: wuuuuuuuuuuuuut
+08:12:00: wuuuuuuuuuuuuut
+08:12:00: wuuuuuuuuuuuuut
+08:12:00: wuuuuuuuuuuuuut
+08:12:00: wuuuuuuuuuuuuut
+08:12:00: wuuuuuuuuuuuuut
+08:12:00: wuuuuuuuuuuuuut
+08:12:00: wuuuuuuuuuuuuut
+08:12:00: wuuuuuuuuuuuuut
+08:12:00: wuuuuuuuuuuuuut
+08:12:00: wuuuuuuuuuuuuut
+08:12:00: wuuuuuuuuuuuuut
+08:12:00: wuuuuuuuuuuuuut
+08:12:00: wuuuuuuuuuuuuut
+08:12:00: wuuuuuuuuuuuuut
+08:12:00: wuuuuuuuuuuuuut
+08:12:00: wuuuuuuuuuuuuut
+08:12:00: wuuuuuuuuuuuuut
+08:12:00: wuuuuuuuuuuuuut
+08:12:00: wuuuuuuuuuuuuut
+08:12:00: wuuuuuuuuuuuuut
+08:12:01: wuuuuuuuuuuuuut
+08:12:01: wuuuuuuuuuuuuut
+08:12:01: wuuuuuuuuuuuuut
+08:12:01: wuuuuuuuuuuuuut
+08:12:01: wuuuuuuuuuuuuut
+08:12:01: wuuuuuuuuuuuuut
+08:12:01: wuuuuuuuuuuuuut
+08:12:01: wuuuuuuuuuuuuut
+08:12:01: wuuuuuuuuuuuuut
+08:12:01: wuuuuuuuuuuuuut
+08:12:01: wuuuuuuuuuuuuut
+08:12:01: wuuuuuuuuuuuuut
+08:12:01: wuuuuuuuuuuuuut
+08:12:01: wuuuuuuuuuuuuut
+08:12:01: wuuuuuuuuuuuuut
+08:12:01: wuuuuuuuuuuuuut
+08:12:01: wuuuuuuuuuuuuut
+08:12:01: wuuuuuuuuuuuuut
+08:12:01: wuuuuuuuuuuuuut
+08:12:01: wuuuuuuuuuuuuut
+08:12:01: wuuuuuuuuuuuuut
+08:12:01: wuuuuuuuuuuuuut
+08:12:01: wuuuuuuuuuuuuut
+08:12:01: wuuuuuuuuuuuuut
+08:12:01: wuuuuuuuuuuuuut
+08:12:01: wuuuuuuuuuuuuut
+08:12:01: wuuuuuuuuuuuuut
+08:12:01: wuuuuuuuuuuuuut
+08:12:02: wuuuuuuuuuuuuut
+08:12:02: wuuuuuuuuuuuuut
+08:12:02: wuuuuuuuuuuuuut
+08:12:02: wuuuuuuuuuuuuut
+08:12:02: wuuuuuuuuuuuuut
+08:12:02: wuuuuuuuuuuuuut
+08:12:02: wuuuuuuuuuuuuut
+08:12:02: wuuuuuuuuuuuuut
+08:12:02: wuuuuuuuuuuuuut
+08:12:02: wuuuuuuuuuuuuut
+08:12:02: wuuuuuuuuuuuuut
+08:12:02: wuuuuuuuuuuuuut
+08:12:03: wuuuuuuuuuuuuut
+08:12:03: wuuuuuuuuuuuuut
+08:12:04: wuuuuuuuuuuuuut
+08:12:04: wuuuuuuuuuuuuut
+08:12:04: wuuuuuuuuuuuuut
+08:12:04: wuuuuuuuuuuuuut
+08:12:04: wuuuuuuuuuuuuut
+08:12:04: wuuuuuuuuuuuuut
+08:12:04: wuuuuuuuuuuuuut
+08:12:04: wuuuuuuuuuuuuut
+08:12:04: wuuuuuuuuuuuuut
+08:12:04: wuuuuuuuuuuuuut
+08:12:04: wuuuuuuuuuuuuut
+08:12:04: wuuuuuuuuuuuuut
+08:12:04: wuuuuuuuuuuuuut
+08:12:04: wuuuuuuuuuuuuut
+08:12:04: wuuuuuuuuuuuuut
+08:12:04: wuuuuuuuuuuuuut
+08:12:04: wuuuuuuuuuuuuut
+08:12:04: wuuuuuuuuuuuuut
+08:12:04: wuuuuuuuuuuuuut
+08:12:04: wuuuuuuuuuuuuut
+08:12:04: wuuuuuuuuuuuuut
+08:12:04: wuuuuuuuuuuuuut
+08:12:04: wuuuuuuuuuuuuut
+08:12:04: wuuuuuuuuuuuuut
+08:12:04: wuuuuuuuuuuuuut
+08:12:04: wuuuuuuuuuuuuut
+08:12:04: wuuuuuuuuuuuuut
+08:12:05: wuuuuuuuuuuuuut
+08:12:05: wuuuuuuuuuuuuut
+08:12:05: wuuuuuuuuuuuuut
+08:12:05: wuuuuuuuuuuuuut
+08:12:05: wuuuuuuuuuuuuut
+08:12:05: wuuuuuuuuuuuuut
+08:12:05: wuuuuuuuuuuuuut
+08:12:05: wuuuuuuuuuuuuut
+08:12:05: wuuuuuuuuuuuuut
+08:12:05: wuuuuuuuuuuuuut
+08:12:05: wuuuuuuuuuuuuut
+08:12:05: wuuuuuuuuuuuuut
+08:12:05: wuuuuuuuuuuuuut
+08:12:05: wuuuuuuuuuuuuut
+08:12:05: wuuuuuuuuuuuuut
+08:12:05: wuuuuuuuuuuuuut
+08:12:05: wuuuuuuuuuuuuut
+08:12:05: wuuuuuuuuuuuuut
+08:12:05: wuuuuuuuuuuuuut
+08:12:05: wuuuuuuuuuuuuut
+08:12:05: wuuuuuuuuuuuuut
+08:12:05: wuuuuuuuuuuuuut
+08:12:05: wuuuuuuuuuuuuut
+08:12:05: wuuuuuuuuuuuuut
+08:12:13: wuuuuuuuuuuuuut
+08:12:13: wuuuuuuuuuuuuut
+08:12:13: wuuuuuuuuuuuuut
+08:12:13: wuuuuuuuuuuuuut
+08:12:13: wuuuuuuuuuuuuut
+08:12:13: wuuuuuuuuuuuuut
+08:12:13: wuuuuuuuuuuuuut
+08:12:13: wuuuuuuuuuuuuut
+08:12:13: wuuuuuuuuuuuuut
+08:12:13: wuuuuuuuuuuuuut
+08:12:13: wuuuuuuuuuuuuut
+08:12:13: wuuuuuuuuuuuuut
+08:12:13: wuuuuuuuuuuuuut
+08:12:13: wuuuuuuuuuuuuut
+08:12:13: wuuuuuuuuuuuuut
+08:12:13: wuuuuuuuuuuuuut
+08:12:13: wuuuuuuuuuuuuut
+08:12:13: wuuuuuuuuuuuuut
+08:12:13: wuuuuuuuuuuuuut
+08:12:13: wuuuuuuuuuuuuut
+08:12:13: wuuuuuuuuuuuuut
+08:12:13: wuuuuuuuuuuuuut
+08:12:13: wuuuuuuuuuuuuut
+08:12:13: wuuuuuuuuuuuuut
+08:12:13: wuuuuuuuuuuuuut
+08:12:13: wuuuuuuuuuuuuut
+08:12:13: wuuuuuuuuuuuuut
+08:12:13: wuuuuuuuuuuuuut
+08:12:14: wuuuuuuuuuuuuut
+08:12:14: wuuuuuuuuuuuuut
+08:12:14: wuuuuuuuuuuuuut
+08:12:14: wuuuuuuuuuuuuut
+08:12:14: wuuuuuuuuuuuuut
+08:12:14: wuuuuuuuuuuuuut
+08:12:14: wuuuuuuuuuuuuut
+08:12:14: wuuuuuuuuuuuuut
+08:12:14: wuuuuuuuuuuuuut
+08:12:14: wuuuuuuuuuuuuut
+08:12:14: wuuuuuuuuuuuuut
+08:12:14: wuuuuuuuuuuuuut
+08:12:14: wuuuuuuuuuuuuut
+08:12:14: wuuuuuuuuuuuuut
+08:12:14: wuuuuuuuuuuuuut
+08:12:14: wuuuuuuuuuuuuut
+08:12:14: wuuuuuuuuuuuuut
+08:12:14: wuuuuuuuuuuuuut
+08:12:14: wuuuuuuuuuuuuut
+08:12:14: wuuuuuuuuuuuuut
+08:12:15: wuuuuuuuuuuuuut
+08:12:15: wuuuuuuuuuuuuut
+08:12:15: wuuuuuuuuuuuuut
+08:12:15: wuuuuuuuuuuuuut
+08:12:15: wuuuuuuuuuuuuut
+08:12:15: wuuuuuuuuuuuuut
+08:12:15: wuuuuuuuuuuuuut
+08:12:15: wuuuuuuuuuuuuut
+08:12:15: wuuuuuuuuuuuuut
+08:12:15: wuuuuuuuuuuuuut
+08:12:15: wuuuuuuuuuuuuut
+08:12:15: wuuuuuuuuuuuuut
+08:12:15: wuuuuuuuuuuuuut
+08:12:15: wuuuuuuuuuuuuut
+08:12:15: wuuuuuuuuuuuuut
+08:12:15: wuuuuuuuuuuuuut
+08:12:15: wuuuuuuuuuuuuut
+08:12:15: wuuuuuuuuuuuuut
+08:12:15: wuuuuuuuuuuuuut
+08:12:15: wuuuuuuuuuuuuut
+08:12:15: wuuuuuuuuuuuuut
+08:12:15: wuuuuuuuuuuuuut
+08:12:15: wuuuuuuuuuuuuut
+08:12:15: wuuuuuuuuuuuuut
+08:12:15: wuuuuuuuuuuuuut
+08:12:15: wuuuuuuuuuuuuut
+08:12:15: wuuuuuuuuuuuuut
+08:12:15: wuuuuuuuuuuuuut
+08:12:15: wuuuuuuuuuuuuut
+08:12:15: wuuuuuuuuuuuuut
+08:12:15: wuuuuuuuuuuuuut
+08:12:15: wuuuuuuuuuuuuut
+08:12:15: wuuuuuuuuuuuuut
+08:12:15: wuuuuuuuuuuuuut
+08:12:15: wuuuuuuuuuuuuut
+08:12:15: wuuuuuuuuuuuuut
+08:12:15: wuuuuuuuuuuuuut
+08:12:15: wuuuuuuuuuuuuut
+08:12:16: wuuuuuuuuuuuuut
+08:12:16: wuuuuuuuuuuuuut
+08:12:16: wuuuuuuuuuuuuut
+08:12:16: wuuuuuuuuuuuuut
+08:12:16: wuuuuuuuuuuuuut
+08:12:16: wuuuuuuuuuuuuut
+08:12:16: wuuuuuuuuuuuuut
+08:12:16: wuuuuuuuuuuuuut
+08:12:16: wuuuuuuuuuuuuut
+08:12:16: wuuuuuuuuuuuuut
+08:12:16: wuuuuuuuuuuuuut
+08:12:16: wuuuuuuuuuuuuut
+08:12:16: wuuuuuuuuuuuuut
+08:12:16: wuuuuuuuuuuuuut
+08:12:16: wuuuuuuuuuuuuut
+08:12:16: wuuuuuuuuuuuuut
+08:12:16: wuuuuuuuuuuuuut
+08:12:18: wuuuuuuuuuuuuut
+08:12:18: wuuuuuuuuuuuuut
+08:12:18: wuuuuuuuuuuuuut
+08:12:18: wuuuuuuuuuuuuut
+08:12:18: wuuuuuuuuuuuuut
+08:12:18: wuuuuuuuuuuuuut
+08:12:18: wuuuuuuuuuuuuut
+08:12:18: wuuuuuuuuuuuuut
+08:12:18: wuuuuuuuuuuuuut
+08:12:18: wuuuuuuuuuuuuut
+08:12:18: wuuuuuuuuuuuuut
+08:12:18: wuuuuuuuuuuuuut
+08:12:18: wuuuuuuuuuuuuut
+08:12:18: wuuuuuuuuuuuuut
+08:12:18: wuuuuuuuuuuuuut
+08:12:18: wuuuuuuuuuuuuut
+08:12:18: wuuuuuuuuuuuuut
+08:12:18: wuuuuuuuuuuuuut
+08:12:19: wuuuuuuuuuuuuut
+08:12:19: wuuuuuuuuuuuuut
+08:12:19: wuuuuuuuuuuuuut
+08:12:19: wuuuuuuuuuuuuut
+08:12:19: wuuuuuuuuuuuuut
+08:12:19: wuuuuuuuuuuuuut
+08:12:19: wuuuuuuuuuuuuut
+08:12:19: wuuuuuuuuuuuuut
+08:12:19: wuuuuuuuuuuuuut
+08:12:19: wuuuuuuuuuuuuut
+08:12:19: wuuuuuuuuuuuuut
+08:12:19: wuuuuuuuuuuuuut
+08:12:19: wuuuuuuuuuuuuut
+08:12:19: wuuuuuuuuuuuuut
+08:12:19: wuuuuuuuuuuuuut
+08:12:19: wuuuuuuuuuuuuut
+08:12:19: wuuuuuuuuuuuuut
+08:12:19: wuuuuuuuuuuuuut
+08:12:19: wuuuuuuuuuuuuut
+08:12:19: wuuuuuuuuuuuuut
+08:12:19: wuuuuuuuuuuuuut
+08:12:19: wuuuuuuuuuuuuut
+08:12:19: wuuuuuuuuuuuuut
+08:12:19: wuuuuuuuuuuuuut
+08:12:20: wuuuuuuuuuuuuut
+08:12:20: wuuuuuuuuuuuuut
+08:12:20: wuuuuuuuuuuuuut
+08:12:20: wuuuuuuuuuuuuut
+08:12:20: wuuuuuuuuuuuuut
+08:12:20: wuuuuuuuuuuuuut
+08:12:20: wuuuuuuuuuuuuut
+08:12:20: wuuuuuuuuuuuuut
+08:12:20: wuuuuuuuuuuuuut
+08:12:20: wuuuuuuuuuuuuut
+08:12:20: wuuuuuuuuuuuuut
+08:12:20: wuuuuuuuuuuuuut
+08:12:20: wuuuuuuuuuuuuut
+08:12:20: wuuuuuuuuuuuuut
+08:12:20: wuuuuuuuuuuuuut
+08:12:20: wuuuuuuuuuuuuut
+08:12:20: wuuuuuuuuuuuuut
+08:12:20: wuuuuuuuuuuuuut
+08:12:20: wuuuuuuuuuuuuut
+08:12:20: wuuuuuuuuuuuuut
+08:12:20: wuuuuuuuuuuuuut
+08:12:21: wuuuuuuuuuuuuut
+08:12:21: wuuuuuuuuuuuuut
+08:12:21: wuuuuuuuuuuuuut
+08:12:21: wuuuuuuuuuuuuut
+08:12:21: wuuuuuuuuuuuuut
+08:12:21: wuuuuuuuuuuuuut
+08:12:21: wuuuuuuuuuuuuut
+08:12:21: wuuuuuuuuuuuuut
+08:12:21: wuuuuuuuuuuuuut
+08:12:21: wuuuuuuuuuuuuut
+08:12:21: wuuuuuuuuuuuuut
+08:12:30: wuuuuuuuuuuuuut
+08:12:30: wuuuuuuuuuuuuut
+08:12:30: wuuuuuuuuuuuuut
+08:12:30: wuuuuuuuuuuuuut
+08:12:30: wuuuuuuuuuuuuut
+08:12:30: wuuuuuuuuuuuuut
+08:12:30: wuuuuuuuuuuuuut
+08:12:30: wuuuuuuuuuuuuut
+08:12:30: wuuuuuuuuuuuuut
+08:12:30: wuuuuuuuuuuuuut
+08:12:30: wuuuuuuuuuuuuut
+08:12:30: wuuuuuuuuuuuuut
+08:12:30: wuuuuuuuuuuuuut
+08:12:30: wuuuuuuuuuuuuut
+08:12:30: wuuuuuuuuuuuuut
+08:12:30: wuuuuuuuuuuuuut
+08:12:30: wuuuuuuuuuuuuut
+08:12:30: wuuuuuuuuuuuuut
+08:12:30: wuuuuuuuuuuuuut
+08:12:30: wuuuuuuuuuuuuut
+08:12:30: wuuuuuuuuuuuuut
+08:12:30: wuuuuuuuuuuuuut
+08:12:30: wuuuuuuuuuuuuut
+08:12:30: wuuuuuuuuuuuuut
+08:12:30: wuuuuuuuuuuuuut
+08:12:30: wuuuuuuuuuuuuut
+08:12:30: wuuuuuuuuuuuuut
+08:12:30: wuuuuuuuuuuuuut
+08:12:30: wuuuuuuuuuuuuut
+08:12:30: wuuuuuuuuuuuuut
+08:12:30: wuuuuuuuuuuuuut
+08:12:30: wuuuuuuuuuuuuut
+08:12:30: wuuuuuuuuuuuuut
+08:12:30: wuuuuuuuuuuuuut
+08:12:30: wuuuuuuuuuuuuut
+08:12:30: wuuuuuuuuuuuuut
+08:12:30: wuuuuuuuuuuuuut
+08:12:30: wuuuuuuuuuuuuut
+08:12:30: wuuuuuuuuuuuuut
+08:12:30: wuuuuuuuuuuuuut
+08:12:31: wuuuuuuuuuuuuut
+08:12:31: wuuuuuuuuuuuuut
+08:12:31: wuuuuuuuuuuuuut
+08:12:31: wuuuuuuuuuuuuut
+08:12:31: wuuuuuuuuuuuuut
+08:12:31: wuuuuuuuuuuuuut
+08:12:31: wuuuuuuuuuuuuut
+08:12:31: wuuuuuuuuuuuuut
+08:12:32: wuuuuuuuuuuuuut
+08:12:32: wuuuuuuuuuuuuut
+08:12:32: wuuuuuuuuuuuuut
+08:12:32: wuuuuuuuuuuuuut
+08:12:32: wuuuuuuuuuuuuut
+08:12:32: wuuuuuuuuuuuuut
+08:12:32: wuuuuuuuuuuuuut
+08:12:32: wuuuuuuuuuuuuut
+08:12:32: wuuuuuuuuuuuuut
+08:12:32: wuuuuuuuuuuuuut
+08:12:32: wuuuuuuuuuuuuut
+08:12:32: wuuuuuuuuuuuuut
+08:12:32: wuuuuuuuuuuuuut
+08:12:32: wuuuuuuuuuuuuut
+08:12:32: wuuuuuuuuuuuuut
+08:12:34: wuuuuuuuuuuuuut
+08:12:34: wuuuuuuuuuuuuut
+08:12:34: wuuuuuuuuuuuuut
+08:12:34: wuuuuuuuuuuuuut
+08:12:34: wuuuuuuuuuuuuut
+08:12:34: wuuuuuuuuuuuuut
+08:12:35: wuuuuuuuuuuuuut
+08:12:35: wuuuuuuuuuuuuut
+08:12:35: wuuuuuuuuuuuuut
+08:12:35: wuuuuuuuuuuuuut
+08:12:35: wuuuuuuuuuuuuut
+08:12:35: wuuuuuuuuuuuuut
+08:12:35: wuuuuuuuuuuuuut
+08:12:35: wuuuuuuuuuuuuut
+08:12:35: wuuuuuuuuuuuuut
+08:12:35: wuuuuuuuuuuuuut
+08:12:35: wuuuuuuuuuuuuut
+08:12:35: wuuuuuuuuuuuuut
+08:12:35: wuuuuuuuuuuuuut
+08:12:35: wuuuuuuuuuuuuut
+08:12:35: wuuuuuuuuuuuuut
+08:12:35: wuuuuuuuuuuuuut
+08:12:36: wuuuuuuuuuuuuut
+08:12:36: wuuuuuuuuuuuuut
+08:12:36: wuuuuuuuuuuuuut
+08:12:36: wuuuuuuuuuuuuut
+08:12:36: wuuuuuuuuuuuuut
+08:12:36: wuuuuuuuuuuuuut
+08:12:36: wuuuuuuuuuuuuut
+08:12:36: wuuuuuuuuuuuuut
+08:12:36: wuuuuuuuuuuuuut
+08:12:36: wuuuuuuuuuuuuut
+08:12:36: wuuuuuuuuuuuuut
+08:12:36: wuuuuuuuuuuuuut
+08:12:36: wuuuuuuuuuuuuut
+08:12:36: wuuuuuuuuuuuuut
+08:12:36: wuuuuuuuuuuuuut
+08:12:36: wuuuuuuuuuuuuut
+08:12:36: wuuuuuuuuuuuuut
+08:12:36: wuuuuuuuuuuuuut
+08:12:36: wuuuuuuuuuuuuut
+08:12:36: wuuuuuuuuuuuuut
+08:12:36: wuuuuuuuuuuuuut
+08:12:36: wuuuuuuuuuuuuut
+08:12:36: wuuuuuuuuuuuuut
+08:12:36: wuuuuuuuuuuuuut
+08:12:36: wuuuuuuuuuuuuut
+08:12:36: wuuuuuuuuuuuuut
+08:12:36: wuuuuuuuuuuuuut
+08:12:36: wuuuuuuuuuuuuut
+08:12:36: wuuuuuuuuuuuuut
+08:12:36: wuuuuuuuuuuuuut
+08:12:36: wuuuuuuuuuuuuut
+08:12:36: wuuuuuuuuuuuuut
+08:12:36: wuuuuuuuuuuuuut
+08:12:36: wuuuuuuuuuuuuut
+08:12:36: wuuuuuuuuuuuuut
+08:12:37: wuuuuuuuuuuuuut
+08:12:37: wuuuuuuuuuuuuut
+08:12:37: wuuuuuuuuuuuuut
+08:12:37: wuuuuuuuuuuuuut
+08:12:37: wuuuuuuuuuuuuut
+08:12:37: wuuuuuuuuuuuuut
+08:12:37: wuuuuuuuuuuuuut
+08:12:37: wuuuuuuuuuuuuut
+08:12:37: wuuuuuuuuuuuuut
+08:12:37: wuuuuuuuuuuuuut
+08:12:37: wuuuuuuuuuuuuut
+08:12:37: wuuuuuuuuuuuuut
+08:12:37: wuuuuuuuuuuuuut
+08:12:37: wuuuuuuuuuuuuut
+08:12:37: wuuuuuuuuuuuuut
+08:12:37: wuuuuuuuuuuuuut
+08:12:37: wuuuuuuuuuuuuut
+08:12:37: wuuuuuuuuuuuuut
+08:12:37: wuuuuuuuuuuuuut
+08:12:37: wuuuuuuuuuuuuut
+08:12:37: wuuuuuuuuuuuuut
+08:12:37: wuuuuuuuuuuuuut
+08:12:37: wuuuuuuuuuuuuut
+08:12:37: wuuuuuuuuuuuuut
+08:12:37: wuuuuuuuuuuuuut
+08:12:38: wuuuuuuuuuuuuut
+08:12:38: wuuuuuuuuuuuuut
+08:12:38: wuuuuuuuuuuuuut
+08:12:38: wuuuuuuuuuuuuut
+08:12:38: wuuuuuuuuuuuuut
+08:12:38: wuuuuuuuuuuuuut
+08:12:38: wuuuuuuuuuuuuut
+08:12:38: wuuuuuuuuuuuuut
+08:12:38: wuuuuuuuuuuuuut
+08:12:38: wuuuuuuuuuuuuut
+08:12:38: wuuuuuuuuuuuuut
+08:12:38: wuuuuuuuuuuuuut
+08:12:38: wuuuuuuuuuuuuut
+08:12:38: wuuuuuuuuuuuuut
+08:12:38: wuuuuuuuuuuuuut
+08:12:38: wuuuuuuuuuuuuut
+08:12:38: wuuuuuuuuuuuuut
+08:12:38: wuuuuuuuuuuuuut
+08:12:38: wuuuuuuuuuuuuut
+08:12:38: wuuuuuuuuuuuuut
+08:12:38: wuuuuuuuuuuuuut
+08:12:38: wuuuuuuuuuuuuut
+08:12:38: wuuuuuuuuuuuuut
+08:12:38: wuuuuuuuuuuuuut
+08:12:38: wuuuuuuuuuuuuut
+08:12:38: wuuuuuuuuuuuuut
+08:12:38: wuuuuuuuuuuuuut
+08:12:38: wuuuuuuuuuuuuut
+08:12:38: wuuuuuuuuuuuuut
+08:12:38: wuuuuuuuuuuuuut
+08:12:38: wuuuuuuuuuuuuut
+08:12:38: wuuuuuuuuuuuuut
+08:12:39: wuuuuuuuuuuuuut
+08:12:39: wuuuuuuuuuuuuut
+08:12:39: wuuuuuuuuuuuuut
+08:12:39: wuuuuuuuuuuuuut
+08:12:39: wuuuuuuuuuuuuut
+08:12:39: wuuuuuuuuuuuuut
+08:12:39: wuuuuuuuuuuuuut
+08:12:39: wuuuuuuuuuuuuut
+08:12:39: wuuuuuuuuuuuuut
+08:12:39: wuuuuuuuuuuuuut
+08:12:39: wuuuuuuuuuuuuut
+08:12:39: wuuuuuuuuuuuuut
+08:12:39: wuuuuuuuuuuuuut
+08:12:39: wuuuuuuuuuuuuut
+08:12:39: wuuuuuuuuuuuuut
+08:12:39: wuuuuuuuuuuuuut
+08:12:39: wuuuuuuuuuuuuut
+08:12:39: wuuuuuuuuuuuuut
+08:12:39: wuuuuuuuuuuuuut
+08:12:39: wuuuuuuuuuuuuut
+08:12:39: wuuuuuuuuuuuuut
+08:12:39: wuuuuuuuuuuuuut
+08:12:39: wuuuuuuuuuuuuut
+08:12:39: wuuuuuuuuuuuuut
+08:12:39: wuuuuuuuuuuuuut
+08:12:39: wuuuuuuuuuuuuut
+08:12:39: wuuuuuuuuuuuuut
+08:12:39: wuuuuuuuuuuuuut
+08:12:39: wuuuuuuuuuuuuut
+08:12:39: wuuuuuuuuuuuuut
+08:12:39: wuuuuuuuuuuuuut
+08:12:39: wuuuuuuuuuuuuut
+08:12:40: wuuuuuuuuuuuuut
+08:12:40: wuuuuuuuuuuuuut
+08:12:40: wuuuuuuuuuuuuut
+08:12:40: wuuuuuuuuuuuuut
+08:12:40: wuuuuuuuuuuuuut
+08:12:40: wuuuuuuuuuuuuut
+08:12:40: wuuuuuuuuuuuuut
+08:12:40: wuuuuuuuuuuuuut
+08:12:40: wuuuuuuuuuuuuut
+08:12:40: wuuuuuuuuuuuuut
+08:12:40: wuuuuuuuuuuuuut
+08:12:40: wuuuuuuuuuuuuut
+08:12:55: wuuuuuuuuuuuuut
+08:12:55: wuuuuuuuuuuuuut
+08:12:55: wuuuuuuuuuuuuut
+08:12:55: wuuuuuuuuuuuuut
+08:12:55: wuuuuuuuuuuuuut
+08:12:55: wuuuuuuuuuuuuut
+08:12:55: wuuuuuuuuuuuuut
+08:12:55: wuuuuuuuuuuuuut
+08:12:55: wuuuuuuuuuuuuut
+08:12:55: wuuuuuuuuuuuuut
+08:12:55: wuuuuuuuuuuuuut
+08:12:55: wuuuuuuuuuuuuut
+08:12:55: wuuuuuuuuuuuuut
+08:12:55: wuuuuuuuuuuuuut
+08:12:55: wuuuuuuuuuuuuut
+08:12:55: wuuuuuuuuuuuuut
+08:12:55: wuuuuuuuuuuuuut
+08:12:55: wuuuuuuuuuuuuut
+08:12:55: wuuuuuuuuuuuuut
+08:12:56: wuuuuuuuuuuuuut
+08:12:56: wuuuuuuuuuuuuut
+08:12:56: wuuuuuuuuuuuuut
+08:12:56: wuuuuuuuuuuuuut
+08:12:56: wuuuuuuuuuuuuut
+08:12:56: wuuuuuuuuuuuuut
+08:12:56: wuuuuuuuuuuuuut
+08:12:56: wuuuuuuuuuuuuut
+08:12:57: wuuuuuuuuuuuuut
+08:12:57: wuuuuuuuuuuuuut
+08:12:57: wuuuuuuuuuuuuut
+08:12:57: wuuuuuuuuuuuuut
+08:12:57: wuuuuuuuuuuuuut
+08:12:57: wuuuuuuuuuuuuut
+08:12:57: wuuuuuuuuuuuuut
+08:12:57: wuuuuuuuuuuuuut
+08:12:57: wuuuuuuuuuuuuut
+08:12:57: wuuuuuuuuuuuuut
+08:12:57: wuuuuuuuuuuuuut
+08:12:57: wuuuuuuuuuuuuut
+08:12:57: wuuuuuuuuuuuuut
+08:12:57: wuuuuuuuuuuuuut
+08:12:57: wuuuuuuuuuuuuut
+08:12:57: wuuuuuuuuuuuuut
+08:12:57: wuuuuuuuuuuuuut
+08:12:57: wuuuuuuuuuuuuut
+08:12:57: wuuuuuuuuuuuuut
+08:12:57: wuuuuuuuuuuuuut
+08:12:57: wuuuuuuuuuuuuut
+08:12:57: wuuuuuuuuuuuuut
+08:12:58: wuuuuuuuuuuuuut
+08:12:58: wuuuuuuuuuuuuut
+08:12:58: wuuuuuuuuuuuuut
+08:12:58: wuuuuuuuuuuuuut
+08:12:58: wuuuuuuuuuuuuut
+08:12:58: wuuuuuuuuuuuuut
+08:12:58: wuuuuuuuuuuuuut
+08:12:58: wuuuuuuuuuuuuut
+08:12:58: wuuuuuuuuuuuuut
+08:12:58: wuuuuuuuuuuuuut
+08:12:58: wuuuuuuuuuuuuut
+08:12:58: wuuuuuuuuuuuuut
+08:12:58: wuuuuuuuuuuuuut
+08:12:58: wuuuuuuuuuuuuut
+08:12:58: wuuuuuuuuuuuuut
+08:12:58: wuuuuuuuuuuuuut
+08:12:58: wuuuuuuuuuuuuut
+08:12:58: wuuuuuuuuuuuuut
+08:12:58: wuuuuuuuuuuuuut
+08:12:58: wuuuuuuuuuuuuut
+08:12:58: wuuuuuuuuuuuuut
+08:12:59: wuuuuuuuuuuuuut
+08:12:59: wuuuuuuuuuuuuut
+08:12:59: wuuuuuuuuuuuuut
+08:12:59: wuuuuuuuuuuuuut
+08:12:59: wuuuuuuuuuuuuut
+08:12:59: wuuuuuuuuuuuuut
+08:12:59: wuuuuuuuuuuuuut
+08:12:59: wuuuuuuuuuuuuut
+08:12:59: wuuuuuuuuuuuuut
+08:12:59: wuuuuuuuuuuuuut
+08:12:59: wuuuuuuuuuuuuut
+08:12:59: wuuuuuuuuuuuuut
+08:12:59: wuuuuuuuuuuuuut
+08:12:59: wuuuuuuuuuuuuut
+08:12:59: wuuuuuuuuuuuuut
+08:12:59: wuuuuuuuuuuuuut
+08:12:59: wuuuuuuuuuuuuut
+08:12:59: wuuuuuuuuuuuuut
+08:12:59: wuuuuuuuuuuuuut
+08:12:59: wuuuuuuuuuuuuut
+08:12:59: wuuuuuuuuuuuuut
+08:12:59: wuuuuuuuuuuuuut
+08:12:59: wuuuuuuuuuuuuut
+08:12:59: wuuuuuuuuuuuuut
+08:12:59: wuuuuuuuuuuuuut
+08:13:00: wuuuuuuuuuuuuut
+08:13:00: wuuuuuuuuuuuuut
+08:13:00: wuuuuuuuuuuuuut
+08:13:00: wuuuuuuuuuuuuut
+08:13:00: wuuuuuuuuuuuuut
+08:13:00: wuuuuuuuuuuuuut
+08:13:00: wuuuuuuuuuuuuut
+08:13:00: wuuuuuuuuuuuuut
+08:13:01: wuuuuuuuuuuuuut
+08:13:01: wuuuuuuuuuuuuut
+08:13:01: wuuuuuuuuuuuuut
+08:13:01: wuuuuuuuuuuuuut
+08:13:01: wuuuuuuuuuuuuut
+08:13:01: wuuuuuuuuuuuuut
+08:13:01: wuuuuuuuuuuuuut
+08:13:01: wuuuuuuuuuuuuut
+08:13:01: wuuuuuuuuuuuuut
+08:13:01: wuuuuuuuuuuuuut
+08:13:01: wuuuuuuuuuuuuut
+08:13:01: wuuuuuuuuuuuuut
+08:13:01: wuuuuuuuuuuuuut
+08:13:01: wuuuuuuuuuuuuut
+08:13:01: wuuuuuuuuuuuuut
+08:13:01: wuuuuuuuuuuuuut
+08:13:01: wuuuuuuuuuuuuut
+08:13:01: wuuuuuuuuuuuuut
+08:13:01: wuuuuuuuuuuuuut
+08:13:01: wuuuuuuuuuuuuut
+08:13:01: wuuuuuuuuuuuuut
+08:13:01: wuuuuuuuuuuuuut
+08:13:01: wuuuuuuuuuuuuut
+08:13:01: wuuuuuuuuuuuuut
+08:13:01: wuuuuuuuuuuuuut
+08:13:01: wuuuuuuuuuuuuut
+08:13:01: wuuuuuuuuuuuuut
+08:13:01: wuuuuuuuuuuuuut
+08:13:01: wuuuuuuuuuuuuut
+08:13:01: wuuuuuuuuuuuuut
+08:13:01: wuuuuuuuuuuuuut
+08:13:02: wuuuuuuuuuuuuut
+08:13:02: wuuuuuuuuuuuuut
+08:13:02: wuuuuuuuuuuuuut
+08:13:02: wuuuuuuuuuuuuut
+08:13:02: wuuuuuuuuuuuuut
+08:13:02: wuuuuuuuuuuuuut
+08:13:02: wuuuuuuuuuuuuut
+08:13:02: wuuuuuuuuuuuuut
+08:13:02: wuuuuuuuuuuuuut
+08:13:02: wuuuuuuuuuuuuut
+08:13:02: wuuuuuuuuuuuuut
+08:13:02: wuuuuuuuuuuuuut
+08:13:02: wuuuuuuuuuuuuut
+08:13:02: wuuuuuuuuuuuuut
+08:13:02: wuuuuuuuuuuuuut
+08:13:02: wuuuuuuuuuuuuut
+08:13:02: wuuuuuuuuuuuuut
+08:13:02: wuuuuuuuuuuuuut
+08:13:02: wuuuuuuuuuuuuut
+08:13:02: wuuuuuuuuuuuuut
+08:13:02: wuuuuuuuuuuuuut
+08:13:02: wuuuuuuuuuuuuut
+08:13:02: wuuuuuuuuuuuuut
+08:13:02: wuuuuuuuuuuuuut
+08:13:02: wuuuuuuuuuuuuut
+08:13:02: wuuuuuuuuuuuuut
+08:13:02: wuuuuuuuuuuuuut
+08:13:02: wuuuuuuuuuuuuut
+08:13:02: wuuuuuuuuuuuuut
+08:13:02: wuuuuuuuuuuuuut
+08:13:02: wuuuuuuuuuuuuut
+08:13:02: wuuuuuuuuuuuuut
+08:13:02: wuuuuuuuuuuuuut
+08:13:02: wuuuuuuuuuuuuut
+08:13:02: wuuuuuuuuuuuuut
+08:13:02: wuuuuuuuuuuuuut
+08:13:02: wuuuuuuuuuuuuut
+08:13:02: wuuuuuuuuuuuuut
+08:13:02: wuuuuuuuuuuuuut
+08:13:02: wuuuuuuuuuuuuut
+08:13:03: wuuuuuuuuuuuuut
+08:13:03: wuuuuuuuuuuuuut
+08:13:03: wuuuuuuuuuuuuut
+08:13:03: wuuuuuuuuuuuuut
+08:13:03: wuuuuuuuuuuuuut
+08:13:03: wuuuuuuuuuuuuut
+08:13:03: wuuuuuuuuuuuuut
+08:13:03: wuuuuuuuuuuuuut
+08:13:03: wuuuuuuuuuuuuut
+08:13:03: wuuuuuuuuuuuuut
+08:13:03: wuuuuuuuuuuuuut
+08:13:03: wuuuuuuuuuuuuut
+08:13:03: wuuuuuuuuuuuuut
+08:13:03: wuuuuuuuuuuuuut
+08:13:03: wuuuuuuuuuuuuut
+08:13:03: wuuuuuuuuuuuuut
+08:13:03: wuuuuuuuuuuuuut
+08:13:03: wuuuuuuuuuuuuut
+08:13:03: wuuuuuuuuuuuuut
+08:13:03: wuuuuuuuuuuuuut
+08:13:03: wuuuuuuuuuuuuut
+08:13:03: wuuuuuuuuuuuuut
+08:13:03: wuuuuuuuuuuuuut
+08:13:04: wuuuuuuuuuuuuut
+08:13:04: wuuuuuuuuuuuuut
+08:13:04: wuuuuuuuuuuuuut
+08:13:04: wuuuuuuuuuuuuut
+08:13:04: wuuuuuuuuuuuuut
+08:13:04: wuuuuuuuuuuuuut
+08:13:04: wuuuuuuuuuuuuut
+08:13:04: wuuuuuuuuuuuuut
+08:13:35: Main loop quit
+08:13:35: Shutdown OGRE...
+08:13:35: DefaultWorkQueue('Root') shutting down on thread 0x1bd13f0.
+08:13:35: DefaultWorkQueue('Root')::WorkerFunc - thread 0x213ecf0 stopped.
+08:13:35: DefaultWorkQueue('Root')::WorkerFunc - thread 0x213cef0 stopped.
+08:13:35: DefaultWorkQueue('Root')::WorkerFunc - thread 0x213c750 stopped.
+08:13:35: DefaultWorkQueue('Root')::WorkerFunc - thread 0x213df50 stopped.
+08:13:35: DefaultWorkQueue('Root')::WorkerFunc - thread 0x213ca70 stopped.
+08:13:35: DefaultWorkQueue('Root')::WorkerFunc - thread 0x213d210 stopped.
+08:13:35: DefaultWorkQueue('Root')::WorkerFunc - thread 0x213d530 stopped.
+08:13:35: DefaultWorkQueue('Root')::WorkerFunc - thread 0x213a870 stopped.
+08:13:35: PCZone Factory Type 'ZoneType_Octree' unregistered
+08:13:35: Unregistering ResourceManager for type BspLevel
+08:13:35: *-*-* OGRE Shutdown
+08:13:35: Unregistering ResourceManager for type Compositor
+08:13:35: Unregistering ResourceManager for type Skeleton
+08:13:35: Unregistering ResourceManager for type Mesh
+08:13:35: Unregistering ResourceManager for type HighLevelGpuProgram
+08:13:35: Uninstalling plugin: Octree Scene Manager
+08:13:35: Plugin successfully uninstalled
+08:13:35: Unloading library OgreFiles/plugins/Plugin_OctreeSceneManager
+08:13:35: Uninstalling plugin: Octree Zone Factory
+08:13:35: Plugin successfully uninstalled
+08:13:35: Unloading library OgreFiles/plugins/Plugin_OctreeZone
+08:13:35: Uninstalling plugin: Portal Connected Zone Scene Manager
+08:13:35: Plugin successfully uninstalled
+08:13:35: Unloading library OgreFiles/plugins/Plugin_PCZSceneManager
+08:13:35: Uninstalling plugin: Cg Program Manager
+08:13:35: Plugin successfully uninstalled
+08:13:35: Unloading library OgreFiles/plugins/Plugin_CgProgramManager
+08:13:35: Uninstalling plugin: BSP Scene Manager
+08:13:35: Plugin successfully uninstalled
+08:13:35: Unloading library OgreFiles/plugins/Plugin_BSPSceneManager
+08:13:35: Uninstalling plugin: ParticleFX
+08:13:35: Plugin successfully uninstalled
+08:13:35: Unloading library OgreFiles/plugins/Plugin_ParticleFX
+08:13:35: Uninstalling plugin: GL RenderSystem
+08:13:35: Unregistering ResourceManager for type GpuProgram
+08:13:35: ******************************
 *** Stopping GLX Subsystem ***
 ******************************
-20:24:13: Unregistering ResourceManager for type Texture
-20:24:13: Plugin successfully uninstalled
-20:24:13: Unloading library OgreFiles/plugins/RenderSystem_GL
-20:24:13: Unregistering ResourceManager for type Material
+08:13:35: Unregistering ResourceManager for type Texture
+08:13:35: Plugin successfully uninstalled
+08:13:35: Unloading library OgreFiles/plugins/RenderSystem_GL
+08:13:35: Unregistering ResourceManager for type Material

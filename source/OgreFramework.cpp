@@ -62,21 +62,6 @@ bool OgreFramework::keyPressed(const OIS::KeyEvent &keyEventRef)
 			mode = 2;
 		}
 	}
- 
-	if(m_pKeyboard->isKeyDown(OIS::KC_O))
-	{
-		if(m_pTrayMgr->isLogoVisible())
-                {
-                        m_pTrayMgr->hideLogo();
-                        m_pTrayMgr->hideFrameStats();
-                }
-                else
-                {
-                        m_pTrayMgr->showLogo(OgreBites::TL_BOTTOMRIGHT);
-                        m_pTrayMgr->showFrameStats(OgreBites::TL_BOTTOMLEFT);
-                }
-	}
- 
 	return true;
 }
 bool OgreFramework::keyReleased(const OIS::KeyEvent &keyEventRef)
@@ -173,6 +158,12 @@ bool OgreFramework::initOgre(Ogre::String wndTitle, OIS::KeyListener *pKeyListen
     m_pRenderWnd->getCustomAttribute("WINDOW", &hWnd);
  
 	paramList.insert(OIS::ParamList::value_type("WINDOW", Ogre::StringConverter::toString(hWnd)));
+/*#if defined OIS_LINUX_PLATFORM
+    paramList.insert(std::make_pair(std::string("x11_mouse_grab"), std::string("false")));
+    paramList.insert(std::make_pair(std::string("x11_mouse_hide"), std::string("false")));
+    paramList.insert(std::make_pair(std::string("x11_keyboard_grab"), std::string("false")));
+    paramList.insert(std::make_pair(std::string("XAutoRepeatOn"), std::string("true")));
+#endif*/
  
 	m_pInputMgr = OIS::InputManager::createInputSystem(paramList);
  
@@ -230,6 +221,5 @@ bool OgreFramework::initOgre(Ogre::String wndTitle, OIS::KeyListener *pKeyListen
         m_pTrayMgr->hideCursor();*/
  
 	m_pRenderWnd->setActive(true);
- 
 	return true;
 }

@@ -1,7 +1,7 @@
 //|||||||||||||||||||||||||||||||||||||||||||||||
  
-#ifndef OGRE_FRAMEWORK_HPP
-#define OGRE_FRAMEWORK_HPP
+#ifndef OGRE_FRAMEWORK_H
+#define OGRE_FRAMEWORK_H
  
 //|||||||||||||||||||||||||||||||||||||||||||||||
  

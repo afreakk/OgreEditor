@@ -22,10 +22,16 @@ SOURCES += \
     source/OgreFramework.cpp \
     source/DemoApp.cpp \
     source/MyPurplePanelColors.cpp \
+    source/Mode.cpp \
+    source/MenuMode.cpp \
+    source/InsertMode.cpp \
 
 HEADERS += \
     source/OgreFramework.h \
     source/DemoApp.h \
     source/MyPurplePanelColors.h \
+    source/Mode.h \
+    source/MenuMode.h \
+    source/InsertMode.h \
 
 
