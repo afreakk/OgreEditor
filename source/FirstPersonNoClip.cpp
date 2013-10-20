@@ -9,28 +9,22 @@ FirstPersonNoClip::~FirstPersonNoClip()
     delete mCameraMan;
     mCameraMan= NULL;
 }
-void FirstPersonNoClip::update(float timeSinceLastFrame, OIS::Keyboard* inputManager)
+void FirstPersonNoClip::update(double timeSinceLastFrame, OIS::Keyboard* inputManager)
 {
-    float moveScale = timeSinceLastFrame;
+    double moveScale = timeSinceLastFrame/10.0;
     Ogre::Vector3 translateVector = Ogre::Vector3::ZERO;
+
     if(inputManager->isKeyDown(OIS::KC_PGUP))
-        mCam->setPosition(mCam->getPosition() + Ogre::Vector3(0, 5, 0));
- 
+        mCam->setPosition(mCam->getPosition() + Ogre::Vector3(0, 0.2f, 0)*moveScale);
     if(inputManager->isKeyDown(OIS::KC_PGDOWN))
-        mCam->setPosition(mCam->getPosition() - Ogre::Vector3(0, 5, 0));
-    // Move camera forward.
+        mCam->setPosition(mCam->getPosition() - Ogre::Vector3(0, 0.2f, 0)*moveScale);
+
     if(inputManager->isKeyDown(OIS::KC_W))
          translateVector.z = -(moveScale);
-
-    // Move camera backward.
     if(inputManager->isKeyDown(OIS::KC_S))
          translateVector.z = moveScale;
-
-    // Move camera left.
     if(inputManager->isKeyDown(OIS::KC_A))
          translateVector.x = -(moveScale);
-
-    // Move camera right.
     if(inputManager->isKeyDown(OIS::KC_D))
          translateVector.x = moveScale;
     mCam->moveRelative(translateVector);

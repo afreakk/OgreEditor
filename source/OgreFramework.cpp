@@ -87,7 +87,6 @@ void OgreFramework::updateOgre(double timeSinceLastFrame)
 {
 	m_MoveScale = m_MoveSpeed   * (float)timeSinceLastFrame;
 	m_RotScale  = m_RotateSpeed * (float)timeSinceLastFrame;
-    mFPC->update(timeSinceLastFrame,m_pKeyboard);
 }
 OgreFramework::~OgreFramework()
 {

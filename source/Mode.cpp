@@ -19,7 +19,7 @@ int                         Mode::_distance     = 100;
 int                         Mode::_wP           = Mode::_width-Mode::_widthPadding;
 int                         Mode::_boxHeight    = Mode::_width/2;
 
-float                       Mode::modelDistance =2.0f;
+float                       Mode::modelDistance =4.0f;
 float                       Mode::zDistance     =0.0f;
 Mode::Mode()
 {
@@ -39,36 +39,52 @@ bool Mode::selectModel(Gui3D::Combobox* e)
     zDistance=0.0f;
     moveModel();
 }
-bool Mode::addModel(Gui3D::Combobox* e)
+std::string Mode::createModelFileIndex(Ogre::String modelName)
 {
-    Ogre::String modelName = e->getValue();
-    modelsPlaced++;
     std::ostringstream x;
     x << modelsPlaced <<"/"<<modelName;
-
+    return x.str();
+}
+bool Mode::addModel(Gui3D::Combobox* e)
+{
+    modelsPlaced++;
     ModelInfo temp;
-    temp.name = x.str();
-    temp.node = rEngine->m_pSceneMgr->getRootSceneNode()->createChildSceneNode(temp.name);
-    temp.entity = rEngine->m_pSceneMgr->createEntity(temp.name,modelName);
-    temp.node->attachObject(temp.entity);
+    temp.name = createModelFileIndex(e->getValue());
+    temp.translationNode = rEngine->m_pSceneMgr->getRootSceneNode()->createChildSceneNode(temp.name+"/position");
+    temp.rotationNode = temp.translationNode->createChildSceneNode(temp.name+"/orientation");
+    temp.scaleNode = temp.rotationNode->createChildSceneNode(temp.name+"/scale");
+    temp.entity = rEngine->m_pSceneMgr->createEntity(temp.name,e->getValue());
+    temp.scaleNode->attachObject(temp.entity);
     modelContainer.push_back(temp);
 
     addedModels.push_back(temp.name);
-    addToComboBox(x.str(),temp.name);
+    addToComboBox(temp.name);
 	return true;
 }
-void Mode::addToComboBox(std::string modelName, std::string& totalName)
+void Mode::addToComboBox(std::string modelName)
+{
+    setCaptionText(modelName);
+    destroyCombobox();
+    makeCombobox(modelName);
+    selectModel(addedCombobox);
+}
+void Mode::setCaptionText(std::string modelName)
 {
     std::ostringstream s;
     s << "Selected: " << modelName;
     captionCombobox->text(s.str());
+}
+void Mode::destroyCombobox()
+{
     if(addedCombobox)
         panel->destroyCombobox(addedCombobox);
     delete addedCombobox;
+}
+void Mode::makeCombobox(std::string& totalName)
+{
     addedCombobox = panel->makeCombobox(_widthPadding/2,_boxHeight*1.2,_wP,_boxHeight*0.8,addedModels,5);
     addedCombobox->setCurrentValue(totalName);
     addedCombobox->highlight();
-    selectModel(addedCombobox);
 }
 bool Mode::hasEnding(std::string const &fullString, std::string const &ending)
 {
@@ -82,8 +98,9 @@ void Mode::moveModel()
 {
     if(currentModel)
     {
-        currentModel->node->setPosition(rEngine->mFPC->getPosition());
-        currentModel->node->setOrientation(rEngine->mFPC->getOrientation());
-        currentModel->node->translate(0.0f,0.0f,-(zDistance+modelDistance*currentModel->entity->getBoundingBox().getMaximum().z),Ogre::Node::TS_LOCAL);
+        currentModel->translationNode->setPosition(rEngine->mFPC->getPosition());
+        currentModel->translationNode->setOrientation(rEngine->mFPC->getOrientation());
+        currentModel->translationNode->translate(0.0f,0.0f,-(zDistance+modelDistance*currentModel->entity->getBoundingBox().getMaximum().z)
+                ,Ogre::Node::TS_LOCAL);
     }
 }

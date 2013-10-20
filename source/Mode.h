@@ -9,12 +9,14 @@ class Mode
     struct ModelInfo
     {
         Ogre::String name;
-        Ogre::SceneNode* node;
+        Ogre::SceneNode* translationNode;
+        Ogre::SceneNode* rotationNode;
+        Ogre::SceneNode* scaleNode;
         Ogre::Entity* entity;
     };
     public:
         Mode();
-        virtual void update()=0;
+        virtual void update(double)=0;
         virtual void init()=0;
         virtual bool keyPressed(const OIS::KeyEvent &keyEventRef)=0;
         virtual bool keyReleased(const OIS::KeyEvent &keyEventRef)=0;
@@ -22,11 +24,15 @@ class Mode
         virtual bool mousePressed(const OIS::MouseEvent &evt, OIS::MouseButtonID id)=0;
         virtual bool mouseReleased(const OIS::MouseEvent &evt, OIS::MouseButtonID id)=0;
     protected:
+        std::string createModelFileIndex(Ogre::String modelName);
+        void makeCombobox(std::string& totalName);
+        void destroyCombobox();
+        void setCaptionText(std::string modelName);
         void moveModel();
         bool selectModel(Gui3D::Combobox* e);
         bool addModel(Gui3D::Combobox* e); 
         bool hasEnding(std::string const &fullString, std::string const &ending); 
-        void addToComboBox(std::string modelName, std::string& totalName);
+        void addToComboBox(std::string modelName);
         static OgreFramework* rEngine;
         static unsigned int modelsPlaced;
         static ModelInfo * currentModel;

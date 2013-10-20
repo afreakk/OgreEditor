@@ -21,9 +21,9 @@ MenuMode::MenuMode()
 	_createDemoPanel();
     rEngine->m_pLog->logMessage("Menu initialized");
 }
-void MenuMode::update()
+void MenuMode::update(double timeSinceLastFrame)
 {
-    panel->injectTime(rEngine->m_FrameEvent.timeSinceLastFrame);
+    panel->injectTime(timeSinceLastFrame);
 }
 void MenuMode::init()
 {

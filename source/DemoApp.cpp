@@ -65,13 +65,14 @@ void DemoApp::runDemo()
 		if(rEngine->m_pRenderWnd->isActive())
 		{
 			startTime = rEngine->m_pTimer->getMillisecondsCPU();
- 
+
 			rEngine->m_pKeyboard->capture();
 			rEngine->m_pMouse->capture();
  
-            currentMode->update();
-			rEngine->m_pRoot->renderOneFrame();
 			rEngine->updateOgre(timeSinceLastFrame);
+            currentMode->update(timeSinceLastFrame);
+
+			rEngine->m_pRoot->renderOneFrame();
 			timeSinceLastFrame = rEngine->m_pTimer->getMillisecondsCPU() - startTime;
 		}
 		else
