@@ -69,10 +69,10 @@ void DemoApp::runDemo()
 			rEngine->m_pKeyboard->capture();
 			rEngine->m_pMouse->capture();
  
-			rEngine->updateOgre(timeSinceLastFrame);
-			rEngine->m_pRoot->renderOneFrame();
-			timeSinceLastFrame = rEngine->m_pTimer->getMillisecondsCPU() - startTime;
             currentMode->update();
+			rEngine->m_pRoot->renderOneFrame();
+			rEngine->updateOgre(timeSinceLastFrame);
+			timeSinceLastFrame = rEngine->m_pTimer->getMillisecondsCPU() - startTime;
 		}
 		else
 		{

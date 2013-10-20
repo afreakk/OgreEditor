@@ -13,8 +13,6 @@ class InsertMode:public Mode
         virtual bool mousePressed(const OIS::MouseEvent &evt, OIS::MouseButtonID id);
         virtual bool mouseReleased(const OIS::MouseEvent &evt, OIS::MouseButtonID id);
     private:
-        void moveModel();
-        float modelDistance;
 
 };
 #endif /* INSERTMODE_H */

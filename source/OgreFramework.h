@@ -22,10 +22,10 @@
 #include <OISMouse.h>
  
 #include <SdkTrays.h>
- 
+#include "FirstPersonNoClip.h" 
 //|||||||||||||||||||||||||||||||||||||||||||||||
  
-class OgreFramework : public Ogre::Singleton<OgreFramework>, OIS::KeyListener, OIS::MouseListener, OgreBites::SdkTrayListener
+class OgreFramework : public Ogre::Singleton<OgreFramework>, OIS::KeyListener, OIS::MouseListener
 {
 public:
 	OgreFramework();
@@ -33,8 +33,6 @@ public:
  
 	bool initOgre(Ogre::String wndTitle, OIS::KeyListener *pKeyListener = 0, OIS::MouseListener *pMouseListener = 0);
 	void updateOgre(double timeSinceLastFrame);
-	void moveCamera();
-	void getInput();
  
 	bool isOgreToBeShutDown()const{return m_bShutDownOgre;}
  
@@ -45,22 +43,22 @@ public:
 	bool mousePressed(const OIS::MouseEvent &evt, OIS::MouseButtonID id); 
 	bool mouseReleased(const OIS::MouseEvent &evt, OIS::MouseButtonID id);
  
-    Ogre::SceneNode*             m_pCameraNode;
 	Ogre::Root*				m_pRoot;
 	Ogre::SceneManager*			m_pSceneMgr;
 	Ogre::RenderWindow*			m_pRenderWnd;
-	Ogre::Camera*				m_pCamera;
 	Ogre::Viewport*				m_pViewport;
 	Ogre::Log*				m_pLog;
 	Ogre::Timer*				m_pTimer;
+    FirstPersonNoClip*          mFPC;
  
 	OIS::InputManager*			m_pInputMgr;
 	OIS::Keyboard*				m_pKeyboard;
 	OIS::Mouse*				m_pMouse;
     Ogre::FrameEvent                        m_FrameEvent;
     std::vector<Ogre::String> groupNames;
-	Ogre::Vector3				m_TranslateVector;
 private:
+	Ogre::Camera*				m_pCamera;
+    Ogre::Quaternion            m_pCamQuat;
 	OgreFramework(const OgreFramework&);
 	OgreFramework& operator= (const OgreFramework&);
  

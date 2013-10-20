@@ -1,16 +1,16 @@
 #include "Mode.h"
 
-OgreFramework*              Mode::rEngine=NULL;
-unsigned int                Mode::modelsPlaced=0;
-Ogre::SceneNode *           Mode::currentNode=NULL;
+OgreFramework*              Mode::rEngine       =NULL;
+unsigned int                Mode::modelsPlaced  =0;
+Mode::ModelInfo*            Mode::currentModel  =NULL;
 Gui3D::Caption*             Mode::captionCombobox=NULL;
+
 std::vector<Ogre::String>   Mode::totalModels;
 std::vector<Ogre::String>   Mode::addedModels;
-std::vector<Ogre::Entity*>  Mode::entitys;
-std::vector<Mode::modelInfo>Mode::models;
+std::vector<Mode::ModelInfo>Mode::modelContainer;
 
-Gui3D::Combobox*            Mode::addedCombobox=NULL;
-Gui3D::Panel*               Mode::panel=NULL;
+Gui3D::Combobox*            Mode::addedCombobox =NULL;
+Gui3D::Panel*               Mode::panel         =NULL;
 
 int                         Mode::_widthPadding = 20;
 int                         Mode::_width        = 400;
@@ -19,6 +19,8 @@ int                         Mode::_distance     = 100;
 int                         Mode::_wP           = Mode::_width-Mode::_widthPadding;
 int                         Mode::_boxHeight    = Mode::_width/2;
 
+float                       Mode::modelDistance =2.0f;
+float                       Mode::zDistance     =0.0f;
 Mode::Mode()
 {
     rEngine = OgreFramework::getSingletonPtr();
@@ -27,41 +29,46 @@ Mode::Mode()
 bool Mode::selectModel(Gui3D::Combobox* e)
 {
     Ogre::String _name = e->getValue();
-    for(int i=0; i<models.size(); i++)
+    for(int i=0; i<modelContainer.size(); i++)
     {
-        if(_name == models[i].name)
+        if(_name == modelContainer[i].name)
         {
-            currentNode = models[i].node;
+            currentModel = &modelContainer[i];
         }
     }
+    zDistance=0.0f;
+    moveModel();
 }
 bool Mode::addModel(Gui3D::Combobox* e)
 {
-	Gui3D::Combobox* c =  e;
-    modelInfo temp;
-    Ogre::String modelName = c->getValue();
+    Ogre::String modelName = e->getValue();
     modelsPlaced++;
-    temp.node = rEngine->m_pSceneMgr->getRootSceneNode()->createChildSceneNode("node="+modelsPlaced);
-    
     std::ostringstream x;
     x << modelsPlaced <<"/"<<modelName;
-    Ogre::Entity* tempEnt = rEngine->m_pSceneMgr->createEntity(x.str(),modelName);
-    temp.node->attachObject(tempEnt);
+
+    ModelInfo temp;
     temp.name = x.str();
-    models.push_back(temp);
-    entitys.push_back(tempEnt);
-    std::ostringstream s;
-    s << "Selected: " << x.str();
-    captionCombobox->text(s.str());
+    temp.node = rEngine->m_pSceneMgr->getRootSceneNode()->createChildSceneNode(temp.name);
+    temp.entity = rEngine->m_pSceneMgr->createEntity(temp.name,modelName);
+    temp.node->attachObject(temp.entity);
+    modelContainer.push_back(temp);
+
     addedModels.push_back(temp.name);
+    addToComboBox(x.str(),temp.name);
+	return true;
+}
+void Mode::addToComboBox(std::string modelName, std::string& totalName)
+{
+    std::ostringstream s;
+    s << "Selected: " << modelName;
+    captionCombobox->text(s.str());
     if(addedCombobox)
         panel->destroyCombobox(addedCombobox);
     delete addedCombobox;
     addedCombobox = panel->makeCombobox(_widthPadding/2,_boxHeight*1.2,_wP,_boxHeight*0.8,addedModels,5);
-    addedCombobox->setCurrentValue(temp.name);
+    addedCombobox->setCurrentValue(totalName);
     addedCombobox->highlight();
     selectModel(addedCombobox);
-	return true;
 }
 bool Mode::hasEnding(std::string const &fullString, std::string const &ending)
 {
@@ -69,5 +76,14 @@ bool Mode::hasEnding(std::string const &fullString, std::string const &ending)
         return (0 == fullString.compare (fullString.length() - ending.length(), ending.length(), ending));
     } else {
         return false;
+    }
+}
+void Mode::moveModel()
+{
+    if(currentModel)
+    {
+        currentModel->node->setPosition(rEngine->mFPC->getPosition());
+        currentModel->node->setOrientation(rEngine->mFPC->getOrientation());
+        currentModel->node->translate(0.0f,0.0f,-(zDistance+modelDistance*currentModel->entity->getBoundingBox().getMaximum().z),Ogre::Node::TS_LOCAL);
     }
 }

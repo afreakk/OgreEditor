@@ -23,9 +23,6 @@ class MenuMode:public Mode
         Gorilla::Layer* mMousePointerLayer;
         Gorilla::Rectangle* mMousePointer;
         Ogre::Vector2 mNormalizedMousePosition;
-        // For the smooth movment when moving the mouse
-        Ogre::Vector3 cameraDirection;
-        // The panel color object
         MyPurplePanelColors mMyPurplePanelColors;
 };
 #endif /*MENUMODE_H*/

@@ -6,10 +6,11 @@
 #include "Gui3DPanel.h"
 class Mode
 {
-    struct modelInfo
+    struct ModelInfo
     {
         Ogre::String name;
         Ogre::SceneNode* node;
+        Ogre::Entity* entity;
     };
     public:
         Mode();
@@ -21,17 +22,18 @@ class Mode
         virtual bool mousePressed(const OIS::MouseEvent &evt, OIS::MouseButtonID id)=0;
         virtual bool mouseReleased(const OIS::MouseEvent &evt, OIS::MouseButtonID id)=0;
     protected:
+        void moveModel();
         bool selectModel(Gui3D::Combobox* e);
         bool addModel(Gui3D::Combobox* e); 
         bool hasEnding(std::string const &fullString, std::string const &ending); 
+        void addToComboBox(std::string modelName, std::string& totalName);
         static OgreFramework* rEngine;
         static unsigned int modelsPlaced;
-        static Ogre::SceneNode * currentNode;
+        static ModelInfo * currentModel;
         static std::vector<Ogre::String> totalModels;
         static std::vector<Ogre::String> addedModels;
-        static std::vector<Ogre::Entity*> entitys;
         static Gui3D::Caption* captionCombobox;
-        static std::vector<modelInfo> models;
+        static std::vector<ModelInfo> modelContainer;
         static Gui3D::Combobox* addedCombobox;
         static Gui3D::Panel* panel;
         static int _widthPadding;
@@ -40,6 +42,8 @@ class Mode
         static int _distance;
         static int _wP;
         static int _boxHeight;
+        static float modelDistance;
+        static float zDistance;
 
 };
 #endif /*MODE_H*/

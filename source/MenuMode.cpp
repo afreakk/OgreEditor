@@ -19,11 +19,6 @@ MenuMode::MenuMode()
 	mMousePointer->background_image("mousepointer");
  
 	_createDemoPanel();
-    Ogre::Camera* mCamera = rEngine->m_pCamera;
-    Ogre::SceneNode *mCameraNode = rEngine->m_pCameraNode;
-	mCameraNode->setPosition(0, 2, 1);
-	cameraDirection = Ogre::Vector3(0, 0, -1);
-	mCameraNode->setDirection(cameraDirection);
     rEngine->m_pLog->logMessage("Menu initialized");
 }
 void MenuMode::update()
@@ -32,12 +27,10 @@ void MenuMode::update()
 }
 void MenuMode::init()
 {
-    Ogre::SceneNode* camNode = rEngine->m_pCameraNode;
     Ogre::SceneNode* panelNode = panel->mNode;
-    panelNode->setPosition(camNode->getPosition());
+    panelNode->setPosition(rEngine->mFPC->getPosition());
+    panelNode->setOrientation(rEngine->mFPC->getOrientation());
     panelNode->translate(0.0f,0.0f,-widgetDistance,Ogre::Node::TS_LOCAL);
-   // rEngine->m_pCameraNode->setOrientation(Ogre::Quaternion::IDENTITY);
-    rEngine->m_pCamera->setOrientation(Ogre::Quaternion::IDENTITY);
 }
 bool MenuMode::keyPressed(const OIS::KeyEvent &keyEventRef)
 {
@@ -54,9 +47,6 @@ bool MenuMode::mouseMoved(const OIS::MouseEvent &evt)
 {
     	// Set the new camera smooth direction movement
 	Ogre::Vector2 distance(getScreenCenterMouseDistance());
-    Ogre::Camera * mCamera = rEngine->m_pCamera;
-	mCamera->setDirection(cameraDirection
-		+ Ogre::Vector3(distance.x, -distance.y, 0) / 30);
  
 	// Raycast for the actual panel
 	Ogre::Real xMove = static_cast<Ogre::Real>(evt.state.X.rel);
@@ -72,12 +62,9 @@ bool MenuMode::mouseMoved(const OIS::MouseEvent &evt)
 	mNormalizedMousePosition.x = std::min<Ogre::Real>(mNormalizedMousePosition.x, 1);
 	mNormalizedMousePosition.y = std::min<Ogre::Real>(mNormalizedMousePosition.y, 1);
  
-	mMousePointer->position(
-		mNormalizedMousePosition.x * mViewport->getActualWidth(), 
-		mNormalizedMousePosition.y * mViewport->getActualHeight());
+	mMousePointer->position(mNormalizedMousePosition.x * mViewport->getActualWidth(), mNormalizedMousePosition.y * mViewport->getActualHeight());
  
-	panel->injectMouseMoved(mCamera->getCameraToViewportRay(
-		mNormalizedMousePosition.x, mNormalizedMousePosition.y));
+	panel->injectMouseMoved(rEngine->mFPC->getCameraToViewportRay(mNormalizedMousePosition.x, mNormalizedMousePosition.y));
     return true;
 }
 bool MenuMode::mousePressed(const OIS::MouseEvent &evt, OIS::MouseButtonID id) 

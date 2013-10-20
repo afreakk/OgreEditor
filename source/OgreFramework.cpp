@@ -24,6 +24,7 @@ OgreFramework::OgreFramework()
 	m_pInputMgr			= 0;
 	m_pKeyboard			= 0;
 	m_pMouse			= 0;
+    mFPC                = NULL;
  
         m_pTrayMgr                      = 0;
         m_FrameEvent                    = Ogre::FrameEvent();
@@ -70,10 +71,6 @@ bool OgreFramework::keyReleased(const OIS::KeyEvent &keyEventRef)
 }
 bool OgreFramework::mouseMoved(const OIS::MouseEvent &evt)
 {
-    
-	m_pCameraNode->yaw(Degree(evt.state.X.rel * -0.1f),Ogre::Node::TS_LOCAL);
-	m_pCameraNode->pitch(Degree(evt.state.Y.rel * -0.1f),Ogre::Node::TS_LOCAL);
- 
 	return true;
 }
 
@@ -90,31 +87,7 @@ void OgreFramework::updateOgre(double timeSinceLastFrame)
 {
 	m_MoveScale = m_MoveSpeed   * (float)timeSinceLastFrame;
 	m_RotScale  = m_RotateSpeed * (float)timeSinceLastFrame;
- 
- 
-	m_FrameEvent.timeSinceLastFrame = timeSinceLastFrame;
-       // m_pTrayMgr->frameRenderingQueued(m_FrameEvent);
-}
-void OgreFramework::moveCamera()
-{
-	if(m_pKeyboard->isKeyDown(OIS::KC_LSHIFT)) 
-        m_pCameraNode->translate(m_TranslateVector,Ogre::Node::TS_LOCAL);
-	else
-        m_pCameraNode->translate(m_TranslateVector/10,Ogre::Node::TS_LOCAL);
-}
-void OgreFramework::getInput()
-{
-	if(m_pKeyboard->isKeyDown(OIS::KC_A))
-		m_TranslateVector.x = -m_MoveScale;
- 
-	if(m_pKeyboard->isKeyDown(OIS::KC_D))
-		m_TranslateVector.x = m_MoveScale;
- 
-	if(m_pKeyboard->isKeyDown(OIS::KC_W))
-		m_TranslateVector.z = -m_MoveScale;
- 
-	if(m_pKeyboard->isKeyDown(OIS::KC_S))
-		m_TranslateVector.z = m_MoveScale;
+    mFPC->update(timeSinceLastFrame,m_pKeyboard);
 }
 OgreFramework::~OgreFramework()
 {
@@ -141,18 +114,17 @@ bool OgreFramework::initOgre(Ogre::String wndTitle, OIS::KeyListener *pKeyListen
  
 	m_pCamera = m_pSceneMgr->createCamera("Camera");
 	m_pCamera->setNearClipDistance(1);
+    m_pCamera->setPosition(0.0f,0.0f,0.0f);
  
-    m_pCameraNode = m_pSceneMgr->getRootSceneNode()->createChildSceneNode();
-    m_pCameraNode->attachObject(m_pCamera);
 
 	m_pViewport = m_pRenderWnd->addViewport(m_pCamera);
 	m_pViewport->setBackgroundColour(ColourValue(0.8f, 0.7f, 0.6f, 1.0f));
  
 	m_pCamera->setAspectRatio(Real(m_pViewport->getActualWidth()) / Real(m_pViewport->getActualHeight()));
- 
 
 	m_pViewport->setCamera(m_pCamera);
- 
+
+    mFPC = new FirstPersonNoClip(m_pCamera); 
 	size_t hWnd = 0;
     OIS::ParamList paramList;
     m_pRenderWnd->getCustomAttribute("WINDOW", &hWnd);
@@ -209,16 +181,6 @@ bool OgreFramework::initOgre(Ogre::String wndTitle, OIS::KeyListener *pKeyListen
  
 	m_pTimer = new Ogre::Timer();
 	m_pTimer->reset();
- 
-/*    OgreBites::InputContext inputz;
-    inputz.mAccelerometer= NULL;
-    inputz.mKeyboard = NULL;
-    inputz.mMouse = m_pMouse;
-    inputz.mMultiTouch = NULL;
-	m_pTrayMgr = new OgreBites::SdkTrayManager("TrayMgr", m_pRenderWnd, inputz, this);
-        m_pTrayMgr->showFrameStats(OgreBites::TL_BOTTOMLEFT);
-        m_pTrayMgr->showLogo(OgreBites::TL_BOTTOMRIGHT);
-        m_pTrayMgr->hideCursor();*/
  
 	m_pRenderWnd->setActive(true);
 	return true;
