@@ -8,6 +8,7 @@ DemoApp::DemoApp()
     INSERTMODE=false;
 }
  
+
 //|||||||||||||||||||||||||||||||||||||||||||||||
  
 DemoApp::~DemoApp()
