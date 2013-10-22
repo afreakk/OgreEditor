@@ -2,20 +2,14 @@
 #ifndef MODE_H
 #define MODE_H
 #include "OgreFramework.h"
+#include "FileIO.h"
 #include "Gui3D.h"
 #include "Gui3DPanel.h"
 class Mode
 {
-    struct ModelInfo
-    {
-        Ogre::String name;
-        Ogre::SceneNode* translationNode;
-        Ogre::SceneNode* rotationNode;
-        Ogre::SceneNode* scaleNode;
-        Ogre::Entity* entity;
-    };
     public:
         Mode();
+        ~Mode();
         virtual void update(double)=0;
         virtual void init()=0;
         virtual bool keyPressed(const OIS::KeyEvent &keyEventRef)=0;

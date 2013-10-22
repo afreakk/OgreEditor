@@ -33,7 +33,11 @@ DemoApp::startDemo	DemoApp.cpp	/^void DemoApp::startDemo()$/;"	f	class:DemoApp	s
 DemoApp::startDemo	DemoApp.h	/^	void startDemo();$/;"	p	class:DemoApp	access:public	signature:()
 DemoApp::~DemoApp	DemoApp.cpp	/^DemoApp::~DemoApp()$/;"	f	class:DemoApp	signature:()
 DemoApp::~DemoApp	DemoApp.h	/^	~DemoApp();$/;"	p	class:DemoApp	access:public	signature:()
+FILEIO_H	FileIO.h	2;"	d
 FIRSTPERSONNOCLIP_H	FirstPersonNoClip.h	2;"	d
+FileIO	FileIO.h	/^class FileIO$/;"	c
+FileIO::writeToFile	FileIO.cpp	/^void FileIO::writeToFile(std::vector<ModelInfo> modelContainer, const char* filename)$/;"	f	class:FileIO	signature:(std::vector<ModelInfo> modelContainer, const char* filename)
+FileIO::writeToFile	FileIO.h	/^    static void writeToFile(std::vector<ModelInfo> modelContainer, const char* filename);$/;"	p	class:FileIO	access:private	signature:(std::vector<ModelInfo> modelContainer, const char* filename)
 FirstPersonNoClip	FirstPersonNoClip.cpp	/^FirstPersonNoClip::FirstPersonNoClip(Ogre::Camera* cam)$/;"	f	class:FirstPersonNoClip	signature:(Ogre::Camera* cam)
 FirstPersonNoClip	FirstPersonNoClip.h	/^        FirstPersonNoClip(Ogre::Camera*);$/;"	p	class:FirstPersonNoClip	access:public	signature:(Ogre::Camera*)
 FirstPersonNoClip	FirstPersonNoClip.h	/^class FirstPersonNoClip$/;"	c
@@ -49,16 +53,16 @@ FirstPersonNoClip::mCam	FirstPersonNoClip.h	/^        Ogre::Camera* mCam;$/;"	m	
 FirstPersonNoClip::mCameraMan	FirstPersonNoClip.h	/^        OgreBites::SdkCameraMan* mCameraMan;$/;"	m	class:FirstPersonNoClip	access:private
 FirstPersonNoClip::mouseMoved	FirstPersonNoClip.cpp	/^bool FirstPersonNoClip::mouseMoved(const OIS::MouseEvent& evt)$/;"	f	class:FirstPersonNoClip	signature:(const OIS::MouseEvent& evt)
 FirstPersonNoClip::mouseMoved	FirstPersonNoClip.h	/^        bool mouseMoved(const OIS::MouseEvent& evt);$/;"	p	class:FirstPersonNoClip	access:public	signature:(const OIS::MouseEvent& evt)
-FirstPersonNoClip::update	FirstPersonNoClip.cpp	/^void FirstPersonNoClip::update(float timeSinceLastFrame OIS::Keyboard* inputManager)$/;"	f	class:FirstPersonNoClip	signature:(float timeSinceLastFrame OIS::Keyboard* inputManager)
-FirstPersonNoClip::update	FirstPersonNoClip.h	/^        void update(float timeSinceLastFrame OIS::Keyboard* inputManager);$/;"	p	class:FirstPersonNoClip	access:public	signature:(float timeSinceLastFrame OIS::Keyboard* inputManager)
+FirstPersonNoClip::update	FirstPersonNoClip.cpp	/^void FirstPersonNoClip::update(double timeSinceLastFrame, OIS::Keyboard* inputManager)$/;"	f	class:FirstPersonNoClip	signature:(double timeSinceLastFrame, OIS::Keyboard* inputManager)
+FirstPersonNoClip::update	FirstPersonNoClip.h	/^        void update(double timeSinceLastFrame, OIS::Keyboard* inputManager);$/;"	p	class:FirstPersonNoClip	access:public	signature:(double timeSinceLastFrame, OIS::Keyboard* inputManager)
 FirstPersonNoClip::~FirstPersonNoClip	FirstPersonNoClip.cpp	/^FirstPersonNoClip::~FirstPersonNoClip()$/;"	f	class:FirstPersonNoClip	signature:()
 FirstPersonNoClip::~FirstPersonNoClip	FirstPersonNoClip.h	/^        ~FirstPersonNoClip();$/;"	p	class:FirstPersonNoClip	access:public	signature:()
 INSERTMODE	DemoApp.h	/^    bool INSERTMODE;$/;"	m	class:DemoApp	access:private
 INSERTMODE_H	InsertMode.h	2;"	d
-InsertMode	InsertMode.cpp	/^InsertMode::InsertMode()$/;"	f	class:InsertMode	signature:()
+InsertMode	InsertMode.cpp	/^InsertMode::InsertMode():rMode(false),sMode(false)$/;"	f	class:InsertMode	signature:()
 InsertMode	InsertMode.h	/^        InsertMode();$/;"	p	class:InsertMode	access:public	signature:()
 InsertMode	InsertMode.h	/^class InsertMode:public Mode$/;"	c	inherits:Mode
-InsertMode::InsertMode	InsertMode.cpp	/^InsertMode::InsertMode()$/;"	f	class:InsertMode	signature:()
+InsertMode::InsertMode	InsertMode.cpp	/^InsertMode::InsertMode():rMode(false),sMode(false)$/;"	f	class:InsertMode	signature:()
 InsertMode::InsertMode	InsertMode.h	/^        InsertMode();$/;"	p	class:InsertMode	access:public	signature:()
 InsertMode::init	InsertMode.cpp	/^void InsertMode::init()$/;"	f	class:InsertMode	signature:()
 InsertMode::init	InsertMode.h	/^        virtual void init();$/;"	p	class:InsertMode	access:public	signature:()
@@ -72,8 +76,14 @@ InsertMode::mousePressed	InsertMode.cpp	/^bool InsertMode::mousePressed(const OI
 InsertMode::mousePressed	InsertMode.h	/^        virtual bool mousePressed(const OIS::MouseEvent &evt, OIS::MouseButtonID id);$/;"	p	class:InsertMode	access:public	signature:(const OIS::MouseEvent &evt, OIS::MouseButtonID id)
 InsertMode::mouseReleased	InsertMode.cpp	/^bool InsertMode::mouseReleased(const OIS::MouseEvent &evt, OIS::MouseButtonID id)$/;"	f	class:InsertMode	signature:(const OIS::MouseEvent &evt, OIS::MouseButtonID id)
 InsertMode::mouseReleased	InsertMode.h	/^        virtual bool mouseReleased(const OIS::MouseEvent &evt, OIS::MouseButtonID id);$/;"	p	class:InsertMode	access:public	signature:(const OIS::MouseEvent &evt, OIS::MouseButtonID id)
-InsertMode::update	InsertMode.cpp	/^void InsertMode::update()$/;"	f	class:InsertMode	signature:()
-InsertMode::update	InsertMode.h	/^        virtual void update();$/;"	p	class:InsertMode	access:public	signature:()
+InsertMode::rMode	InsertMode.h	/^        bool rMode;$/;"	m	class:InsertMode	access:private
+InsertMode::rotateModel	InsertMode.cpp	/^void InsertMode::rotateModel(const OIS::MouseEvent &evt)$/;"	f	class:InsertMode	signature:(const OIS::MouseEvent &evt)
+InsertMode::rotateModel	InsertMode.h	/^        void rotateModel(const OIS::MouseEvent &evt);$/;"	p	class:InsertMode	access:private	signature:(const OIS::MouseEvent &evt)
+InsertMode::sMode	InsertMode.h	/^        bool sMode;$/;"	m	class:InsertMode	access:private
+InsertMode::scaleModel	InsertMode.cpp	/^void InsertMode::scaleModel(const OIS::MouseEvent &evt)$/;"	f	class:InsertMode	signature:(const OIS::MouseEvent &evt)
+InsertMode::scaleModel	InsertMode.h	/^        void scaleModel(const OIS::MouseEvent &evt);$/;"	p	class:InsertMode	access:private	signature:(const OIS::MouseEvent &evt)
+InsertMode::update	InsertMode.cpp	/^void InsertMode::update(double timeSinceLastFrame)$/;"	f	class:InsertMode	signature:(double timeSinceLastFrame)
+InsertMode::update	InsertMode.h	/^        virtual void update(double);$/;"	p	class:InsertMode	access:public	signature:(double)
 MENUMODE_H	MenuMode.h	2;"	d
 MODE_H	Mode.h	3;"	d
 MenuMode	MenuMode.cpp	/^MenuMode::MenuMode()$/;"	f	class:MenuMode	signature:()
@@ -96,7 +106,6 @@ MenuMode::mMousePointer	MenuMode.h	/^        Gorilla::Rectangle* mMousePointer;$
 MenuMode::mMousePointerLayer	MenuMode.h	/^        Gorilla::Layer* mMousePointerLayer;$/;"	m	class:MenuMode	access:private
 MenuMode::mMyPurplePanelColors	MenuMode.h	/^        MyPurplePanelColors mMyPurplePanelColors;$/;"	m	class:MenuMode	access:private
 MenuMode::mNormalizedMousePosition	MenuMode.h	/^        Ogre::Vector2 mNormalizedMousePosition;$/;"	m	class:MenuMode	access:private
-MenuMode::mPanel	MenuMode.h	/^        Gui3D::Panel* mPanel;$/;"	m	class:MenuMode	access:private
 MenuMode::mouseMoved	MenuMode.cpp	/^bool MenuMode::mouseMoved(const OIS::MouseEvent &evt)$/;"	f	class:MenuMode	signature:(const OIS::MouseEvent &evt)
 MenuMode::mouseMoved	MenuMode.h	/^        virtual bool mouseMoved(const OIS::MouseEvent &evt);$/;"	p	class:MenuMode	access:public	signature:(const OIS::MouseEvent &evt)
 MenuMode::mousePressed	MenuMode.cpp	/^bool MenuMode::mousePressed(const OIS::MouseEvent &evt, OIS::MouseButtonID id) $/;"	f	class:MenuMode	signature:(const OIS::MouseEvent &evt, OIS::MouseButtonID id)
@@ -104,18 +113,14 @@ MenuMode::mousePressed	MenuMode.h	/^        virtual bool mousePressed(const OIS:
 MenuMode::mouseReleased	MenuMode.cpp	/^bool MenuMode::mouseReleased(const OIS::MouseEvent &evt, OIS::MouseButtonID id)$/;"	f	class:MenuMode	signature:(const OIS::MouseEvent &evt, OIS::MouseButtonID id)
 MenuMode::mouseReleased	MenuMode.h	/^        virtual bool mouseReleased(const OIS::MouseEvent &evt, OIS::MouseButtonID id);$/;"	p	class:MenuMode	access:public	signature:(const OIS::MouseEvent &evt, OIS::MouseButtonID id)
 MenuMode::totalCombobox	MenuMode.h	/^        Gui3D::Combobox* totalCombobox;$/;"	m	class:MenuMode	access:private
-MenuMode::update	MenuMode.cpp	/^void MenuMode::update()$/;"	f	class:MenuMode	signature:()
-MenuMode::update	MenuMode.h	/^        virtual void update();$/;"	p	class:MenuMode	access:public	signature:()
+MenuMode::update	MenuMode.cpp	/^void MenuMode::update(double timeSinceLastFrame)$/;"	f	class:MenuMode	signature:(double timeSinceLastFrame)
+MenuMode::update	MenuMode.h	/^        virtual void update(double);$/;"	p	class:MenuMode	access:public	signature:(double)
 MenuMode::widgetDistance	MenuMode.h	/^        float widgetDistance;$/;"	m	class:MenuMode	access:private
 Mode	Mode.cpp	/^Mode::Mode()$/;"	f	class:Mode	signature:()
 Mode	Mode.h	/^        Mode();$/;"	p	class:Mode	access:public	signature:()
 Mode	Mode.h	/^class Mode$/;"	c
 Mode::Mode	Mode.cpp	/^Mode::Mode()$/;"	f	class:Mode	signature:()
 Mode::Mode	Mode.h	/^        Mode();$/;"	p	class:Mode	access:public	signature:()
-Mode::ModelInfo	Mode.h	/^    struct ModelInfo$/;"	s	class:Mode	access:private
-Mode::ModelInfo::entity	Mode.h	/^        Ogre::Entity* entity;$/;"	m	struct:Mode::ModelInfo	access:public
-Mode::ModelInfo::name	Mode.h	/^        Ogre::String name;$/;"	m	struct:Mode::ModelInfo	access:public
-Mode::ModelInfo::node	Mode.h	/^        Ogre::SceneNode* node;$/;"	m	struct:Mode::ModelInfo	access:public
 Mode::_boxHeight	Mode.cpp	/^int                         Mode::_boxHeight    = Mode::_width\/2;$/;"	m	class:Mode	file:
 Mode::_boxHeight	Mode.h	/^        static int _boxHeight;$/;"	m	class:Mode	access:protected
 Mode::_distance	Mode.cpp	/^int                         Mode::_distance     = 100;$/;"	m	class:Mode	file:
@@ -130,24 +135,30 @@ Mode::_widthPadding	Mode.cpp	/^int                         Mode::_widthPadding =
 Mode::_widthPadding	Mode.h	/^        static int _widthPadding;$/;"	m	class:Mode	access:protected
 Mode::addModel	Mode.cpp	/^bool Mode::addModel(Gui3D::Combobox* e)$/;"	f	class:Mode	signature:(Gui3D::Combobox* e)
 Mode::addModel	Mode.h	/^        bool addModel(Gui3D::Combobox* e); $/;"	p	class:Mode	access:protected	signature:(Gui3D::Combobox* e)
-Mode::addToComboBox	Mode.cpp	/^void Mode::addToComboBox(std::string modelName, std::string& totalName)$/;"	f	class:Mode	signature:(std::string modelName, std::string& totalName)
-Mode::addToComboBox	Mode.h	/^        void addToComboBox(std::string modelName, std::string& totalName);$/;"	p	class:Mode	access:protected	signature:(std::string modelName, std::string& totalName)
+Mode::addToComboBox	Mode.cpp	/^void Mode::addToComboBox(std::string modelName)$/;"	f	class:Mode	signature:(std::string modelName)
+Mode::addToComboBox	Mode.h	/^        void addToComboBox(std::string modelName);$/;"	p	class:Mode	access:protected	signature:(std::string modelName)
 Mode::addedCombobox	Mode.cpp	/^Gui3D::Combobox*            Mode::addedCombobox =NULL;$/;"	m	class:Mode	file:
 Mode::addedCombobox	Mode.h	/^        static Gui3D::Combobox* addedCombobox;$/;"	m	class:Mode	access:protected
 Mode::addedModels	Mode.cpp	/^std::vector<Ogre::String>   Mode::addedModels;$/;"	m	class:Mode	file:
 Mode::addedModels	Mode.h	/^        static std::vector<Ogre::String> addedModels;$/;"	m	class:Mode	access:protected
 Mode::captionCombobox	Mode.cpp	/^Gui3D::Caption*             Mode::captionCombobox=NULL;$/;"	m	class:Mode	file:
 Mode::captionCombobox	Mode.h	/^        static Gui3D::Caption* captionCombobox;$/;"	m	class:Mode	access:protected
-Mode::currentModel	Mode.cpp	/^Mode::ModelInfo*            Mode::currentModel  =NULL;$/;"	m	class:Mode	file:
+Mode::createModelFileIndex	Mode.cpp	/^std::string Mode::createModelFileIndex(Ogre::String modelName)$/;"	f	class:Mode	signature:(Ogre::String modelName)
+Mode::createModelFileIndex	Mode.h	/^        std::string createModelFileIndex(Ogre::String modelName);$/;"	p	class:Mode	access:protected	signature:(Ogre::String modelName)
+Mode::currentModel	Mode.cpp	/^ModelInfo*            Mode::currentModel  =NULL;$/;"	m	class:Mode	file:
 Mode::currentModel	Mode.h	/^        static ModelInfo * currentModel;$/;"	m	class:Mode	access:protected
+Mode::destroyCombobox	Mode.cpp	/^void Mode::destroyCombobox()$/;"	f	class:Mode	signature:()
+Mode::destroyCombobox	Mode.h	/^        void destroyCombobox();$/;"	p	class:Mode	access:protected	signature:()
 Mode::hasEnding	Mode.cpp	/^bool Mode::hasEnding(std::string const &fullString, std::string const &ending)$/;"	f	class:Mode	signature:(std::string const &fullString, std::string const &ending)
 Mode::hasEnding	Mode.h	/^        bool hasEnding(std::string const &fullString, std::string const &ending); $/;"	p	class:Mode	access:protected	signature:(std::string const &fullString, std::string const &ending)
 Mode::init	Mode.h	/^        virtual void init()=0;$/;"	p	class:Mode	access:public	signature:()
 Mode::keyPressed	Mode.h	/^        virtual bool keyPressed(const OIS::KeyEvent &keyEventRef)=0;$/;"	p	class:Mode	access:public	signature:(const OIS::KeyEvent &keyEventRef)
 Mode::keyReleased	Mode.h	/^        virtual bool keyReleased(const OIS::KeyEvent &keyEventRef)=0;$/;"	p	class:Mode	access:public	signature:(const OIS::KeyEvent &keyEventRef)
-Mode::modelContainer	Mode.cpp	/^std::vector<Mode::ModelInfo>Mode::modelContainer;$/;"	m	class:Mode	file:
+Mode::makeCombobox	Mode.cpp	/^void Mode::makeCombobox(std::string& totalName)$/;"	f	class:Mode	signature:(std::string& totalName)
+Mode::makeCombobox	Mode.h	/^        void makeCombobox(std::string& totalName);$/;"	p	class:Mode	access:protected	signature:(std::string& totalName)
+Mode::modelContainer	Mode.cpp	/^std::vector<ModelInfo>Mode::modelContainer;$/;"	m	class:Mode	file:
 Mode::modelContainer	Mode.h	/^        static std::vector<ModelInfo> modelContainer;$/;"	m	class:Mode	access:protected
-Mode::modelDistance	Mode.cpp	/^float                       Mode::modelDistance =2.0f;$/;"	m	class:Mode	file:
+Mode::modelDistance	Mode.cpp	/^float                       Mode::modelDistance =4.0f;$/;"	m	class:Mode	file:
 Mode::modelDistance	Mode.h	/^        static float modelDistance;$/;"	m	class:Mode	access:protected
 Mode::modelsPlaced	Mode.cpp	/^unsigned int                Mode::modelsPlaced  =0;$/;"	m	class:Mode	file:
 Mode::modelsPlaced	Mode.h	/^        static unsigned int modelsPlaced;$/;"	m	class:Mode	access:protected
@@ -162,12 +173,20 @@ Mode::rEngine	Mode.cpp	/^OgreFramework*              Mode::rEngine       =NULL;$
 Mode::rEngine	Mode.h	/^        static OgreFramework* rEngine;$/;"	m	class:Mode	access:protected
 Mode::selectModel	Mode.cpp	/^bool Mode::selectModel(Gui3D::Combobox* e)$/;"	f	class:Mode	signature:(Gui3D::Combobox* e)
 Mode::selectModel	Mode.h	/^        bool selectModel(Gui3D::Combobox* e);$/;"	p	class:Mode	access:protected	signature:(Gui3D::Combobox* e)
+Mode::setCaptionText	Mode.cpp	/^void Mode::setCaptionText(std::string modelName)$/;"	f	class:Mode	signature:(std::string modelName)
+Mode::setCaptionText	Mode.h	/^        void setCaptionText(std::string modelName);$/;"	p	class:Mode	access:protected	signature:(std::string modelName)
 Mode::totalModels	Mode.cpp	/^std::vector<Ogre::String>   Mode::totalModels;$/;"	m	class:Mode	file:
 Mode::totalModels	Mode.h	/^        static std::vector<Ogre::String> totalModels;$/;"	m	class:Mode	access:protected
-Mode::update	Mode.h	/^        virtual void update()=0;$/;"	p	class:Mode	access:public	signature:()
+Mode::update	Mode.h	/^        virtual void update(double)=0;$/;"	p	class:Mode	access:public	signature:(double)
 Mode::zDistance	Mode.cpp	/^float                       Mode::zDistance     =0.0f;$/;"	m	class:Mode	file:
 Mode::zDistance	Mode.h	/^        static float zDistance;$/;"	m	class:Mode	access:protected
-ModelInfo	Mode.h	/^    struct ModelInfo$/;"	s	class:Mode	access:private
+Mode::~Mode	Mode.h	/^        ~Mode();$/;"	p	class:Mode	access:public	signature:()
+ModelInfo	FileIO.h	/^struct ModelInfo$/;"	s
+ModelInfo::entity	FileIO.h	/^    Ogre::Entity* entity;$/;"	m	struct:ModelInfo	access:public
+ModelInfo::name	FileIO.h	/^    Ogre::String name;$/;"	m	struct:ModelInfo	access:public
+ModelInfo::rotationNode	FileIO.h	/^    Ogre::SceneNode* rotationNode;$/;"	m	struct:ModelInfo	access:public
+ModelInfo::scaleNode	FileIO.h	/^    Ogre::SceneNode* scaleNode;$/;"	m	struct:ModelInfo	access:public
+ModelInfo::translationNode	FileIO.h	/^    Ogre::SceneNode* translationNode;$/;"	m	struct:ModelInfo	access:public
 MyPurplePanelColors	MyPurplePanelColors.cpp	/^MyPurplePanelColors::MyPurplePanelColors()$/;"	f	class:MyPurplePanelColors	signature:()
 MyPurplePanelColors	MyPurplePanelColors.h	/^    MyPurplePanelColors();$/;"	p	struct:MyPurplePanelColors	access:public	signature:()
 MyPurplePanelColors	MyPurplePanelColors.h	/^struct MyPurplePanelColors : public Gui3D::PanelColors$/;"	s	inherits:Gui3D::PanelColors
@@ -240,18 +259,22 @@ _widthPadding	Mode.cpp	/^int                         Mode::_widthPadding = 20;$/
 _widthPadding	Mode.h	/^        static int _widthPadding;$/;"	m	class:Mode	access:protected
 addModel	Mode.cpp	/^bool Mode::addModel(Gui3D::Combobox* e)$/;"	f	class:Mode	signature:(Gui3D::Combobox* e)
 addModel	Mode.h	/^        bool addModel(Gui3D::Combobox* e); $/;"	p	class:Mode	access:protected	signature:(Gui3D::Combobox* e)
-addToComboBox	Mode.cpp	/^void Mode::addToComboBox(std::string modelName, std::string& totalName)$/;"	f	class:Mode	signature:(std::string modelName, std::string& totalName)
-addToComboBox	Mode.h	/^        void addToComboBox(std::string modelName, std::string& totalName);$/;"	p	class:Mode	access:protected	signature:(std::string modelName, std::string& totalName)
+addToComboBox	Mode.cpp	/^void Mode::addToComboBox(std::string modelName)$/;"	f	class:Mode	signature:(std::string modelName)
+addToComboBox	Mode.h	/^        void addToComboBox(std::string modelName);$/;"	p	class:Mode	access:protected	signature:(std::string modelName)
 addedCombobox	Mode.cpp	/^Gui3D::Combobox*            Mode::addedCombobox =NULL;$/;"	m	class:Mode	file:
 addedCombobox	Mode.h	/^        static Gui3D::Combobox* addedCombobox;$/;"	m	class:Mode	access:protected
 addedModels	Mode.cpp	/^std::vector<Ogre::String>   Mode::addedModels;$/;"	m	class:Mode	file:
 addedModels	Mode.h	/^        static std::vector<Ogre::String> addedModels;$/;"	m	class:Mode	access:protected
 captionCombobox	Mode.cpp	/^Gui3D::Caption*             Mode::captionCombobox=NULL;$/;"	m	class:Mode	file:
 captionCombobox	Mode.h	/^        static Gui3D::Caption* captionCombobox;$/;"	m	class:Mode	access:protected
+createModelFileIndex	Mode.cpp	/^std::string Mode::createModelFileIndex(Ogre::String modelName)$/;"	f	class:Mode	signature:(Ogre::String modelName)
+createModelFileIndex	Mode.h	/^        std::string createModelFileIndex(Ogre::String modelName);$/;"	p	class:Mode	access:protected	signature:(Ogre::String modelName)
 currentMode	DemoApp.h	/^    Mode* currentMode;$/;"	m	class:DemoApp	access:private
-currentModel	Mode.cpp	/^Mode::ModelInfo*            Mode::currentModel  =NULL;$/;"	m	class:Mode	file:
+currentModel	Mode.cpp	/^ModelInfo*            Mode::currentModel  =NULL;$/;"	m	class:Mode	file:
 currentModel	Mode.h	/^        static ModelInfo * currentModel;$/;"	m	class:Mode	access:protected
-entity	Mode.h	/^        Ogre::Entity* entity;$/;"	m	struct:Mode::ModelInfo	access:public
+destroyCombobox	Mode.cpp	/^void Mode::destroyCombobox()$/;"	f	class:Mode	signature:()
+destroyCombobox	Mode.h	/^        void destroyCombobox();$/;"	p	class:Mode	access:protected	signature:()
+entity	FileIO.h	/^    Ogre::Entity* entity;$/;"	m	struct:ModelInfo	access:public
 getCameraToViewportRay	FirstPersonNoClip.cpp	/^Ogre::Ray FirstPersonNoClip::getCameraToViewportRay(Ogre::Real screenx, Ogre::Real screeny)$/;"	f	class:FirstPersonNoClip	signature:(Ogre::Real screenx, Ogre::Real screeny)
 getCameraToViewportRay	FirstPersonNoClip.h	/^        Ogre::Ray getCameraToViewportRay(Ogre::Real screenx, Ogre::Real screeny);$/;"	p	class:FirstPersonNoClip	access:public	signature:(Ogre::Real screenx, Ogre::Real screeny)
 getOrientation	FirstPersonNoClip.cpp	/^const Ogre::Quaternion& FirstPersonNoClip::getOrientation()$/;"	f	class:FirstPersonNoClip	signature:()
@@ -298,7 +321,6 @@ mMousePointer	MenuMode.h	/^        Gorilla::Rectangle* mMousePointer;$/;"	m	clas
 mMousePointerLayer	MenuMode.h	/^        Gorilla::Layer* mMousePointerLayer;$/;"	m	class:MenuMode	access:private
 mMyPurplePanelColors	MenuMode.h	/^        MyPurplePanelColors mMyPurplePanelColors;$/;"	m	class:MenuMode	access:private
 mNormalizedMousePosition	MenuMode.h	/^        Ogre::Vector2 mNormalizedMousePosition;$/;"	m	class:MenuMode	access:private
-mPanel	MenuMode.h	/^        Gui3D::Panel* mPanel;$/;"	m	class:MenuMode	access:private
 m_FrameEvent	OgreFramework.h	/^    Ogre::FrameEvent                        m_FrameEvent;$/;"	m	class:OgreFramework	access:public
 m_MoveScale	OgreFramework.h	/^	float					m_MoveScale; $/;"	m	class:OgreFramework	access:private
 m_MoveSpeed	OgreFramework.h	/^	Ogre::Real				m_MoveSpeed; $/;"	m	class:OgreFramework	access:private
@@ -319,10 +341,12 @@ m_pSceneMgr	OgreFramework.h	/^	Ogre::SceneManager*			m_pSceneMgr;$/;"	m	class:Og
 m_pTimer	OgreFramework.h	/^	Ogre::Timer*				m_pTimer;$/;"	m	class:OgreFramework	access:public
 m_pTrayMgr	OgreFramework.h	/^	OgreBites::SdkTrayManager*	        m_pTrayMgr;$/;"	m	class:OgreFramework	access:private
 m_pViewport	OgreFramework.h	/^	Ogre::Viewport*				m_pViewport;$/;"	m	class:OgreFramework	access:public
+makeCombobox	Mode.cpp	/^void Mode::makeCombobox(std::string& totalName)$/;"	f	class:Mode	signature:(std::string& totalName)
+makeCombobox	Mode.h	/^        void makeCombobox(std::string& totalName);$/;"	p	class:Mode	access:protected	signature:(std::string& totalName)
 menuMode	DemoApp.h	/^    Mode* menuMode;$/;"	m	class:DemoApp	access:private
-modelContainer	Mode.cpp	/^std::vector<Mode::ModelInfo>Mode::modelContainer;$/;"	m	class:Mode	file:
+modelContainer	Mode.cpp	/^std::vector<ModelInfo>Mode::modelContainer;$/;"	m	class:Mode	file:
 modelContainer	Mode.h	/^        static std::vector<ModelInfo> modelContainer;$/;"	m	class:Mode	access:protected
-modelDistance	Mode.cpp	/^float                       Mode::modelDistance =2.0f;$/;"	m	class:Mode	file:
+modelDistance	Mode.cpp	/^float                       Mode::modelDistance =4.0f;$/;"	m	class:Mode	file:
 modelDistance	Mode.h	/^        static float modelDistance;$/;"	m	class:Mode	access:protected
 modelsPlaced	Mode.cpp	/^unsigned int                Mode::modelsPlaced  =0;$/;"	m	class:Mode	file:
 modelsPlaced	Mode.h	/^        static unsigned int modelsPlaced;$/;"	m	class:Mode	access:protected
@@ -357,18 +381,27 @@ mouseReleased	OgreFramework.cpp	/^bool OgreFramework::mouseReleased(const OIS::M
 mouseReleased	OgreFramework.h	/^	bool mouseReleased(const OIS::MouseEvent &evt, OIS::MouseButtonID id);$/;"	p	class:OgreFramework	access:public	signature:(const OIS::MouseEvent &evt, OIS::MouseButtonID id)
 moveModel	Mode.cpp	/^void Mode::moveModel()$/;"	f	class:Mode	signature:()
 moveModel	Mode.h	/^        void moveModel();$/;"	p	class:Mode	access:protected	signature:()
-name	Mode.h	/^        Ogre::String name;$/;"	m	struct:Mode::ModelInfo	access:public
-node	Mode.h	/^        Ogre::SceneNode* node;$/;"	m	struct:Mode::ModelInfo	access:public
+name	FileIO.h	/^    Ogre::String name;$/;"	m	struct:ModelInfo	access:public
 operator =	OgreFramework.h	/^	OgreFramework& operator= (const OgreFramework&);$/;"	p	class:OgreFramework	access:private	signature:(const OgreFramework&)
 panel	Mode.cpp	/^Gui3D::Panel*               Mode::panel         =NULL;$/;"	m	class:Mode	file:
 panel	Mode.h	/^        static Gui3D::Panel* panel;$/;"	m	class:Mode	access:protected
 rEngine	DemoApp.h	/^    OgreFramework* rEngine;$/;"	m	class:DemoApp	access:private
 rEngine	Mode.cpp	/^OgreFramework*              Mode::rEngine       =NULL;$/;"	m	class:Mode	file:
 rEngine	Mode.h	/^        static OgreFramework* rEngine;$/;"	m	class:Mode	access:protected
+rMode	InsertMode.h	/^        bool rMode;$/;"	m	class:InsertMode	access:private
+rotateModel	InsertMode.cpp	/^void InsertMode::rotateModel(const OIS::MouseEvent &evt)$/;"	f	class:InsertMode	signature:(const OIS::MouseEvent &evt)
+rotateModel	InsertMode.h	/^        void rotateModel(const OIS::MouseEvent &evt);$/;"	p	class:InsertMode	access:private	signature:(const OIS::MouseEvent &evt)
+rotationNode	FileIO.h	/^    Ogre::SceneNode* rotationNode;$/;"	m	struct:ModelInfo	access:public
 runDemo	DemoApp.cpp	/^void DemoApp::runDemo()$/;"	f	class:DemoApp	signature:()
 runDemo	DemoApp.h	/^	void runDemo();$/;"	p	class:DemoApp	access:private	signature:()
+sMode	InsertMode.h	/^        bool sMode;$/;"	m	class:InsertMode	access:private
+scaleModel	InsertMode.cpp	/^void InsertMode::scaleModel(const OIS::MouseEvent &evt)$/;"	f	class:InsertMode	signature:(const OIS::MouseEvent &evt)
+scaleModel	InsertMode.h	/^        void scaleModel(const OIS::MouseEvent &evt);$/;"	p	class:InsertMode	access:private	signature:(const OIS::MouseEvent &evt)
+scaleNode	FileIO.h	/^    Ogre::SceneNode* scaleNode;$/;"	m	struct:ModelInfo	access:public
 selectModel	Mode.cpp	/^bool Mode::selectModel(Gui3D::Combobox* e)$/;"	f	class:Mode	signature:(Gui3D::Combobox* e)
 selectModel	Mode.h	/^        bool selectModel(Gui3D::Combobox* e);$/;"	p	class:Mode	access:protected	signature:(Gui3D::Combobox* e)
+setCaptionText	Mode.cpp	/^void Mode::setCaptionText(std::string modelName)$/;"	f	class:Mode	signature:(std::string modelName)
+setCaptionText	Mode.h	/^        void setCaptionText(std::string modelName);$/;"	p	class:Mode	access:protected	signature:(std::string modelName)
 setupDemoScene	DemoApp.cpp	/^void DemoApp::setupDemoScene()$/;"	f	class:DemoApp	signature:()
 setupDemoScene	DemoApp.h	/^    void setupDemoScene();$/;"	p	class:DemoApp	access:private	signature:()
 startDemo	DemoApp.cpp	/^void DemoApp::startDemo()$/;"	f	class:DemoApp	signature:()
@@ -376,21 +409,25 @@ startDemo	DemoApp.h	/^	void startDemo();$/;"	p	class:DemoApp	access:public	signa
 totalCombobox	MenuMode.h	/^        Gui3D::Combobox* totalCombobox;$/;"	m	class:MenuMode	access:private
 totalModels	Mode.cpp	/^std::vector<Ogre::String>   Mode::totalModels;$/;"	m	class:Mode	file:
 totalModels	Mode.h	/^        static std::vector<Ogre::String> totalModels;$/;"	m	class:Mode	access:protected
-update	FirstPersonNoClip.cpp	/^void FirstPersonNoClip::update(float timeSinceLastFrame OIS::Keyboard* inputManager)$/;"	f	class:FirstPersonNoClip	signature:(float timeSinceLastFrame OIS::Keyboard* inputManager)
-update	FirstPersonNoClip.h	/^        void update(float timeSinceLastFrame OIS::Keyboard* inputManager);$/;"	p	class:FirstPersonNoClip	access:public	signature:(float timeSinceLastFrame OIS::Keyboard* inputManager)
-update	InsertMode.cpp	/^void InsertMode::update()$/;"	f	class:InsertMode	signature:()
-update	InsertMode.h	/^        virtual void update();$/;"	p	class:InsertMode	access:public	signature:()
-update	MenuMode.cpp	/^void MenuMode::update()$/;"	f	class:MenuMode	signature:()
-update	MenuMode.h	/^        virtual void update();$/;"	p	class:MenuMode	access:public	signature:()
-update	Mode.h	/^        virtual void update()=0;$/;"	p	class:Mode	access:public	signature:()
+translationNode	FileIO.h	/^    Ogre::SceneNode* translationNode;$/;"	m	struct:ModelInfo	access:public
+update	FirstPersonNoClip.cpp	/^void FirstPersonNoClip::update(double timeSinceLastFrame, OIS::Keyboard* inputManager)$/;"	f	class:FirstPersonNoClip	signature:(double timeSinceLastFrame, OIS::Keyboard* inputManager)
+update	FirstPersonNoClip.h	/^        void update(double timeSinceLastFrame, OIS::Keyboard* inputManager);$/;"	p	class:FirstPersonNoClip	access:public	signature:(double timeSinceLastFrame, OIS::Keyboard* inputManager)
+update	InsertMode.cpp	/^void InsertMode::update(double timeSinceLastFrame)$/;"	f	class:InsertMode	signature:(double timeSinceLastFrame)
+update	InsertMode.h	/^        virtual void update(double);$/;"	p	class:InsertMode	access:public	signature:(double)
+update	MenuMode.cpp	/^void MenuMode::update(double timeSinceLastFrame)$/;"	f	class:MenuMode	signature:(double timeSinceLastFrame)
+update	MenuMode.h	/^        virtual void update(double);$/;"	p	class:MenuMode	access:public	signature:(double)
+update	Mode.h	/^        virtual void update(double)=0;$/;"	p	class:Mode	access:public	signature:(double)
 updateOgre	OgreFramework.cpp	/^void OgreFramework::updateOgre(double timeSinceLastFrame)$/;"	f	class:OgreFramework	signature:(double timeSinceLastFrame)
 updateOgre	OgreFramework.h	/^	void updateOgre(double timeSinceLastFrame);$/;"	p	class:OgreFramework	access:public	signature:(double timeSinceLastFrame)
 widgetDistance	MenuMode.h	/^        float widgetDistance;$/;"	m	class:MenuMode	access:private
+writeToFile	FileIO.cpp	/^void FileIO::writeToFile(std::vector<ModelInfo> modelContainer, const char* filename)$/;"	f	class:FileIO	signature:(std::vector<ModelInfo> modelContainer, const char* filename)
+writeToFile	FileIO.h	/^    static void writeToFile(std::vector<ModelInfo> modelContainer, const char* filename);$/;"	p	class:FileIO	access:private	signature:(std::vector<ModelInfo> modelContainer, const char* filename)
 zDistance	Mode.cpp	/^float                       Mode::zDistance     =0.0f;$/;"	m	class:Mode	file:
 zDistance	Mode.h	/^        static float zDistance;$/;"	m	class:Mode	access:protected
 ~DemoApp	DemoApp.cpp	/^DemoApp::~DemoApp()$/;"	f	class:DemoApp	signature:()
 ~DemoApp	DemoApp.h	/^	~DemoApp();$/;"	p	class:DemoApp	access:public	signature:()
 ~FirstPersonNoClip	FirstPersonNoClip.cpp	/^FirstPersonNoClip::~FirstPersonNoClip()$/;"	f	class:FirstPersonNoClip	signature:()
 ~FirstPersonNoClip	FirstPersonNoClip.h	/^        ~FirstPersonNoClip();$/;"	p	class:FirstPersonNoClip	access:public	signature:()
+~Mode	Mode.h	/^        ~Mode();$/;"	p	class:Mode	access:public	signature:()
 ~OgreFramework	OgreFramework.cpp	/^OgreFramework::~OgreFramework()$/;"	f	class:OgreFramework	signature:()
 ~OgreFramework	OgreFramework.h	/^	~OgreFramework();$/;"	p	class:OgreFramework	access:public	signature:()

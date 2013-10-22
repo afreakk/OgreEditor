@@ -2,12 +2,12 @@
 
 OgreFramework*              Mode::rEngine       =NULL;
 unsigned int                Mode::modelsPlaced  =0;
-Mode::ModelInfo*            Mode::currentModel  =NULL;
+ModelInfo*            Mode::currentModel  =NULL;
 Gui3D::Caption*             Mode::captionCombobox=NULL;
 
 std::vector<Ogre::String>   Mode::totalModels;
 std::vector<Ogre::String>   Mode::addedModels;
-std::vector<Mode::ModelInfo>Mode::modelContainer;
+std::vector<ModelInfo>Mode::modelContainer;
 
 Gui3D::Combobox*            Mode::addedCombobox =NULL;
 Gui3D::Panel*               Mode::panel         =NULL;
@@ -26,6 +26,9 @@ Mode::Mode()
     rEngine = OgreFramework::getSingletonPtr();
 }
 
+Mode::~Mode()
+{
+}
 bool Mode::selectModel(Gui3D::Combobox* e)
 {
     Ogre::String _name = e->getValue();
@@ -37,6 +40,7 @@ bool Mode::selectModel(Gui3D::Combobox* e)
         }
     }
     zDistance=0.0f;
+    FileIO::writeToFile(modelContainer,"lvl.hnz");
     moveModel();
 }
 std::string Mode::createModelFileIndex(Ogre::String modelName)

@@ -26,6 +26,7 @@ SOURCES += \
     source/MenuMode.cpp \
     source/InsertMode.cpp \
     source/FirstPersonNoClip.cpp \
+    source/FileIO.cpp \
 
 HEADERS += \
     source/OgreFramework.h \
@@ -35,5 +36,6 @@ HEADERS += \
     source/MenuMode.h \
     source/InsertMode.h \
     source/FirstPersonNoClip.h \
+    source/FileIO.h \
 
 
