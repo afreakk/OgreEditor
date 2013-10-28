@@ -11,12 +11,20 @@ void InsertMode::update(double timeSinceLastFrame)
     rEngine->mFPC->update(timeSinceLastFrame,rEngine->m_pKeyboard);
     moveModel();
 }
+bool once = true;
 bool InsertMode::keyPressed(const OIS::KeyEvent &keyEventRef)
 {
     if(keyEventRef.key == OIS::KC_LSHIFT)
         rMode=true;
     if(keyEventRef.key == OIS::KC_SPACE)
         sMode=true;
+    if(keyEventRef.key == OIS::KC_X)
+        FileIO::writeToFile(modelContainer,"lvl.hnz");
+    if(keyEventRef.key == OIS::KC_Z&&once)
+    {
+        FileIO::writeToFile( FileIO::readFile("lvl.hnz",rEngine->m_pSceneMgr) , "testOfLzlHnz.hnz");
+        once = false; //loading the same file twice causes error because duplicate sceneNode names gets made also why would you want that
+    }
     return true;
 }
 bool InsertMode::keyReleased(const OIS::KeyEvent &keyEventRef)
@@ -29,11 +37,16 @@ bool InsertMode::keyReleased(const OIS::KeyEvent &keyEventRef)
 }
 bool InsertMode::mouseMoved(const OIS::MouseEvent &evt)
 {
-    if(rMode)
-        rotateModel(evt);
-    else if(sMode)
-        scaleModel(evt);
-    else
+    bool mod = false;
+    if(currentModel)
+    {
+        if(rMode)
+            rotateModel(evt);
+        else if(sMode)
+            scaleModel(evt);
+        mod=sMode+rMode;
+    }
+    if(!mod)
         rEngine->mFPC->mouseMoved(evt);
     zDistance += evt.state.Z.rel;
     return true;
@@ -44,7 +57,6 @@ void InsertMode::scaleModel(const OIS::MouseEvent &evt)
     float yA = evt.state.Y.abs;
     float a = xA*yA;
     a /= 5000.0;
-    std::cout << a <<std::endl;
     Ogre::Vector3 scaleA = Ogre::Vector3(a,a,a);
     currentModel->scaleNode->setScale(scaleA);
 }

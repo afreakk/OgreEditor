@@ -40,7 +40,6 @@ bool Mode::selectModel(Gui3D::Combobox* e)
         }
     }
     zDistance=0.0f;
-    FileIO::writeToFile(modelContainer,"lvl.hnz");
     moveModel();
 }
 std::string Mode::createModelFileIndex(Ogre::String modelName)

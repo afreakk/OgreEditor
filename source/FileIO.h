@@ -3,8 +3,13 @@
 
 #include <OgreEntity.h>
 #include <OgreSceneNode.h>
+#include <OgreSceneManager.h>
 #include <vector>
 #include <fstream>
+#include <iostream>
+#include <string>
+#include <sstream>
+
 struct ModelInfo
 {
     Ogre::String name;
@@ -18,6 +23,9 @@ class FileIO
 {
     public:
         static void writeToFile(std::vector<ModelInfo> modelContainer, const char* filename);
+        static std::vector<ModelInfo> readFile(const char* filename, Ogre::SceneManager * scMgr);
+        static bool beginsWith(std::string value, std::string bValue);
+        static float stringToFloat(std::string str);
 };
 
 #endif /*FILEIO_H*/

@@ -1,0 +1,12 @@
+newMesh:  1/ogrehead.mesh
+translation: /-68.549/14.0235/-73.3813
+rotation: /0.00645721/0.092382/0.993857/-0.0606024
+scale: /1/1/1
+newMesh:  2/spine.mesh
+translation: /-27.6445/-6.36063/-32.0264
+rotation: /1/0/0/0
+scale: /0.1488/0.1488/0.1488
+newMesh:  3/tudorhouse.mesh
+translation: /-825.969/357.976/-2023.97
+rotation: /1/0/0/0
+scale: /1/1/1
