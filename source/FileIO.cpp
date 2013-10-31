@@ -5,13 +5,18 @@ void FileIO::writeToFile(std::vector<ModelInfo> modelContainer, const char* file
     std::ofstream file(filename);
     for(int i=0; i<modelContainer.size(); i++)
     {
-        Ogre::Vector3 p = modelContainer[i].translationNode->getPosition();
-        Ogre::Quaternion r = modelContainer[i].rotationNode->getOrientation();
-        Ogre::Vector3 s = modelContainer[i].scaleNode->getScale();
-        file<<"newMesh: "<< modelContainer[i].name<<"\n"
-            <<"translation: "   <<"/" <<p.x <<"/" <<p.y <<"/" <<p.z <<"\n"
-            <<"rotation: "      <<"/" <<r.w <<"/" <<r.x <<"/" <<r.y <<"/" <<r.z <<"\n"
-            <<"scale: "         <<"/" <<s.x <<"/" <<s.y <<"/" <<s.z <<"\n";
+        if(modelContainer[i].entity->isVisible())
+        {
+            Ogre::Vector3 p = modelContainer[i].translationNode->getPosition();
+            Ogre::Quaternion r = modelContainer[i].rotationNode->getOrientation();
+            Ogre::Quaternion tRot = modelContainer[i].translationNode->getOrientation();
+            r = tRot*r;
+            Ogre::Vector3 s = modelContainer[i].scaleNode->getScale();
+            file<<"newMesh: "<< modelContainer[i].name<<"\n"
+                <<"translation: "   <<"/" <<p.x <<"/" <<p.y <<"/" <<p.z <<"\n"
+                <<"rotation: "      <<"/" <<r.w <<"/" <<r.x <<"/" <<r.y <<"/" <<r.z <<"\n"
+                <<"scale: "         <<"/" <<s.x <<"/" <<s.y <<"/" <<s.z <<"\n";
+        }
     }
     file.close();
 }

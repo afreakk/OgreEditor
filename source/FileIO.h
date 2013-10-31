@@ -9,7 +9,7 @@
 #include <iostream>
 #include <string>
 #include <sstream>
-
+#include "rigidbody.h"
 struct ModelInfo
 {
     Ogre::String name;
@@ -17,6 +17,7 @@ struct ModelInfo
     Ogre::SceneNode* rotationNode;
     Ogre::SceneNode* scaleNode;
     Ogre::Entity* entity;
+    RigidBody* rigidBody;
 };
 
 class FileIO

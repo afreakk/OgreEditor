@@ -11,7 +11,7 @@ FirstPersonNoClip::~FirstPersonNoClip()
 }
 void FirstPersonNoClip::update(double timeSinceLastFrame, OIS::Keyboard* inputManager)
 {
-    double moveScale = timeSinceLastFrame/10.0;
+    double moveScale = timeSinceLastFrame*100.0;
     Ogre::Vector3 translateVector = Ogre::Vector3::ZERO;
 
     if(inputManager->isKeyDown(OIS::KC_PGUP))

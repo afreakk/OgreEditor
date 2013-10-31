@@ -5,10 +5,11 @@ InsertMode::InsertMode():rMode(false),sMode(false)
 }
 void InsertMode::init()
 {    
+    panel->getGUILayer()->hide();
 }
 void InsertMode::update(double timeSinceLastFrame)
 {
-    rEngine->mFPC->update(timeSinceLastFrame,rEngine->m_pKeyboard);
+    rEngine->mFPC->update(timeSinceLastFrame,input->m_pKeyboard);
     moveModel();
 }
 bool once = true;
@@ -18,12 +19,13 @@ bool InsertMode::keyPressed(const OIS::KeyEvent &keyEventRef)
         rMode=true;
     if(keyEventRef.key == OIS::KC_SPACE)
         sMode=true;
+
     if(keyEventRef.key == OIS::KC_X)
         FileIO::writeToFile(modelContainer,"lvl.hnz");
     if(keyEventRef.key == OIS::KC_Z&&once)
     {
         FileIO::writeToFile( FileIO::readFile("lvl.hnz",rEngine->m_pSceneMgr) , "testOfLzlHnz.hnz");
-        once = false; //loading the same file twice causes error because duplicate sceneNode names gets made also why would you want that
+        once = false; // this is a test load / save so dont wanna trigger twiiiiize
     }
     return true;
 }
@@ -70,6 +72,7 @@ void InsertMode::rotateModel(const OIS::MouseEvent &evt)
 bool InsertMode::mousePressed(const OIS::MouseEvent &evt, OIS::MouseButtonID id) 
 {
     currentModel = NULL;
+    setCaptionText(noneSelected);
     return true;
 }
 bool InsertMode::mouseReleased(const OIS::MouseEvent &evt, OIS::MouseButtonID id)

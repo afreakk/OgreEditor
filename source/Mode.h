@@ -5,6 +5,8 @@
 #include "FileIO.h"
 #include "Gui3D.h"
 #include "Gui3DPanel.h"
+#include "world.h"
+#include "InputHandling.h"
 class Mode
 {
     public:
@@ -17,17 +19,22 @@ class Mode
         virtual bool mouseMoved(const OIS::MouseEvent &evt)=0;
         virtual bool mousePressed(const OIS::MouseEvent &evt, OIS::MouseButtonID id)=0;
         virtual bool mouseReleased(const OIS::MouseEvent &evt, OIS::MouseButtonID id)=0;
+        void setWorld(World* _world);
+        void setInput(InputHandling* _input);
     protected:
         std::string createModelFileIndex(Ogre::String modelName);
         void makeCombobox(std::string& totalName);
         void destroyCombobox();
         void setCaptionText(std::string modelName);
         void moveModel();
+        void addToComboBox(std::string modelName);
         bool selectModel(Gui3D::Combobox* e);
         bool addModel(Gui3D::Combobox* e); 
         bool hasEnding(std::string const &fullString, std::string const &ending); 
-        void addToComboBox(std::string modelName);
+
+        static World* world;
         static OgreFramework* rEngine;
+        static InputHandling* input;
         static unsigned int modelsPlaced;
         static ModelInfo * currentModel;
         static std::vector<Ogre::String> totalModels;
@@ -44,6 +51,7 @@ class Mode
         static int _boxHeight;
         static float modelDistance;
         static float zDistance;
+        static std::string noneSelected; 
 
 };
 #endif /*MODE_H*/

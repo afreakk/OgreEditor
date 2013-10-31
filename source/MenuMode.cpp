@@ -27,6 +27,7 @@ void MenuMode::update(double timeSinceLastFrame)
 }
 void MenuMode::init()
 {
+    panel->getGUILayer()->show();
     Ogre::SceneNode* panelNode = panel->mNode;
     panelNode->setPosition(rEngine->mFPC->getPosition());
     panelNode->setOrientation(rEngine->mFPC->getOrientation());
@@ -39,7 +40,7 @@ bool MenuMode::keyPressed(const OIS::KeyEvent &keyEventRef)
 }
 bool MenuMode::keyReleased(const OIS::KeyEvent &keyEventRef)
 {
-	rEngine->keyReleased(keyEventRef);
+	input->keyReleased(keyEventRef);
     panel->injectKeyReleased(keyEventRef);
     return true;
 }
@@ -70,10 +71,13 @@ bool MenuMode::mouseMoved(const OIS::MouseEvent &evt)
 bool MenuMode::mousePressed(const OIS::MouseEvent &evt, OIS::MouseButtonID id) 
 {
     panel->injectMousePressed(evt,id);
-    if(totalCombobox->getOvered())
-        Mode::addModel(totalCombobox);
-    else if(addedCombobox->getOvered())
-        Mode::selectModel(addedCombobox);
+    if(mNormalizedMousePosition.x<0.6)
+    {
+        if(totalCombobox->getOvered())
+            Mode::addModel(totalCombobox);
+        else if(addedCombobox->getOvered())
+            Mode::selectModel(addedCombobox);
+    }
     return true;
 }
 bool MenuMode::mouseReleased(const OIS::MouseEvent &evt, OIS::MouseButtonID id)
@@ -111,11 +115,10 @@ void MenuMode::_createDemoPanel()
             }
         }
     }
-
     totalCombobox = panel->makeCombobox(_widthPadding/2,_boxHeight*0.2,_wP,_boxHeight*0.8,totalModels,5);
 	panel->makeCaption(_widthPadding/2, _boxHeight, _wP, _boxHeight*0.2, "added Models:");
     addedCombobox = panel->makeCombobox(_widthPadding/2,_boxHeight*1.2,_wP,_boxHeight*0.8,addedModels,5);
-	captionCombobox = panel->makeCaption(_widthPadding/2, _boxHeight*2.0, _wP, _boxHeight*0.2, "select a model for placing");
+	captionCombobox = panel->makeCaption(_widthPadding/2, _boxHeight*2.0, _wP, _boxHeight*0.2, noneSelected);
  
 	panel->mNode->setPosition(0, 2.1, -8);
 }
