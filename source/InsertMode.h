@@ -5,7 +5,7 @@ class InsertMode:public Mode
 {
     public:
         InsertMode();
-        virtual void update(double);
+        virtual void update(const Ogre::FrameEvent&);
         virtual void init();
         virtual bool keyReleased(const OIS::KeyEvent &keyEventRef);
         virtual bool keyPressed(const OIS::KeyEvent &keyEventRef);

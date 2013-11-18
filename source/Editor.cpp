@@ -35,13 +35,14 @@ void Editor::setupDemoScene()
  
 bool Editor::frameRenderingQueued(const Ogre::FrameEvent& evt)
 {
+    rEngine->mFPC->getCameraMan()->frameRenderingQueued(evt);
     bool windowClosed = rEngine->m_pRenderWnd->isClosed();
 	bool goOn = (!windowClosed && !input->isOgreToBeShutDown());
     if(rEngine->m_pRenderWnd->isActive())
     {
         input->m_pKeyboard->capture();
         input->m_pMouse->capture();
-        currentMode->update(evt.timeSinceLastFrame);
+        currentMode->update(evt);
         world->stepDebug();
         world->step(evt.timeSinceLastFrame);
     }

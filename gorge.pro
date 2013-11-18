@@ -1,8 +1,8 @@
 TEMPLATE = app
 TARGET = gorge.xctbl
 CONFIG += debug
-CONFIG -= QT
 DEFINES -= UNICODE
+QT += core script qml
 unix {
     #OGRE3D
     INCLUDEPATH += /home/afreak/ogre/OGRE19/sinbad-ogre-f7da7fe2d384/OgreMain/include/
@@ -20,6 +20,8 @@ unix {
     INCLUDEPATH += /usr/include/OIS/
     #BULLET
     INCLUDEPATH += /usr/include/bullet/
+    #QtQml  (script) 
+    INCLUDEPATH += /opt/Qt/5.1.1/gcc_64/include/QtQml 
     #GUI3D
     LIBS += /home/afreak/libs/Gui3D/gui3dBuilt/bin/Debug/libgui3dBuilt.a
     #OGRE3D
@@ -89,4 +91,5 @@ HEADERS += \
     source/FileIO.h \
     source/InputHandling.h \
 
-
+RESOURCES += \
+    JS/Scripts.qrc \

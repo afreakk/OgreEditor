@@ -1,6 +1,9 @@
 #include "MenuMode.h"
 MenuMode::MenuMode()
 {
+    QJSEngine* engine = initScript();
+    initTextColors(engine);
+    delete engine;
     widgetDistance = 10.0f;
     totalCombobox=NULL;
     mGui3D=NULL;
@@ -21,9 +24,10 @@ MenuMode::MenuMode()
 	_createDemoPanel();
     rEngine->m_pLog->logMessage("Menu initialized");
 }
-void MenuMode::update(double timeSinceLastFrame)
+void MenuMode::update(const Ogre::FrameEvent& evt)
 {
-    panel->injectTime(timeSinceLastFrame);
+    panel->injectTime(evt.timeSinceLastFrame);
+    checkForNewHitbox();
 }
 void MenuMode::init()
 {
@@ -46,8 +50,6 @@ bool MenuMode::keyReleased(const OIS::KeyEvent &keyEventRef)
 }
 bool MenuMode::mouseMoved(const OIS::MouseEvent &evt)
 {
-    	// Set the new camera smooth direction movement
-	Ogre::Vector2 distance(getScreenCenterMouseDistance());
  
 	// Raycast for the actual panel
 	Ogre::Real xMove = static_cast<Ogre::Real>(evt.state.X.rel);
@@ -74,26 +76,44 @@ bool MenuMode::mousePressed(const OIS::MouseEvent &evt, OIS::MouseButtonID id)
     if(mNormalizedMousePosition.x<0.6)
     {
         if(totalCombobox->getOvered())
-            Mode::addModel(totalCombobox);
+        {
+            Mode::addModel(totalCombobox->getValue());
+            currentModel = NULL;
+            setCaptionText(noneSelected);
+        }
         else if(addedCombobox->getOvered())
             Mode::selectModel(addedCombobox);
     }
     return true;
 }
+void MenuMode::checkForNewHitbox()
+{
+    if(currentModel)
+    {
+        if(shapeTypeSelector->getValue() != currentModel->hitboxShapeType)
+        {
+            switchHitbox();
+        }
+    }
+}
+void MenuMode::switchHitbox()
+{
+    removeCurrentBody();
+    currentModel->hitboxShapeType = shapeTypeSelector->getValue();
+    int shapeType = hitboxSelection(currentModel->hitboxShapeType);
+    currentModel->rigidBody = world->addRigidBody(0,currentModel->entity,shapeType);
+}
+void MenuMode::removeCurrentBody()
+{
+    btCollisionShape* currentShape = currentModel->rigidBody->getCollisionShape();
+    world->getWorld()->removeCollisionObject(currentModel->rigidBody);
+    delete currentModel->rigidBody;
+    delete currentShape;
+}
 bool MenuMode::mouseReleased(const OIS::MouseEvent &evt, OIS::MouseButtonID id)
 {
     panel->injectMouseReleased(evt,id);
     return true;
-}
-Ogre::Vector2 MenuMode::getScreenCenterMouseDistance()
-{
-    Ogre::Viewport* mViewport = rEngine->m_pViewport;
-	Ogre::Real posX = (mMousePointer->position().x - mViewport->getActualWidth()) 
-		/ mViewport->getActualWidth();
-	Ogre::Real posY = (mMousePointer->position().y - mViewport->getActualHeight()) 
-		/ mViewport->getActualHeight();
- 
-	return Ogre::Vector2(posX + 0.5, posY + 0.5);
 }
 void MenuMode::_createDemoPanel()
 {
@@ -101,8 +121,9 @@ void MenuMode::_createDemoPanel()
     Ogre::SceneManager* mSceneMgr = rEngine->m_pSceneMgr;
 	panel = new Gui3D::Panel(mGui3D, mSceneMgr, Ogre::Vector2(_width, _height),_distance, "purple", "model_select_panel");
  
-	panel->makeCaption(_widthPadding, 0, _wP, _boxHeight*0.2, "add Model");
- 
+	Gui3D::Caption* temp = panel->makeCaption(_widthPadding, 0, _wP, _boxHeight*0.2, "add Model");
+    temp->textColor(titleColor);
+
     for(int i=0; i<rEngine->groupNames.size(); i++)
     {
         Ogre::FileInfoListPtr filesPtr = rGrpMgr->listResourceFileInfo( rEngine->groupNames[i] );
@@ -115,10 +136,102 @@ void MenuMode::_createDemoPanel()
             }
         }
     }
-    totalCombobox = panel->makeCombobox(_widthPadding/2,_boxHeight*0.2,_wP,_boxHeight*0.8,totalModels,5);
-	panel->makeCaption(_widthPadding/2, _boxHeight, _wP, _boxHeight*0.2, "added Models:");
-    addedCombobox = panel->makeCombobox(_widthPadding/2,_boxHeight*1.2,_wP,_boxHeight*0.8,addedModels,5);
-	captionCombobox = panel->makeCaption(_widthPadding/2, _boxHeight*2.0, _wP, _boxHeight*0.2, noneSelected);
+    std::vector<std::string> collisionTypes;
+    collisionTypes.push_back("Sphere");
+    collisionTypes.push_back("Box");
+    collisionTypes.push_back("Trimesh");
+    collisionTypes.push_back("Cylinder");
+    collisionTypes.push_back("Convex");
+    collisionTypes.push_back("Capsule");
+    totalCombobox =     panel->makeCombobox(_widthPadding/2,_boxHeight*0.2,_wP,_boxHeight*0.8,totalModels,5);
+    temp =  panel->makeCaption(_widthPadding/2, _boxHeight*1.0, _wP, _boxHeight*0.2, "added Models:");
+    addedCombobox =     panel->makeCombobox(_widthPadding/2,_boxHeight*1.2,_wP,_boxHeight*0.8,addedModels,5);
+	captionCombobox =   panel->makeCaption(_widthPadding/2, _boxHeight*2.0, _wP, _boxHeight*0.2, noneSelected);
+    shapeTypeSelector=  panel->makeInlineSelector(_widthPadding/2, _boxHeight*2.2, _wP, _boxHeight*0.2,collisionTypes);
+    captionCombobox->textColor(titleColor);
+    temp->textColor(titleColor);
+
+    for(int i=0; i<3; i++)
+    {
+        hitBoxTranslationZone[i]    = panel->makeTextZone(_widthPadding/2+(_wP/8.0)*i, _boxHeight*2.75,_wP/8.0,_boxHeight*0.15,"0");
+        hitBoxRotationZone[i]       = panel->makeTextZone(_widthPadding/2+(_wP/8.0)*i+(_wP/8.0)*5.0, _boxHeight*2.75,_wP/8.0,_boxHeight*0.15,"0");
+        hitBoxScaleZone[i]          = panel->makeTextZone(_widthPadding/2+(_wP/8.0)*(i+0.5)+(_wP/4.0), _boxHeight*2.9, _wP/8.0, _boxHeight*0.15, "0");
+
+        hitBoxTranslationZone[i]->setValueChangedCallback(this,&MenuMode::readHitBoxOffset);
+        hitBoxRotationZone[i]->setValueChangedCallback(this,&MenuMode::readHitBoxOffset);
+        hitBoxScaleZone[i]->setValueChangedCallback(this,&MenuMode::readHitBoxOffset);
+    }
+    temp = panel->makeCaption(_widthPadding/2+(_wP/8.0)*2.5, _boxHeight*2.4, _wP, _boxHeight*0.2, "HitBox/Mesh Offset:");
+    temp->textColor(titleColor);
+    temp = panel->makeCaption(_widthPadding/2, _boxHeight*2.55, _wP, _boxHeight*0.2, "Translation");
+    temp->textColor(textColor);
+    temp = panel->makeCaption(_widthPadding/2+(_wP/8.0)*5.0, _boxHeight*2.55, _wP, _boxHeight*0.2, "Rotation");
+    temp->textColor(textColor);
+    temp = panel->makeCaption(_widthPadding/2+(_wP/8.0)*(0.5)+(_wP/4.0),_boxHeight*3.05, _wP/4.0, _boxHeight*0.15, "Scale");
+    temp->textColor(textColor);
  
 	panel->mNode->setPosition(0, 2.1, -8);
+}
+bool MenuMode::readHitBoxOffset(Gui3D::PanelElement* e)
+{
+    if(currentModel)
+    {
+        for(int i=0; i<3; i++)
+        {
+            currentModel->hitBoxTranslationOffset.m_floats[i]   = ::atof(hitBoxTranslationZone[i]  ->getValue().c_str());
+            currentModel->hitBoxRotationOffset.m_floats[i]      = ::atof(hitBoxRotationZone[i]     ->getValue().c_str());
+            currentModel->hitBoxScaleOffset.m_floats[i]         = ::atof(hitBoxScaleZone[i]     ->getValue().c_str());
+ 
+            BtOgre::RigidBodyState* motionState = static_cast< BtOgre::RigidBodyState * >( currentModel->rigidBody->getMotionState() );
+
+            btTransform hitBoxOffset;
+            hitBoxOffset.setIdentity();
+
+            hitBoxOffset.setOrigin(currentModel->hitBoxTranslationOffset);
+
+            btQuaternion quatRotation;
+            quatRotation.setEuler(  currentModel->hitBoxRotationOffset.getY()/offsetRotPrec,
+                                    currentModel->hitBoxRotationOffset.getX()/offsetRotPrec, currentModel->hitBoxRotationOffset.getZ()/offsetRotPrec);
+            hitBoxOffset.setRotation(quatRotation);
+
+            btTransform currentTransform;
+            motionState->setCenterOfMassOffset(hitBoxOffset);
+            motionState->getWorldTransform(currentTransform);
+            motionState->setWorldTransform(currentTransform);
+
+            currentModel->rigidBody->getCollisionShape()->setLocalScaling(BtOgre::Convert::toBullet(currentModel->scaleNode->getScale())
+                    +currentModel->hitBoxScaleOffset);
+        }
+    }
+    return true;
+}
+QJSEngine* MenuMode::initScript()
+{
+    QJSEngine* engine = new QJSEngine();
+    Q_INIT_RESOURCE(Scripts);
+    QString fileName = ":/testscript.js";
+    QFile scriptFile(fileName);
+    if (!scriptFile.exists())
+        assert(!"JS File not found!!!");
+    if (!scriptFile.open(QIODevice::ReadOnly))
+        assert(!"JS File not opened!!!");
+    QTextStream stream(&scriptFile);
+    QString contents = stream.readAll();
+    scriptFile.close();
+    engine->evaluate(contents);
+    return engine;
+}
+void MenuMode::initTextColors(QJSEngine* engine)
+{
+    titleColor = jsToColor( engine->evaluate("TitleColor") );
+    textColor  = jsToColor( engine->evaluate("TextColor") );
+}
+Ogre::ColourValue MenuMode::jsToColor(QJSValue jsArr)
+{
+    float colors[3];
+    for(int i=0; i<3; i++)
+    {
+        colors[i] = jsArr.property(i).toNumber();
+    }
+    return Ogre::ColourValue(colors[0], colors[1], colors[2]);
 }

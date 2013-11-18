@@ -7,30 +7,26 @@ void InsertMode::init()
 {    
     panel->getGUILayer()->hide();
 }
-void InsertMode::update(double timeSinceLastFrame)
+void InsertMode::update(const Ogre::FrameEvent& evt)
 {
-    rEngine->mFPC->update(timeSinceLastFrame,input->m_pKeyboard);
+    rEngine->mFPC->update(evt);
     moveModel();
 }
-bool once = true;
 bool InsertMode::keyPressed(const OIS::KeyEvent &keyEventRef)
 {
+    rEngine->mFPC->keyDown(keyEventRef);
     if(keyEventRef.key == OIS::KC_LSHIFT)
         rMode=true;
     if(keyEventRef.key == OIS::KC_SPACE)
         sMode=true;
 
     if(keyEventRef.key == OIS::KC_X)
-        FileIO::writeToFile(modelContainer,"lvl.hnz");
-    if(keyEventRef.key == OIS::KC_Z&&once)
-    {
-        FileIO::writeToFile( FileIO::readFile("lvl.hnz",rEngine->m_pSceneMgr) , "testOfLzlHnz.hnz");
-        once = false; // this is a test load / save so dont wanna trigger twiiiiize
-    }
+        FileIO::writeToFile(modelContainer,"lvl.hnz",offsetRotPrec);
     return true;
 }
 bool InsertMode::keyReleased(const OIS::KeyEvent &keyEventRef)
 {
+    rEngine->mFPC->keyUp(keyEventRef);
     if(keyEventRef.key == OIS::KC_LSHIFT)
         rMode=false;
     if(keyEventRef.key == OIS::KC_SPACE)
@@ -61,6 +57,7 @@ void InsertMode::scaleModel(const OIS::MouseEvent &evt)
     a /= 5000.0;
     Ogre::Vector3 scaleA = Ogre::Vector3(a,a,a);
     currentModel->scaleNode->setScale(scaleA);
+    currentModel->rigidBody->getCollisionShape()->setLocalScaling(BtOgre::Convert::toBullet(scaleA)+currentModel->hitBoxScaleOffset);
 }
 void InsertMode::rotateModel(const OIS::MouseEvent &evt)
 {

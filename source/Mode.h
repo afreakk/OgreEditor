@@ -1,4 +1,3 @@
-
 #ifndef MODE_H
 #define MODE_H
 #include "OgreFramework.h"
@@ -7,12 +6,13 @@
 #include "Gui3DPanel.h"
 #include "world.h"
 #include "InputHandling.h"
+
 class Mode
 {
     public:
         Mode();
         ~Mode();
-        virtual void update(double)=0;
+        virtual void update(const Ogre::FrameEvent&)=0;
         virtual void init()=0;
         virtual bool keyPressed(const OIS::KeyEvent &keyEventRef)=0;
         virtual bool keyReleased(const OIS::KeyEvent &keyEventRef)=0;
@@ -28,9 +28,12 @@ class Mode
         void setCaptionText(std::string modelName);
         void moveModel();
         void addToComboBox(std::string modelName);
+        void getNewTextZoneValues(ModelInfo*);
         bool selectModel(Gui3D::Combobox* e);
-        bool addModel(Gui3D::Combobox* e); 
+        bool addModel(Ogre::String name); 
         bool hasEnding(std::string const &fullString, std::string const &ending); 
+        int hitboxSelection(Ogre::String shapeName);
+        std::string stringToFloat(float number);
 
         static World* world;
         static OgreFramework* rEngine;
@@ -43,15 +46,20 @@ class Mode
         static std::vector<ModelInfo> modelContainer;
         static Gui3D::Combobox* addedCombobox;
         static Gui3D::Panel* panel;
-        static int _widthPadding;
-        static int _width;
-        static int _height;
-        static int _distance;
-        static int _wP;
-        static int _boxHeight;
-        static float modelDistance;
+        static Gui3D::InlineSelector* shapeTypeSelector;
+        static Gui3D::TextZone* hitBoxTranslationZone[3];
+        static Gui3D::TextZone* hitBoxRotationZone[3];
+        static Gui3D::TextZone* hitBoxScaleZone[3];
+        static const float offsetRotPrec;
+        static const int _widthPadding;
+        static const int _width;
+        static const int _height;
+        static const int _distance;
+        static const int _wP;
+        static const int _boxHeight;
+        static const float modelDistance;
         static float zDistance;
-        static std::string noneSelected; 
+        const static std::string noneSelected; 
 
 };
 #endif /*MODE_H*/

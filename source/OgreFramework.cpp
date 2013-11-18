@@ -88,7 +88,7 @@ OgreFramework* OgreFramework::initOgre(Ogre::FrameListener* frameListener, Ogre:
     if(!setupRootAndWindow(wndTitle))
         return 0;
     setupSceneMgrAndCamera(); 
-    mFPC = new FirstPersonNoClip(m_pCamera); 
+    mFPC = new FirstPersonNoClip(m_pCamera);
     setupResources(); 
  
 	m_pTimer = new Ogre::Timer();
@@ -102,6 +102,6 @@ OgreFramework* OgreFramework::initOgre(Ogre::FrameListener* frameListener, Ogre:
 InputHandling* OgreFramework::initOIS(OIS::KeyListener *pKeyListener, OIS::MouseListener *pMouseListener)
 {
     InputHandling* input = new InputHandling();
-    input->initOIS(pKeyListener,pMouseListener,m_pRenderWnd,m_pCamera);
+    input->initOIS(pKeyListener,pMouseListener,m_pRenderWnd);
     return input;
 }
